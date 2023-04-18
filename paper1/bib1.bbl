@@ -1,0 +1,235 @@
+\begin{thebibliography}{36}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Titchener et~al.(2015)Titchener, Colliss, and
+  Babinsky]{titchener2015calculation}
+N.~Titchener, S.~Colliss, and H.~Babinsky.
+\newblock On the calculation of boundary-layer parameters from discrete data.
+\newblock \emph{Exp. Fluids}, 56\penalty0 (8):\penalty0 159, 2015.
+
+\bibitem[Pan et~al.(2020)Pan, Zhang, Gustavsson, Hickey, and
+  Cattafesta]{pan2020unscented}
+Z.~Pan, Y.~Zhang, J.~Gustavsson, J.P. Hickey, and L.~Cattafesta.
+\newblock Unscented {K}alman filter ({UKF}) based nonlinear parameter
+  estimation for a turbulent boundary layer: a data assimilation framework.
+\newblock \emph{Meas. Sci. Technol.}, 2020.
+
+\bibitem[Chauhan et~al.(2009)Chauhan, Monkewitz, and Nagib]{Chauhan:2009p10824}
+K.~A. Chauhan, P.~A. Monkewitz, and H.~M. Nagib.
+\newblock Criteria for assessing experiments in zero pressure gradient boundary
+  layers.
+\newblock \emph{Fluid Dyn. Res.}, 41:\penalty0 021404, 2009.
+
+\bibitem[Sanmiguel~Vila et~al.(2017{\natexlab{a}})Sanmiguel~Vila, Vinuesa,
+  Discetti, Ianiro, Schlatter, and {\"O}rl{\"u}]{Sanmiguel:2017JFM}
+C.~Sanmiguel~Vila, R.~Vinuesa, S.~Discetti, A.~Ianiro, P.~Schlatter, and
+  R.~{\"O}rl{\"u}.
+\newblock On the identification of well-behaved turbulent boundary layers.
+\newblock \emph{J. Fluid Mech.}, 822:\penalty0 109--138, 2017{\natexlab{a}}.
+
+\bibitem[Schlatter et~al.(2009)Schlatter, {\"O}rl{\"u}, Li, Brethouwer,
+  Fransson, Johansson, Alfredsson, and Henningson]{Schlatter:2009p13969}
+P.~Schlatter, R.~{\"O}rl{\"u}, Q~Li, G~Brethouwer, J.~H.~M. Fransson, A.~V.
+  Johansson, P.~H. Alfredsson, and D.~S. Henningson.
+\newblock Turbulent boundary layers up to ${Re_\theta}=2500$ studied through
+  simulation and experiment.
+\newblock \emph{Phys. Fluids}, 21:\penalty0 051702, 2009.
+
+\bibitem[Clauser(1954)]{Clauser:1954p10911}
+F.~H. Clauser.
+\newblock Turbulent boundary layers in adverse pressure gradients.
+\newblock \emph{J. Aero. Sci.}, 21:\penalty0 91--108, Dec 1954.
+
+\bibitem[G{\"u}emes et~al.(2019)G{\"u}emes, Sanmiguel~Vila, {\"O}rl{\"u},
+  Vinuesa, Schlatter, Ianiro, and Discetti]{guemes2019flow}
+A.~G{\"u}emes, C.~Sanmiguel~Vila, R.~{\"O}rl{\"u}, R.~Vinuesa, P.~Schlatter,
+  A.~Ianiro, and S.~Discetti.
+\newblock Flow organization in the wake of a rib in a turbulent boundary layer
+  with pressure gradient.
+\newblock \emph{Exp. Therm. Fluid Sci.}, 108:\penalty0 115--124, 2019.
+
+\bibitem[{\"O}rl{\"u} et~al.(2010){\"O}rl{\"u}, Fransson, and
+  Alfredsson]{Orlu:2010p36071}
+R.~{\"O}rl{\"u}, J.~H.~M. Fransson, and P.~H. Alfredsson.
+\newblock On near wall measurements of wall bounded flows -- the necessity of
+  an accurate determination of the wall position.
+\newblock \emph{Prog. Aero. Sci.}, 46:\penalty0 353--387, Apr 2010.
+
+\bibitem[Spalart and Watmuff(1993)]{spalart1993experimental}
+P.~R. Spalart and J.~H. Watmuff.
+\newblock Experimental and numerical study of a turbulent boundary layer with
+  pressure gradients.
+\newblock \emph{J. Fluid Mech.}, 249:\penalty0 337--371, 1993.
+
+\bibitem[Vinuesa et~al.(2016)Vinuesa, Bobke, {\"O}rl{\"u}, and
+  Schlatter]{Vinuesa:2016is}
+R.~Vinuesa, A~Bobke, R.~{\"O}rl{\"u}, and P.~Schlatter.
+\newblock {On determining characteristic length scales in pressure-gradient
+  turbulent boundary layers}.
+\newblock \emph{Phys. Fluids}, 28:\penalty0 055101, 2016.
+
+\bibitem[Griffin et~al.(2021)Griffin, Fu, and Moin]{griffin2020general}
+K.~P. Griffin, L.~Fu, and P.~Moin.
+\newblock General method for determining the boundary layer thickness in
+  nonequilibrium flows.
+\newblock \emph{Phys. Rev. Fluids}, 6\penalty0 (2):\penalty0 024608, 2021.
+
+\bibitem[{\"O}rl{\"u} and Vinuesa(2020)]{orlu2020instantaneous}
+R.~{\"O}rl{\"u} and R.~Vinuesa.
+\newblock Instantaneous wall-shear-stress measurements: advances and
+  application to near-wall extreme events.
+\newblock \emph{Meas. Sci. Technol.}, 31\penalty0 (11):\penalty0 112001, 2020.
+
+\bibitem[Vinuesa and {\"O}rl{\"u}(2017)]{Vinuesa:2016tn}
+R.~Vinuesa and R.~{\"O}rl{\"u}.
+\newblock {Measurement of wall-shear stress}.
+\newblock In S.~Discetti and A.~Ianiro, editors, \emph{Experimental
+  Aerodynamics}. CRC Press Taylor $\&$ Francis Group, Boca Raton, FL, 2017.
+
+\bibitem[Head and Rechenberg(1962)]{head1962preston}
+M.~R. Head and I.~Rechenberg.
+\newblock The {P}reston tube as a means of measuring skin friction.
+\newblock \emph{J. Fluid Mech.}, 14\penalty0 (1):\penalty0 1--17, 1962.
+
+\bibitem[Sheplak et~al.(2004)Sheplak, Cattafesta, Nishida, and
+  McGinley]{sheplak2004mems}
+M.~Sheplak, L.~Cattafesta, T.~Nishida, and C.~McGinley.
+\newblock {MEMS} shear stress sensors: Promise and progress.
+\newblock In \emph{24th AIAA aerodynamic measurement technology and ground
+  testing conference}, page 2606, 2004.
+
+\bibitem[Coles(1956)]{Coles:2006p898}
+D.~E. Coles.
+\newblock The law of the wake in the turbulent boundary layer.
+\newblock \emph{J. Fluid Mech.}, 1:\penalty0 191--226, Jan 1956.
+
+\bibitem[Nickels(2004)]{Nickels:2004p15662}
+T.~B. Nickels.
+\newblock Inner scaling for wall-bounded flows subject to large pressure
+  gradients.
+\newblock \emph{J. Fluid Mech.}, 521:\penalty0 217--239, Jan 2004.
+
+\bibitem[Rodr{\'i}guez-L{\'o}pez et~al.(2015)Rodr{\'i}guez-L{\'o}pez, Bruce,
+  and Buxton]{Rodriguez-Lopez2015}
+E.~Rodr{\'i}guez-L{\'o}pez, P.~J.~K. Bruce, and O.~R.~H. Buxton.
+\newblock A robust post-processing method to determine skin friction in
+  turbulent boundary layers from the velocity profile.
+\newblock \emph{Exp. Fluids}, 56:\penalty0 68, Mar 2015.
+
+\bibitem[Westerweel et~al.(2004)Westerweel, Geelhoed, and
+  Lindken]{westerweel2004single}
+J.~Westerweel, P.F. Geelhoed, and R.~Lindken.
+\newblock Single-pixel resolution ensemble correlation for micro-{PIV}
+  applications.
+\newblock \emph{Exp. Fluids}, 37:\penalty0 375--384, 2004.
+
+\bibitem[Cowen and Monismith(1997)]{cowen1997hybrid}
+E.A. Cowen and S.G. Monismith.
+\newblock A hybrid digital particle tracking velocimetry technique.
+\newblock \emph{Exp. Fluids}, 22:\penalty0 199--211, 1997.
+
+\bibitem[K{\"a}hler et~al.(2012)K{\"a}hler, Scharnowski, and
+  Cierpka]{kahler2012uncertainty}
+C.J. K{\"a}hler, S.~Scharnowski, and C.~Cierpka.
+\newblock On the uncertainty of digital {PIV} and {PTV} near walls.
+\newblock \emph{Exp. Fluids}, 52\penalty0 (6):\penalty0 1641--1656, 2012.
+
+\bibitem[Raiola et~al.(2020)Raiola, Lopez-Nu{\~n}ez, Cafiero, and
+  Discetti]{raiola2020adaptive}
+M.~Raiola, E.~Lopez-Nu{\~n}ez, G.~Cafiero, and S.~Discetti.
+\newblock Adaptive ensemble {PTV}.
+\newblock \emph{Measurement Science and Technology}, 31\penalty0 (8):\penalty0
+  085301, 2020.
+
+\bibitem[Scharnowski et~al.(2012)Scharnowski, Hain, and
+  K{\"a}hler]{scharnowski2012reynolds}
+S.~Scharnowski, R.~Hain, and C.J. K{\"a}hler.
+\newblock Reynolds stress estimation up to single-pixel resolution using
+  {PIV}-measurements.
+\newblock \emph{Exp. Fluids}, 52:\penalty0 985--1002, 2012.
+
+\bibitem[Ag{\"u}era et~al.(2016)Ag{\"u}era, Cafiero, Astarita, and
+  Discetti]{aguera2016ensemble}
+N.~Ag{\"u}era, G.~Cafiero, T.~Astarita, and S.~Discetti.
+\newblock Ensemble 3{D} {PTV} for high resolution turbulent statistics.
+\newblock \emph{Meas. Sci. Technol.}, 27:\penalty0 124011, 2016.
+
+\bibitem[Sanmiguel~Vila et~al.(2017{\natexlab{b}})Sanmiguel~Vila, {\"O}rl{\"u},
+  Vinuesa, Schlatter, Ianiro, and Discetti]{SanmiguelVila2017}
+C.~Sanmiguel~Vila, R.~{\"O}rl{\"u}, R.~Vinuesa, P.~Schlatter, A.~Ianiro, and
+  S.~Discetti.
+\newblock Adverse-pressure-gradient effects on turbulent boundary layers:
+  Statistics and flow-field organization.
+\newblock \emph{Flow Turbul. Combust.}, 99:\penalty0 589--612, Dec
+  2017{\natexlab{b}}.
+
+\bibitem[Discetti and Coletti(2018)]{discetti2018volumetric}
+S.~Discetti and F.~Coletti.
+\newblock Volumetric velocimetry for fluid flows.
+\newblock \emph{Meas. Sci. Technol.}, 29\penalty0 (4):\penalty0 042001, 2018.
+
+\bibitem[K{\"a}hler et~al.(2006)K{\"a}hler, Scholz, and
+  Ortmanns]{kahler2006wall}
+C.J. K{\"a}hler, U.~Scholz, and J.~Ortmanns.
+\newblock Wall-shear-stress and near-wall turbulence measurements up to single
+  pixel resolution by means of long-distance micro-{PIV}.
+\newblock \emph{Exp. Fluids}, 41\penalty0 (2):\penalty0 327--341, 2006.
+
+\bibitem[Sillero et~al.(2013)Sillero, Jim{\'e}nez, and Moser]{sillero2013one}
+J.~A. Sillero, J.~Jim{\'e}nez, and R.~D Moser.
+\newblock One-point statistics for turbulent wall-bounded flows at {R}eynolds
+  numbers up to $\delta^{+} \simeq 2000$.
+\newblock \emph{Phys. Fluids}, 25:\penalty0 105102, 2013.
+
+\bibitem[Schlatter and {\"O}rl{\"u}(2010)]{Schlatter:2010p35519}
+P.~Schlatter and R.~{\"O}rl{\"u}.
+\newblock Assessment of direct numerical simulation data of turbulent boundary
+  layers.
+\newblock \emph{J. Fluid Mech.}, 659:\penalty0 116--126, 2010.
+
+\bibitem[Mendez et~al.(2017)Mendez, Raiola, Masullo, Discetti, Ianiro,
+  Theunissen, and Buchlin]{Mendez2017181}
+M.~A. Mendez, M.~Raiola, A.~Masullo, S.~Discetti, A.~Ianiro, R.~Theunissen, and
+  J.~M. Buchlin.
+\newblock {POD}-based background removal for particle image velocimetry.
+\newblock \emph{Exp. Therm. Fluid Sci.}, 80:\penalty0 181--192, 2017.
+\newblock ISSN 0894-1777.
+
+\bibitem[Keane et~al.(1995)Keane, Adrian, and Zhang]{keane1995super}
+R.D. Keane, R.J. Adrian, and Y.~Zhang.
+\newblock Super-resolution particle imaging velocimetry.
+\newblock \emph{Meas. Sci. Technol.}, 6:\penalty0 754--768, 1995.
+
+\bibitem[Willert and Gharib(1991)]{willert1991digital}
+C.E. Willert and M.~Gharib.
+\newblock Digital particle image velocimetry.
+\newblock \emph{Exp. Fluids}, 10:\penalty0 181--193, 1991.
+
+\bibitem[Soria(1996)]{soria1996investigation}
+J.~Soria.
+\newblock An investigation of the near wake of a circular cylinder using a
+  video-based digital cross-correlation particle image velocimetry technique.
+\newblock \emph{Exp. Therm. Fluid Sci.}, 12:\penalty0 221--233, 1996.
+
+\bibitem[Scarano(2001)]{scarano2001iterative}
+F.~Scarano.
+\newblock Iterative image deformation methods in {PIV}.
+\newblock \emph{Meas. Sci. Technol.}, 13:\penalty0 R1--R19, 2001.
+
+\bibitem[Astarita and Cardone(2005)]{Astarita2005}
+T.~Astarita and G.~Cardone.
+\newblock Analysis of interpolation schemes for image deformation methods in
+  {PIV}.
+\newblock \emph{Exp. Fluids}, 38:\penalty0 233--243, 2005.
+\newblock ISSN 1432-1114.
+
+\bibitem[Tagliasacchi(2015)]{Tagliasacchi2021}
+Andrea Tagliasacchi.
+\newblock kdtree, 2015.
+\newblock URL \url{https://github.com/taiya/kdtree}.
+
+\end{thebibliography}

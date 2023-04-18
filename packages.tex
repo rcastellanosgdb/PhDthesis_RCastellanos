@@ -1,0 +1,130 @@
+% Insert HERE any additional packages
+
+\usepackage{graphicx} % Enhanced support for graphics
+
+% Useful packages (not required):
+%
+% \usepackage{listings} % Typeset source code listings using LaTeX
+% \usepackage{longtable} % Allow tables to flow over page boundaries
+% \usepackage{mathrsfs} % Support for using RSFS fonts in maths
+% \usepackage{psfrag} % Replace strings in encapsulated PostScript figures
+% \usepackage{rotating} % Rotation tools, including rotated full-page floats
+% \usepackage{showframe} % Draw a page-layout diagram
+\usepackage[normalem]{ulem} % Package for underlining
+\usepackage{mylines}
+\usepackage{myplots}
+\usepackage{tikz}
+\usepackage{soul}
+\usepackage{printlen}
+\usepackage{framed}
+\usepackage{nomencl}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{color}
+
+\usepackage{epstopdf, epsfig}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{microtype}
+\usepackage{lscape}
+\usepackage{esint,upgreek}
+\usepackage{amsmath,amsfonts}
+% for algorithm:
+\usepackage{algorithm2e}
+\RestyleAlgo{ruled}
+% \usepackage{times}
+% \usepackage{blindtext}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[normalem]{ulem}
+\usepackage{color}
+\usepackage{mylines}
+\usepackage{myplots}
+
+\usepackage{lipsum}
+\usepackage{cuted}
+\usepackage{bm}
+\usepackage{esint,upgreek,stackengine}
+\usepackage[makeroom]{cancel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+\stackMath
+
+%===============================================================================
+%                        DO NOT TOUCH WHAT FOLLOWS
+%===============================================================================
+%
+% The following packages are required by the MechThesis class
+%
+\usepackage[utf8]{inputenc} % Accept different input encodings
+\usepackage[swedish,english]{babel} % Multilingual support for Plain TeX or LaTeX
+\usepackage{microtype} % Subliminal refinements towards typographical perfection
+\usepackage{natbib} % Flexible bibliography support
+\usepackage[hidelinks]{hyperref} % Extensive support for hypertext in LaTeX
+\usepackage{caption} % Correct figures and tables caption width
+\usepackage{etoolbox} % Make robust some counters that are made fragile by `calc`
+\robustify\setcounter
+\robustify\addtocounter
+\robustify\setlength
+\robustify\addtolength
+%
+% The following packages are loaded by MechThesis.cls and need not to be loaded
+% in this file:
+% - color
+% - amsmath
+% - amsfonts
+% - amssymb
+% - amsthm
+% - amsgen
+% - crop        (if [printA4] or [cropmarks] options are used)
+% - fp          (if [happyadvisor] option is used)
+
+%===============================================================================
+%                        USER-DEFINED COMMANDS
+%===============================================================================
+%
+%% Plots style
+\newcommand{\lsy}[3]{\mbox{(\kern-.4em\lineSymbolRGB[#3]{#1}{.8pt}{#2}{4pt}\kern-.4em)}}
+\newcommand{\sy}[2]{\mbox{(\kern-.25em\SymbolRGB[solid]{#1}{.8pt}{#2}{4pt}\kern-.25em)}}
+\newcommand{\lcap}[2]{~\,{\kern-1em\protect\mylcap{#1}{#2}}}
+
+%% Color definition
+\newcommand{\lincW}[1]{\textcolor{#1}{\rule[3pt]{.4cm}{2pt}}}
+\newcommand{\lsq}[1]{{\protect\lincW{#1}}}
+\definecolor{blue}{rgb}{0,0,1}
+\definecolor{red}{rgb}{1,0,0}
+\definecolor{black}{rgb}{0,0,0}
+\definecolor{grey}{rgb}{0.5,0.5,0.5}
+\definecolor{green}{rgb}{0.0,0.5,0.0}
+
+
+\definecolor{fd01}{rgb}{0,0,0}
+\definecolor{fd04}{rgb}{0.0862,0.3686,0.5172}
+\definecolor{fd08}{rgb}{0.0000,0.6980,0.4235}
+\definecolor{fd16}{rgb}{1.0000,0.8941,0.0000}
+\definecolor{conv}{rgb}{1.0000,0.9098,0.7215}
+\definecolor{pool}{rgb}{0.8078,0.3607,0.1372}
+\definecolor{prel}{rgb}{0.6627,0.7098,0.3137}
+\definecolor{batc}{rgb}{0.4549,0.4470,0.8784}
+\definecolor{relu}{rgb}{0.7764,0.8274,0.3058}
+\definecolor{subp}{rgb}{0.9294,0.8117,0.8156}
+\definecolor{leak}{rgb}{0.2941,0.5921,0.5960}
+\definecolor{full}{rgb}{0.7450,0.9882,0.7294}
+
+\definecolor{FCN-POD}{rgb}{0.227,0.454,0.674}
+\definecolor{fcn}{rgb}{0.925,0.513,0.207}
+\definecolor{epod}{rgb}{0.313,0.607,0.239}
+
+%% Review commands
+\newcommand{\hlrev}[1]{{\color{magenta}\textbf{#1}}} % new added texts
+\newcommand{\hlrevdd}[2]{\revd{#1} \hlrev{#2}}
+
+\usepackage[percent]{overpic}
+\usepackage{amsmath}
+
+% For captions
+\DeclareRobustCommand\full  {\tikz[baseline=-0.6ex]\draw[thick] (0,0)--(0.5,0);}
+\DeclareRobustCommand\dashed{\tikz[baseline=-0.6ex]\draw[thick,dashed] (0,0)--(0.54,0);}

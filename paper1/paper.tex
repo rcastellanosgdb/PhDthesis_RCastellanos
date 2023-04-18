@@ -1,0 +1,98 @@
+%------------------------------------------------------------------------------
+% Define title, author(s), affiliation and publishing status
+%
+\papertitle[On the uncertainty of BL parameters from EPTV data] % Short title used in headlines (optional)
+{%
+  On the uncertainty of boundary-layer parameters from Ensemble PTV data % THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+}%
+%
+\papertoctitle{On the uncertainty of boundary-layer parameters from Ensemble PTV data} % Title for toc
+%
+\paperauthor[R. Castellanos \etal] % Short authors used in headlines and List Of Papers
+{%
+  R. Castellanos$^1$, C. Sanmiguel Vila$^1$, A. G\"uemes$^1$ \& S. Discetti$^1$%
+}%
+%
+\listpaperauthor{Castellanos, R., Sanmiguel Vila, C., G\"uemes, A. \& Discetti, S.}% (optional) Short authors used in List Of Papers
+%
+\paperaffiliation
+{%
+  $^1$ Aerospace Engineering Research Group, Universidad Carlos III de Madrid (UC3M), Avda. Universidad, 30, 28911 Leganes, Madrid, Spain\\
+}%
+%
+\paperjournal[Meas. Sci. Technol.] % Short publish info used in List Of Papers
+{%
+	Measurements Science and Technology%
+}%
+%
+\papervolume{32}%
+%
+\papernumber{8}%
+%
+\paperpages{084006}%
+%
+\paperyear{2021}%
+%
+% \paperdoi{10.1088/1361-6501/abfad0}
+%
+\papersummary%
+{% Insert summary of the paper here (used in introduction)
+    The recent advancements in high-resolution turbulent-statistics computation from ensemble particle tracking velocimetry (EPTV) data are now opening new possibilities in turbulent-flow characterisation. Measurements of full-field boundary layer profiles with a fine resolution close to the wall and up to the freestream with one single imaging setup are now feasible, thus paving {the way} to direct characterisation of turbulent-boundary-layer (TBL) parameters with composite-profile formulations. In this work, we build a framework for the estimation of the uncertainty of EPTV in performing this task. The effect of systematic errors due to finite spatial resolution and of random error due to convergence are investigated under different window size. {Then we introduce random errors to simulate the effects on convergence issues on the velocity profile and, consequently, on the estimation of turbulent-boundary-layer parameters. The statistical dispersion of the estimated parameters provides an estimation of the uncertainty range.} We validate with experimental data {this} flexible tool to estimate \textit{a priori} the expected uncertainty level of the most relevant {turbulent-boundary-layer} parameters in zero-pressure-gradient TBL, being the method based on existing profiles from high-fidelity simulation or from analytical {composite-profile} formulations when such data are not available.
+}%
+%
+\graphicspath{{paper1/}}%
+%
+%
+%===============================================================================
+%                            BEGIN PAPER
+%===============================================================================
+%
+\begin{paper}
+
+\makepapertitle
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+%
+\begin{paperabstract}
+    The recent advancements in high-resolution turbulent-statistics computation from ensemble particle tracking velocimetry (EPTV) data are now opening new possibilities in turbulent-flow characterisation. Measurements of full-field boundary layer profiles with a fine resolution close to the wall and up to the freestream with one single imaging setup are now feasible, thus paving {the way} to direct characterisation of turbulent-boundary-layer (TBL) parameters with composite-profile formulations. In this work, we build a framework for the estimation of the uncertainty of EPTV in performing this task. The effect of systematic errors due to finite spatial resolution and of random error due to convergence are investigated under different window size. {Then we introduce random errors to simulate the effects on convergence issues on the velocity profile and, consequently, on the estimation of turbulent-boundary-layer parameters. The statistical dispersion of the estimated parameters provides an estimation of the uncertainty range.} We validate with experimental data {this} flexible tool to estimate \textit{a priori} the expected uncertainty level of the most relevant {turbulent-boundary-layer} parameters in zero-pressure-gradient TBL, being the method based on existing profiles from high-fidelity simulation or from analytical {composite-profile} formulations when such data are not available.
+    \keywords{ensemble particle tracking velocimetry, PIV, turbulent boundary layer, wall-bounded flows}
+\end{paperabstract}
+
+
+%------------------------------------------------------------------------------
+% Article
+%------------------------------------------------------------------------------
+%
+\definecolor{blue}{rgb}{0,0,1}
+\definecolor{red}{rgb}{1,0,0}
+\definecolor{black}{rgb}{0,0,0}
+\definecolor{grey}{rgb}{0.5,0.5,0.5}
+\definecolor{dark}{rgb}{0.25,0,0.37}
+\definecolor{orange}{rgb}{0.58,0.08,0.3}
+\definecolor{yellow}{rgb}{1,0.59,0}
+\definecolor{purple}{rgb}{0.92,.24,0.18}
+\definecolor{blue1}{rgb}{0.81,0.9,0.95}
+\definecolor{blue2}{rgb}{0.65,0.81,0.91}
+\definecolor{blue3}{rgb}{0.38,0.69,0.83}
+\definecolor{blue4}{rgb}{0.13,0.56,0.76}
+\definecolor{blue5}{rgb}{0,.39,0.67}
+\definecolor{blue6}{rgb}{0,.25,0.5}
+\input{paper1/article.tex}
+
+
+%------------------------------------------------------------------------------
+% Bibliography
+%------------------------------------------------------------------------------
+%
+%\clearpage
+\bibliographystyle{jfm}
+\bibliography{paper1/bib1}
+%
+\IfFileExists{paper1/bib1.bbl}{\input{paper1/bib1.bbl}}{}
+
+%===============================================================================
+%                            END PAPER
+%===============================================================================
+\end{paper}

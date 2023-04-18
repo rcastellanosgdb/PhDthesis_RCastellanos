@@ -1,0 +1,807 @@
+\begin{thebibliography}{100}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Jacobi and Shah(1995)}]{jacobi1995}
+\bibinfo{author}{A.~M. Jacobi}, \bibinfo{author}{R.~K. Shah},
+\newblock \bibinfo{title}{Heat transfer surface enhancement through the use of
+  longitudinal vortices: A review of recent progress},
+\newblock \bibinfo{journal}{Experimental Thermal and Fluid Science}
+  \bibinfo{volume}{11} (\bibinfo{year}{1995}) \bibinfo{pages}{295--309}.
+%Type = Article
+\bibitem[{Ke et~al.(2019)Ke, Chen, Li, Wang, and Chen}]{Zhaoqing2019VG}
+\bibinfo{author}{Z.~Ke}, \bibinfo{author}{C.~L. Chen}, \bibinfo{author}{K.~Li},
+  \bibinfo{author}{S.~Wang}, \bibinfo{author}{C.~H. Chen},
+\newblock \bibinfo{title}{Vortex dynamics and heat transfer of longitudinal
+  vortex generators in a rectangular channel},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{132} (\bibinfo{year}{2019}) \bibinfo{pages}{871--885}.
+%Type = Article
+\bibitem[{Nakamura et~al.(2001)Nakamura, Igarashi, and
+  Tsutsui}]{nakamura2001cube}
+\bibinfo{author}{H.~Nakamura}, \bibinfo{author}{T.~Igarashi},
+  \bibinfo{author}{T.~Tsutsui},
+\newblock \bibinfo{title}{Local heat transfer around a wall-mounted cube in the
+  turbulent boundary layer},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{44} (\bibinfo{year}{2001}) \bibinfo{pages}{3385--3395}.
+%Type = Article
+\bibitem[{Mallor et~al.(2018)Mallor, {Sanmiguel Vila}, Ianiro, and
+  Discetti}]{mallor2018cubes}
+\bibinfo{author}{F.~Mallor}, \bibinfo{author}{C.~{Sanmiguel Vila}},
+  \bibinfo{author}{A.~Ianiro}, \bibinfo{author}{S.~Discetti},
+\newblock \bibinfo{title}{Wall-mounted perforated cubes in a boundary layer:
+  Local heat transfer enhancement and control},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{117} (\bibinfo{year}{2018}) \bibinfo{pages}{498 -- 507}.
+%Type = Article
+\bibitem[{Chilton and Colburn(1934)}]{Chilton1934Jfactor}
+\bibinfo{author}{T.~H. Chilton}, \bibinfo{author}{A.~P. Colburn},
+\newblock \bibinfo{title}{Mass transfer (absorption) coefficients prediction
+  from data on heat transfer and fluid friction},
+\newblock \bibinfo{journal}{Industrial {\&} Engineering Chemistry}
+  \bibinfo{volume}{26} (\bibinfo{year}{1934}) \bibinfo{pages}{1183--1187}.
+%Type = Article
+\bibitem[{Colburn(1964)}]{colburn1964analogy}
+\bibinfo{author}{A.~P. Colburn},
+\newblock \bibinfo{title}{A method of correlating forced convection
+  heat-transfer data and a comparison with fluid friction},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{7} (\bibinfo{year}{1964}) \bibinfo{pages}{1359 -- 1384}.
+%Type = Article
+\bibitem[{Hamilton et~al.(1995)Hamilton, Kim, and Waleffe}]{hamilton1995}
+\bibinfo{author}{J.~M. Hamilton}, \bibinfo{author}{J.~Kim},
+  \bibinfo{author}{F.~Waleffe},
+\newblock \bibinfo{title}{Regeneration mechanisms of near-wall turbulence
+  structures},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{287}
+  (\bibinfo{year}{1995}) \bibinfo{pages}{317–348}.
+%Type = Article
+\bibitem[{Jim\'{e}nez and Pinelli(1999)}]{Jimenez1999}
+\bibinfo{author}{J.~Jim\'{e}nez}, \bibinfo{author}{A.~Pinelli},
+\newblock \bibinfo{title}{The autonomous cycle of near-wall turbulence},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{389}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{335–--359}.
+%Type = Article
+\bibitem[{Schoppa and Hussain(2002)}]{schoppa2002}
+\bibinfo{author}{W.~Schoppa}, \bibinfo{author}{F.~Hussain},
+\newblock \bibinfo{title}{Coherent structure generation in near-wall
+  turbulence},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{453}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{57–108}.
+%Type = Article
+\bibitem[{Butler and Farrell(1993)}]{Butler1993}
+\bibinfo{author}{K.~M. Butler}, \bibinfo{author}{B.~F. Farrell},
+\newblock \bibinfo{title}{Optimal perturbations and streak spacing in
+  wall‐bounded turbulent shear flow},
+\newblock \bibinfo{journal}{Physics of Fluids A: Fluid Dynamics}
+  \bibinfo{volume}{5} (\bibinfo{year}{1993}) \bibinfo{pages}{774--777}.
+%Type = Article
+\bibitem[{Choi et~al.(1994)Choi, Moin, and Kim}]{Choi1994}
+\bibinfo{author}{H.~Choi}, \bibinfo{author}{P.~Moin}, \bibinfo{author}{J.~Kim},
+\newblock \bibinfo{title}{Active turbulence control for drag reduction in
+  wall-bounded flows},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{262}
+  (\bibinfo{year}{1994}) \bibinfo{pages}{75--110}.
+%Type = Article
+\bibitem[{Stroh et~al.(2015)Stroh, Frohnapfel, Schlatter, and
+  Hasegawa}]{Stroh2015}
+\bibinfo{author}{A.~Stroh}, \bibinfo{author}{B.~Frohnapfel},
+  \bibinfo{author}{P.~Schlatter}, \bibinfo{author}{Y.~Hasegawa},
+\newblock \bibinfo{title}{A comparison of opposition control in turbulent
+  boundary layer and turbulent channel flow},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{27}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{075101}.
+%Type = Article
+\bibitem[{Adrian et~al.(2000)Adrian, Meinhart, and Tomkins}]{Adrian2000}
+\bibinfo{author}{R.~Adrian}, \bibinfo{author}{C.~Meinhart},
+  \bibinfo{author}{C.~Tomkins},
+\newblock \bibinfo{title}{Vortex organization in the outer region of the
+  turbulent boundary layer},
+\newblock \bibinfo{journal}{Journal of Fluid Mecanics} \bibinfo{volume}{422}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{1--54}.
+%Type = Article
+\bibitem[{Iwamoto et~al.(2002)Iwamoto, Suzuki, and Kasagi}]{Iwamoto2002}
+\bibinfo{author}{K.~Iwamoto}, \bibinfo{author}{Y.~Suzuki},
+  \bibinfo{author}{N.~Kasagi},
+\newblock \bibinfo{title}{Reynolds number effect on wall turbulence: toward
+  effective feedback control},
+\newblock \bibinfo{journal}{International Journal of Heat and Fluid Flow}
+  \bibinfo{volume}{23} (\bibinfo{year}{2002}) \bibinfo{pages}{678--689}.
+%Type = Article
+\bibitem[{Fukagata et~al.(2002)Fukagata, Iwamoto, and Kasagi}]{Fukagata2002}
+\bibinfo{author}{K.~Fukagata}, \bibinfo{author}{K.~Iwamoto},
+  \bibinfo{author}{N.~Kasagi},
+\newblock \bibinfo{title}{Contribution of reynolds stress distribution to the
+  skin friction in wall-bounded flows},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{14}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{73--76}.
+%Type = Article
+\bibitem[{Spalart and McLean(2011)}]{Spalart2011}
+\bibinfo{author}{P.~Spalart}, \bibinfo{author}{J.~McLean},
+\newblock \bibinfo{title}{Drag reduction: enticing turbulence, and then an
+  industry},
+\newblock \bibinfo{journal}{Philosophical Transactions of the Royal Society A}
+  \bibinfo{volume}{369} (\bibinfo{year}{2011}) \bibinfo{pages}{1556--1569}.
+%Type = Article
+\bibitem[{Yudhistira and Skote(2011)}]{Yudhistira2011}
+\bibinfo{author}{I.~Yudhistira}, \bibinfo{author}{M.~Skote},
+\newblock \bibinfo{title}{Direct numerical simulation of a turbulent boundary
+  layer over an oscillating wall},
+\newblock \bibinfo{journal}{Journal of Turbulence} \bibinfo{volume}{12}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{1--17}.
+%Type = Article
+\bibitem[{Lardeau and Leschziner(2013)}]{Lardeau2013}
+\bibinfo{author}{S.~Lardeau}, \bibinfo{author}{M.~Leschziner},
+\newblock \bibinfo{title}{The streamwise drag-reduction response of a boundary
+  layer subjected to a sudden imposition of transverse oscillatory wall
+  motion},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{25}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{075109}.
+%Type = Article
+\bibitem[{Park and Choi(1999)}]{Park1999}
+\bibinfo{author}{J.~Park}, \bibinfo{author}{H.~Choi},
+\newblock \bibinfo{title}{Effects of uniform blowing or suction from a spanwise
+  slot on a turbulent boundary layer flow},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{11}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{3095--3105}.
+%Type = Article
+\bibitem[{Kim et~al.(2002)Kim, Sung, and Chung}]{Kim2002}
+\bibinfo{author}{K.~Kim}, \bibinfo{author}{H.~Sung},
+  \bibinfo{author}{M.~Chung},
+\newblock \bibinfo{title}{Assessment of local blowing and suction in a
+  turbulent boundary layer},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{40}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{175--177}.
+%Type = Article
+\bibitem[{Stroh et~al.(2016)Stroh, Hasegawa, Schlatter, and
+  Frohnapfel}]{Stroh2016}
+\bibinfo{author}{A.~Stroh}, \bibinfo{author}{Y.~Hasegawa},
+  \bibinfo{author}{P.~Schlatter}, \bibinfo{author}{B.~Frohnapfel},
+\newblock \bibinfo{title}{Global effect of local skin friction drag reduction
+  in spatially developing boundary layer},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{805}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{303--321}.
+%Type = Article
+\bibitem[{Schoppa and Hussain(1998)}]{Schoppa1998}
+\bibinfo{author}{W.~Schoppa}, \bibinfo{author}{F.~Hussain},
+\newblock \bibinfo{title}{A large-scale control strategy for drag reduction in
+  turbulent boundary layers},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{10}
+  (\bibinfo{year}{1998}) \bibinfo{pages}{1049--1051}.
+%Type = Article
+\bibitem[{Iuso et~al.(2002)Iuso, Onorato, Spazzini, and Di~Cicca}]{iuso2002}
+\bibinfo{author}{G.~Iuso}, \bibinfo{author}{M.~Onorato}, \bibinfo{author}{P.~G.
+  Spazzini}, \bibinfo{author}{G.~M. Di~Cicca},
+\newblock \bibinfo{title}{Wall turbulence manipulation by large-scale
+  streamwise vortices},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{473}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{23–58}.
+%Type = Article
+\bibitem[{Cheng et~al.(2021)Cheng, Wong, Hussain, Schröder, and
+  Zhou}]{cheng_wong_hussain_schroder_zhou_2021}
+\bibinfo{author}{X.~Cheng}, \bibinfo{author}{C.~Wong},
+  \bibinfo{author}{F.~Hussain}, \bibinfo{author}{W.~Schröder},
+  \bibinfo{author}{Y.~Zhou},
+\newblock \bibinfo{title}{Flat plate drag reduction using plasma-generated
+  streamwise vortices},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{918}
+  (\bibinfo{year}{2021}) \bibinfo{pages}{A24}.
+%Type = Article
+\bibitem[{Yao et~al.(2017)Yao, Chen, Thomas, and Hussain}]{yao2017}
+\bibinfo{author}{J.~Yao}, \bibinfo{author}{X.~Chen},
+  \bibinfo{author}{F.~Thomas}, \bibinfo{author}{F.~Hussain},
+\newblock \bibinfo{title}{Large-scale control strategy for drag reduction in
+  turbulent channel flows},
+\newblock \bibinfo{journal}{Physical Review Fluids} \bibinfo{volume}{2}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{062601}.
+%Type = Article
+\bibitem[{Yao et~al.(2018)Yao, Chen, and Hussain}]{yao2018}
+\bibinfo{author}{J.~Yao}, \bibinfo{author}{X.~Chen},
+  \bibinfo{author}{F.~Hussain},
+\newblock \bibinfo{title}{Drag control in wall-bounded turbulent flows via
+  spanwise opposed wall-jet forcing},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{852}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{678–709}.
+%Type = Article
+\bibitem[{Shabaka et~al.(1985)Shabaka, Mehta, and Bradshaw}]{shabaka1985}
+\bibinfo{author}{I.~M. M.~A. Shabaka}, \bibinfo{author}{R.~D. Mehta},
+  \bibinfo{author}{P.~Bradshaw},
+\newblock \bibinfo{title}{Longitudinal vortices imbedded in turbulent boundary
+  layers. part 1. single vortex},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{155}
+  (\bibinfo{year}{1985}) \bibinfo{pages}{37–57}.
+%Type = Article
+\bibitem[{Mehta and Bradshaw(1988)}]{mehta1988}
+\bibinfo{author}{R.~D. Mehta}, \bibinfo{author}{P.~Bradshaw},
+\newblock \bibinfo{title}{Longitudinal vortices imbedded in turbulent boundary
+  layers part 2. vortex pair with ‘common flow’ upwards},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{188}
+  (\bibinfo{year}{1988}) \bibinfo{pages}{529–546}.
+%Type = Article
+\bibitem[{Pauley and Eaton(1988)}]{Pauley1988}
+\bibinfo{author}{W.~R. Pauley}, \bibinfo{author}{J.~K. Eaton},
+\newblock \bibinfo{title}{Experimental study of the development of longitudinal
+  vortex pairs embedded in a turbulent boundary layer},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{26}
+  (\bibinfo{year}{1988}) \bibinfo{pages}{816--823}.
+%Type = Article
+\bibitem[{You et~al.(2006)You, Wang, Mittal, and Moin}]{You2006}
+\bibinfo{author}{D.~You}, \bibinfo{author}{M.~Wang},
+  \bibinfo{author}{R.~Mittal}, \bibinfo{author}{P.~Moin},
+\newblock \bibinfo{title}{Large-eddy simulations of longitudinal vortices
+  embedded in a turbulent boundary layer},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{44}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{3032--3039}.
+%Type = Article
+\bibitem[{Eibeck and Eaton(1987)}]{Eibeck1987}
+\bibinfo{author}{P.~A. Eibeck}, \bibinfo{author}{J.~K. Eaton},
+\newblock \bibinfo{title}{Heat transfer effects of a longitudinal vortex
+  embedded in a turbulent boundary layer},
+\newblock \bibinfo{journal}{Journal of Heat Transfer} \bibinfo{volume}{109}
+  (\bibinfo{year}{1987}) \bibinfo{pages}{16--24}.
+%Type = Article
+\bibitem[{Pauley and Eaton(1994)}]{Pauley1994}
+\bibinfo{author}{W.~R. Pauley}, \bibinfo{author}{J.~K. Eaton},
+\newblock \bibinfo{title}{{The Effect of Embedded Longitudinal Vortex Arrays on
+  Turbulent Boundary Layer Heat Transfer}},
+\newblock \bibinfo{journal}{Journal of Heat Transfer} \bibinfo{volume}{116}
+  (\bibinfo{year}{1994}) \bibinfo{pages}{871--879}.
+%Type = Article
+\bibitem[{Zhang and Collins(1993)}]{Zhang1993}
+\bibinfo{author}{X.~Zhang}, \bibinfo{author}{M.~W. Collins},
+\newblock \bibinfo{title}{Flow and heat transfer in a turbulent boundary layer
+  through skewed and pitched jets},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{31}
+  (\bibinfo{year}{1993}) \bibinfo{pages}{1590--1599}.
+%Type = Article
+\bibitem[{Breidenthal(1994)}]{Breidenthal1994persistence}
+\bibinfo{author}{R.~E. Breidenthal},
+\newblock \bibinfo{title}{{Entrainment and Mixing in Stratified Flows}},
+\newblock \bibinfo{journal}{Applied Mechanics Reviews} \bibinfo{volume}{47}
+  (\bibinfo{year}{1994}) \bibinfo{pages}{S108--S112}.
+%Type = Article
+\bibitem[{Cotel and Breidenthal(1996)}]{Cotel1996stationary}
+\bibinfo{author}{A.~J. Cotel}, \bibinfo{author}{R.~E. Breidenthal},
+\newblock \bibinfo{title}{A model of stratified entrainment using vortex
+  persistence},
+\newblock \bibinfo{journal}{Applied Scientific Research} \bibinfo{volume}{57}
+  (\bibinfo{year}{1996}) \bibinfo{pages}{349--366}.
+%Type = Article
+\bibitem[{Crow(1970)}]{Crow1970vortex}
+\bibinfo{author}{S.~C. Crow},
+\newblock \bibinfo{title}{Stability theory for a pair of trailing vortices},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{8}
+  (\bibinfo{year}{1970}) \bibinfo{pages}{2172--2179}.
+%Type = Article
+\bibitem[{Widnall et~al.(1974)Widnall, Bliss, and
+  Tsai}]{widnall1974instability}
+\bibinfo{author}{S.~E. Widnall}, \bibinfo{author}{D.~B. Bliss},
+  \bibinfo{author}{C.~Tsai},
+\newblock \bibinfo{title}{The instability of short waves on a vortex ring},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{66}
+  (\bibinfo{year}{1974}) \bibinfo{pages}{35--47}.
+%Type = Article
+\bibitem[{Balle and Breidenthal(2002)}]{Balle2002persistence}
+\bibinfo{author}{G.~J. Balle}, \bibinfo{author}{R.~E. Breidenthal},
+\newblock \bibinfo{title}{Stationary vortices and persistent turbulence in
+  karman grooves},
+\newblock \bibinfo{journal}{Journal of Turbulence} \bibinfo{volume}{3}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{N33}.
+%Type = Inproceedings
+\bibitem[{Wittig et~al.(2019)Wittig, Nino, and
+  Breidenthal}]{Wittig2019VGplasma}
+\bibinfo{author}{T.~Wittig}, \bibinfo{author}{G.~Nino},
+  \bibinfo{author}{R.~Breidenthal},
+\newblock \bibinfo{title}{Study on the effectiveness of plasma induced flow in
+  manipulating a near-wall vortex},
+\newblock in: \bibinfo{booktitle}{AIAA Scitech 2019 Forum},
+  \bibinfo{year}{2019}. \DOIprefix\doi{10.2514/6.2019-0049}.
+%Type = Inproceedings
+\bibitem[{Weber et~al.(2021)Weber, Nino, Han, and Breidenthal}]{Weber2021VGair}
+\bibinfo{author}{L.~Weber}, \bibinfo{author}{G.~Nino},
+  \bibinfo{author}{B.~Han}, \bibinfo{author}{R.~Breidenthal},
+\newblock \bibinfo{title}{Manipulation of streamwise vortices by air injection
+  on vortex generators},
+\newblock in: \bibinfo{booktitle}{AIAA Scitech 2021 Forum},
+  \bibinfo{year}{2021}. \DOIprefix\doi{10.2514/6.2021-1193}.
+%Type = Article
+\bibitem[{Moreau(2007)}]{Moreau2007review}
+\bibinfo{author}{E.~Moreau},
+\newblock \bibinfo{title}{Airflow control by non-thermal plasma actuators},
+\newblock \bibinfo{journal}{Journal of Physics D: Applied Physics}
+  \bibinfo{volume}{40} (\bibinfo{year}{2007}) \bibinfo{pages}{605--636}.
+%Type = Article
+\bibitem[{Corke et~al.(2010)Corke, Enloe, and Wilkinson}]{Corke2010review}
+\bibinfo{author}{T.~C. Corke}, \bibinfo{author}{C.~L. Enloe},
+  \bibinfo{author}{S.~P. Wilkinson},
+\newblock \bibinfo{title}{Dielectric barrier discharge plasma actuators for
+  flow control},
+\newblock \bibinfo{journal}{Annual Review of Fluid Mechanics}
+  \bibinfo{volume}{42} (\bibinfo{year}{2010}) \bibinfo{pages}{505--529}.
+%Type = Article
+\bibitem[{Wang et~al.(2013)Wang, Choi, Feng, Jukes, and
+  Whalley}]{wang2013recent}
+\bibinfo{author}{J.~Wang}, \bibinfo{author}{K.~Choi},
+  \bibinfo{author}{L.~Feng}, \bibinfo{author}{T.~Jukes},
+  \bibinfo{author}{R.~Whalley},
+\newblock \bibinfo{title}{Recent developments in dbd plasma flow control},
+\newblock \bibinfo{journal}{Progress in Aerospace Sciences}
+  \bibinfo{volume}{62} (\bibinfo{year}{2013}) \bibinfo{pages}{52--78}.
+%Type = Article
+\bibitem[{Benard and Moreau(2014)}]{Benard2014review}
+\bibinfo{author}{N.~Benard}, \bibinfo{author}{E.~Moreau},
+\newblock \bibinfo{title}{Electrical and mechanical characteristics of surface
+  ac dielectric barrier discharge plasma actuators applied to airflow control},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{55}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{1846}.
+%Type = Article
+\bibitem[{Kotsonis(2015)}]{Kotsonis2015review}
+\bibinfo{author}{M.~Kotsonis},
+\newblock \bibinfo{title}{Diagnostics for characterisation of plasma
+  actuators},
+\newblock \bibinfo{journal}{Measurement Science and Technology}
+  \bibinfo{volume}{26} (\bibinfo{year}{2015}) \bibinfo{pages}{092001}.
+%Type = Article
+\bibitem[{Jukes and Choi(2013)}]{jukes2013plasmaVG}
+\bibinfo{author}{T.~Jukes}, \bibinfo{author}{K.~S. Choi},
+\newblock \bibinfo{title}{On the formation of streamwise vortices by plasma
+  vortex generators},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{733}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{370--393}.
+%Type = Article
+\bibitem[{Serpieri et~al.(2017)Serpieri, Yadala~Venkata, and
+  Kotsonis}]{serpieri2017}
+\bibinfo{author}{J.~Serpieri}, \bibinfo{author}{S.~Yadala~Venkata},
+  \bibinfo{author}{M.~Kotsonis},
+\newblock \bibinfo{title}{Conditioning of cross-flow instability modes using
+  dielectric barrier discharge plasma actuators},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{833}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{164–205}.
+%Type = Article
+\bibitem[{D\"orr and Kloker(2018)}]{Dorr2018TSplasma}
+\bibinfo{author}{P.~C. D\"orr}, \bibinfo{author}{M.~J. Kloker},
+\newblock \bibinfo{title}{{Numerical Investigations on Tollmien–Schlichting
+  Wave Attenuation Using Plasma-Actuator Vortex Generators}},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{56}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{1305--1309}.
+%Type = Article
+\bibitem[{Whalley and Choi(2010)}]{Whalley2010DBDvortex}
+\bibinfo{author}{R.~D. Whalley}, \bibinfo{author}{K.~S. Choi},
+\newblock \bibinfo{title}{Starting, traveling, and colliding vortices:
+  {D}ielectric-{B}arrier-{D}ischarge plasma in quiescent air},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{22}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{091105}.
+%Type = Article
+\bibitem[{Wicks et~al.(2015)Wicks, Thomas, Corke, Patel, and Cain}]{Wicks2015}
+\bibinfo{author}{M.~Wicks}, \bibinfo{author}{F.~O. Thomas},
+  \bibinfo{author}{T.~C. Corke}, \bibinfo{author}{M.~Patel},
+  \bibinfo{author}{A.~B. Cain},
+\newblock \bibinfo{title}{Mechanism of vorticity generation in plasma
+  streamwise vortex generators},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{53}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{3404--3413}.
+%Type = Article
+\bibitem[{Jukes et~al.(2006)Jukes, Choi, Johnson, and Scott}]{Jukes2006}
+\bibinfo{author}{T.~Jukes}, \bibinfo{author}{K.~Choi},
+  \bibinfo{author}{G.~Johnson}, \bibinfo{author}{S.~Scott},
+\newblock \bibinfo{title}{Characterization of surface plasma-induced wall flows
+  through velocity and temperature measurements},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{44}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{764--771}.
+%Type = Article
+\bibitem[{Hehner et~al.(2019)Hehner, Gatti, and Kriegseis}]{Hehner2019}
+\bibinfo{author}{M.~Hehner}, \bibinfo{author}{D.~Gatti},
+  \bibinfo{author}{J.~Kriegseis},
+\newblock \bibinfo{title}{Stokes-layer formation under absence of moving
+  parts—a novel oscillatory plasma actuator design for turbulent drag
+  reduction},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{31}
+  (\bibinfo{year}{2019}) \bibinfo{pages}{051701}.
+%Type = Article
+\bibitem[{Mahfoze and Laizet(2017)}]{Mahfoze2019}
+\bibinfo{author}{O.~Mahfoze}, \bibinfo{author}{S.~Laizet},
+\newblock \bibinfo{title}{Skin-friction drag reduction in a channel flow with
+  streamwise-aligned plasma actuators},
+\newblock \bibinfo{journal}{International Journal of Heat and Fluid Flow}
+  \bibinfo{volume}{66} (\bibinfo{year}{2017}) \bibinfo{pages}{83--94}.
+%Type = Article
+\bibitem[{Whalley and Choi(2014)}]{Whalley2014}
+\bibinfo{author}{R.~D. Whalley}, \bibinfo{author}{K.~S. Choi},
+\newblock \bibinfo{title}{Turbulent boundary-layer control with plasma spanwise
+  travelling waves},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{55}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{1796}.
+%Type = Inproceedings
+\bibitem[{Jukes et~al.(2006)Jukes, Choi, Johnson, and
+  Scott}]{jukes2006TBLcontrol}
+\bibinfo{author}{T.~Jukes}, \bibinfo{author}{K.~Choi},
+  \bibinfo{author}{G.~Johnson}, \bibinfo{author}{S.~Scott},
+\newblock \bibinfo{title}{Turbulent drag reduction by surface plasma through
+  spanwise flow oscillation},
+\newblock in: \bibinfo{booktitle}{3rd AIAA Flow Control Conference},
+  \bibinfo{year}{2006}. \DOIprefix\doi{10.2514/6.2006-3693}.
+%Type = Article
+\bibitem[{Corke and Thomas(2018)}]{Corke2018}
+\bibinfo{author}{T.~C. Corke}, \bibinfo{author}{F.~O. Thomas},
+\newblock \bibinfo{title}{Active and passive turbulent boundary-layer drag
+  reduction},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{56}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{3835--3847}.
+%Type = Article
+\bibitem[{Thomas et~al.(2019)Thomas, Corke, Duong, Midya, and
+  Yates}]{Thomas2019}
+\bibinfo{author}{F.~O. Thomas}, \bibinfo{author}{T.~C. Corke},
+  \bibinfo{author}{A.~Duong}, \bibinfo{author}{S.~Midya},
+  \bibinfo{author}{K.~Yates},
+\newblock \bibinfo{title}{Turbulent drag reduction using pulsed-{DC} plasma
+  actuation},
+\newblock \bibinfo{journal}{Journal of Physics D: Applied Physics}
+  \bibinfo{volume}{52} (\bibinfo{year}{2019}) \bibinfo{pages}{434001}.
+%Type = Article
+\bibitem[{Duong et~al.(2021)Duong, Corke, and Thomas}]{duong2021}
+\bibinfo{author}{A.~H. Duong}, \bibinfo{author}{T.~C. Corke},
+  \bibinfo{author}{F.~O. Thomas},
+\newblock \bibinfo{title}{Characteristics of drag-reduced turbulent boundary
+  layers with pulsed-direct-current plasma actuation},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{915}
+  (\bibinfo{year}{2021}) \bibinfo{pages}{A113}.
+%Type = Article
+\bibitem[{Rodrigues et~al.(2018{\natexlab{a}})Rodrigues, Pascoa, and
+  Trancossi}]{Rodrigues2018}
+\bibinfo{author}{F.~Rodrigues}, \bibinfo{author}{J.~Pascoa},
+  \bibinfo{author}{M.~Trancossi},
+\newblock \bibinfo{title}{{Experimental Analysis of Dielectric Barrier
+  Discharge Plasma Actuators Thermal Characteristics Under External Flow
+  Influence}},
+\newblock \bibinfo{journal}{Journal of Heat Transfer} \bibinfo{volume}{140}
+  (\bibinfo{year}{2018}{\natexlab{a}}).
+%Type = Article
+\bibitem[{Rodrigues et~al.(2018{\natexlab{b}})Rodrigues, Pascoa, and
+  Trancossi}]{Rodrigues2018b}
+\bibinfo{author}{F.~Rodrigues}, \bibinfo{author}{J.~Pascoa},
+  \bibinfo{author}{M.~Trancossi},
+\newblock \bibinfo{title}{{Heat generation mechanisms of DBD plasma
+  actuators}},
+\newblock \bibinfo{journal}{Experimental Thermal and Fluid Science}
+  \bibinfo{volume}{90} (\bibinfo{year}{2018}{\natexlab{b}})
+  \bibinfo{pages}{55--65}.
+%Type = Article
+\bibitem[{Jayaraman et~al.(2007)Jayaraman, Thakur, and Shyy}]{Jayaraman2007}
+\bibinfo{author}{B.~Jayaraman}, \bibinfo{author}{S.~Thakur},
+  \bibinfo{author}{W.~Shyy},
+\newblock \bibinfo{title}{{Modeling of Fluid Dynamics and Heat Transfer Induced
+  by Dielectric Barrier Plasma Actuator}},
+\newblock \bibinfo{journal}{Journal of Heat Transfer} \bibinfo{volume}{129}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{517--525}.
+%Type = Article
+\bibitem[{Merino-Mart\'{i}nez et~al.(2020)Merino-Mart\'{i}nez, Rubio~Carpio,
+  T\'{e}rcio, Pereira, van Herk, Avallone, Ragni, and
+  Kotsonis}]{MerinoMartinez2020}
+\bibinfo{author}{R.~Merino-Mart\'{i}nez}, \bibinfo{author}{A.~Rubio~Carpio},
+  \bibinfo{author}{L.~T\'{e}rcio}, \bibinfo{author}{L.~Pereira},
+  \bibinfo{author}{S.~van Herk}, \bibinfo{author}{F.~Avallone},
+  \bibinfo{author}{M.~Ragni}, \bibinfo{author}{M.~Kotsonis},
+\newblock \bibinfo{title}{Aeroacoustic design and characterization of the
+  {3D}-printed, open-jet, anechoic wind tunnel of {D}elft {U}niversity of
+  {T}echnology},
+\newblock \bibinfo{journal}{Applied Acoustics} \bibinfo{volume}{170}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{107504}.
+%Type = Incollection
+\bibitem[{Lin et~al.(1992)Lin, Reed, and Saric}]{Lin1992LEeffect}
+\bibinfo{author}{N.~Lin}, \bibinfo{author}{H.~L. Reed}, \bibinfo{author}{W.~S.
+  Saric},
+\newblock \bibinfo{title}{Effect of leading-edge geometry on boundary-layer
+  receptivity to freestream sound},
+\newblock in: \bibinfo{booktitle}{Instability, Transition, and Turbulence},
+  \bibinfo{publisher}{Springer}, \bibinfo{year}{1992}, pp.
+  \bibinfo{pages}{421--440}.
+  \DOIprefix\doi{https://doi.org/10.1007/978-1-4612-2956-8_42}.
+%Type = Article
+\bibitem[{{Sanmiguel Vila} et~al.(2017){Sanmiguel Vila}, Vinuesa, Discetti,
+  Ianiro, Schlatter, and {\"O}rl{\"u}}]{sanmiguel2017diagnostic}
+\bibinfo{author}{C.~{Sanmiguel Vila}}, \bibinfo{author}{R.~Vinuesa},
+  \bibinfo{author}{S.~Discetti}, \bibinfo{author}{A.~Ianiro},
+  \bibinfo{author}{P.~Schlatter}, \bibinfo{author}{R.~{\"O}rl{\"u}},
+\newblock \bibinfo{title}{On the identification of well-behaved turbulent
+  boundary layers},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{822}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{109--138}.
+%Type = Article
+\bibitem[{Kelley et~al.(2016)Kelley, Corke, Thomas, Patel, and
+  Cain}]{Kelley2016}
+\bibinfo{author}{C.~L. Kelley}, \bibinfo{author}{T.~C. Corke},
+  \bibinfo{author}{F.~O. Thomas}, \bibinfo{author}{M.~Patel},
+  \bibinfo{author}{A.~B. Cain},
+\newblock \bibinfo{title}{Design and scaling of plasma streamwise vortex
+  generators for flow separation control},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{54}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{3397--3408}.
+%Type = Article
+\bibitem[{Jukes and Choi(2012)}]{Jukes2012}
+\bibinfo{author}{T.~Jukes}, \bibinfo{author}{K.~Choi},
+\newblock \bibinfo{title}{Dielectric-{B}arrier-{D}ischarge {V}ortex
+  {G}enerators: characterisation and optimisation for flow separation control},
+\newblock \bibinfo{journal}{Experiments in fluids} \bibinfo{volume}{52}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{329--345}.
+%Type = Article
+\bibitem[{Jukes et~al.(2013)Jukes, Segawa, and Furutani}]{jukes2013nacaVG}
+\bibinfo{author}{T.~Jukes}, \bibinfo{author}{T.~Segawa},
+  \bibinfo{author}{H.~Furutani},
+\newblock \bibinfo{title}{Flow {C}ontrol on a {NACA} 4418 {U}sing
+  {D}ielectric-{B}arrier-{D}ischarge {V}ortex {G}enerators},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{51}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{452--464}.
+%Type = Article
+\bibitem[{Thomas et~al.(2009)Thomas, Corke, Iqbal, Kozlov, and
+  Schatzman}]{thomas2009dbdopt}
+\bibinfo{author}{F.~O. Thomas}, \bibinfo{author}{T.~C. Corke},
+  \bibinfo{author}{M.~Iqbal}, \bibinfo{author}{A.~Kozlov},
+  \bibinfo{author}{D.~Schatzman},
+\newblock \bibinfo{title}{Optimization of {D}ielectric {B}arrier {D}ischarge
+  {P}lasma {A}ctuators for {A}ctive {A}erodynamic {F}low {C}ontrol},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{47}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{2169--2178}.
+%Type = Article
+\bibitem[{Willert and Gharib(1991)}]{Willert1991digitalpiv}
+\bibinfo{author}{C.~E. Willert}, \bibinfo{author}{M.~Gharib},
+\newblock \bibinfo{title}{Digital particle image velocimetry},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{10}
+  (\bibinfo{year}{1991}) \bibinfo{pages}{181--193}.
+%Type = Article
+\bibitem[{Scarano(2001)}]{scarano2001iterativeimgdef}
+\bibinfo{author}{F.~Scarano},
+\newblock \bibinfo{title}{Iterative image deformation methods in {PIV}},
+\newblock \bibinfo{journal}{Measurement Science and Technology}
+  \bibinfo{volume}{13} (\bibinfo{year}{2001}) \bibinfo{pages}{R1--R19}.
+%Type = Article
+\bibitem[{Westerweel and Scarano(2005)}]{westerweel2005outlier}
+\bibinfo{author}{J.~Westerweel}, \bibinfo{author}{F.~Scarano},
+\newblock \bibinfo{title}{Universal outlier detection for {PIV} data},
+\newblock \bibinfo{journal}{Experiments in fluids} \bibinfo{volume}{39}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{1096--1100}.
+%Type = Article
+\bibitem[{Castellanos et~al.(2021)Castellanos, {Sanmiguel Vila}, G\"uemes, and
+  Discetti}]{Castellanos2021PIVuncertainty}
+\bibinfo{author}{R.~Castellanos}, \bibinfo{author}{C.~{Sanmiguel Vila}},
+  \bibinfo{author}{A.~G\"uemes}, \bibinfo{author}{S.~Discetti},
+\newblock \bibinfo{title}{On the uncertainty of boundary-layer parameters from
+  ensemble {PTV} data},
+\newblock \bibinfo{journal}{Measurement Science and Technology}
+  \bibinfo{volume}{32} (\bibinfo{year}{2021}) \bibinfo{pages}{084006}.
+%Type = Book
+\bibitem[{Astarita and Carlomagno(2012)}]{astarita2012infrared}
+\bibinfo{author}{T.~Astarita}, \bibinfo{author}{G.~M. Carlomagno},
+  \bibinfo{title}{Infrared thermography for thermo-fluid-dynamics},
+  \bibinfo{publisher}{Springer Science \& Business Media},
+  \bibinfo{year}{2012}. \DOIprefix\doi{10.1007/978-3-642-29508-9}.
+%Type = Article
+\bibitem[{Torre et~al.(2018)Torre, Ianiro, Discetti, and
+  Carlomagno}]{torre2018HTF}
+\bibinfo{author}{A.~Torre}, \bibinfo{author}{A.~Ianiro},
+  \bibinfo{author}{S.~Discetti}, \bibinfo{author}{G.~M. Carlomagno},
+\newblock \bibinfo{title}{Evaluation of anisotropic tangential conduction in
+  printed-circuit-board heated-thin-foil heat flux sensors},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{127} (\bibinfo{year}{2018}) \bibinfo{pages}{1138 -- 1146}.
+%Type = Book
+\bibitem[{Bergman et~al.(2011)Bergman, Incropera, DeWitt, and
+  Lavine}]{bergman2011fundamentals}
+\bibinfo{author}{T.~L. Bergman}, \bibinfo{author}{F.~P. Incropera},
+  \bibinfo{author}{D.~P. DeWitt}, \bibinfo{author}{A.~S. Lavine},
+  \bibinfo{title}{Fundamentals of heat and mass transfer},
+  \bibinfo{publisher}{John Wiley \& Sons}, \bibinfo{year}{2011}.
+%Type = Book
+\bibitem[{Minkina and Dudzik(2009)}]{minkina2009infrared}
+\bibinfo{author}{W.~Minkina}, \bibinfo{author}{S.~Dudzik},
+  \bibinfo{title}{Infrared thermography: errors and uncertainties},
+  \bibinfo{publisher}{John Wiley \& Sons}, \bibinfo{year}{2009}.
+%Type = Article
+\bibitem[{Amitay et~al.(2001)Amitay, Smith, Kibens, Parekh, and
+  Glezer}]{Amitay2001Cmu}
+\bibinfo{author}{M.~Amitay}, \bibinfo{author}{D.~R. Smith},
+  \bibinfo{author}{V.~Kibens}, \bibinfo{author}{D.~E. Parekh},
+  \bibinfo{author}{A.~Glezer},
+\newblock \bibinfo{title}{Aerodynamic flow control over an unconventional
+  airfoil using synthetic jet actuators},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{39}
+  (\bibinfo{year}{2001}) \bibinfo{pages}{361--370}.
+%Type = Article
+\bibitem[{Kotsonis et~al.(2015)Kotsonis, Shukla, and
+  Pr{\"o}bsting}]{kotsonis2015control}
+\bibinfo{author}{M.~Kotsonis}, \bibinfo{author}{R.~K. Shukla},
+  \bibinfo{author}{S.~Pr{\"o}bsting},
+\newblock \bibinfo{title}{Control of natural tollmien-schlichting waves using
+  dielectric barrier discharge plasma actuators.},
+\newblock \bibinfo{journal}{International Journal of Flow Control}
+  \bibinfo{volume}{7} (\bibinfo{year}{2015}) \bibinfo{pages}{37--54}.
+%Type = Article
+\bibitem[{Pereira et~al.(2014)Pereira, Ragni, and
+  Kotsonis}]{Pereira2014external}
+\bibinfo{author}{R.~Pereira}, \bibinfo{author}{D.~Ragni},
+  \bibinfo{author}{M.~Kotsonis},
+\newblock \bibinfo{title}{Effect of external flow velocity on momentum transfer
+  of dielectric barrier discharge plasma actuators},
+\newblock \bibinfo{journal}{Journal of Applied Physics} \bibinfo{volume}{116}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{103301}.
+%Type = Article
+\bibitem[{Enloe et~al.(2004)Enloe, McLaughlin, VanDyken, Kachner, Jumper, and
+  Corke}]{Enloe2004}
+\bibinfo{author}{C.~L. Enloe}, \bibinfo{author}{T.~E. McLaughlin},
+  \bibinfo{author}{R.~D. VanDyken}, \bibinfo{author}{K.~D. Kachner},
+  \bibinfo{author}{E.~J. Jumper}, \bibinfo{author}{T.~C. Corke},
+\newblock \bibinfo{title}{Mechanisms and responses of a single dielectric
+  barrier plasma actuator: Plasma morphology},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{42}
+  (\bibinfo{year}{2004}) \bibinfo{pages}{589--594}.
+%Type = Article
+\bibitem[{Mertz and Corke(2011)}]{Mertz2011}
+\bibinfo{author}{B.~E. Mertz}, \bibinfo{author}{T.~C. Corke},
+\newblock \bibinfo{title}{Single-dielectric barrier discharge plasma actuator
+  modelling and validation},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{669}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{557–583}.
+%Type = Article
+\bibitem[{Whalley and Choi(2012)}]{Whalley2012startingV}
+\bibinfo{author}{R.~D. Whalley}, \bibinfo{author}{K.~S. Choi},
+\newblock \bibinfo{title}{The starting vortex in quiescent air induced by
+  dielectric-barrier-discharge plasma},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{703}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{192–203}.
+%Type = Article
+\bibitem[{L{\"o}gdberg et~al.(2009)L{\"o}gdberg, Fransson, and
+  Alfredsson}]{Logdberg2009}
+\bibinfo{author}{O.~L{\"o}gdberg}, \bibinfo{author}{J.~H.~M. Fransson},
+  \bibinfo{author}{P.~H. Alfredsson},
+\newblock \bibinfo{title}{Streamwise evolution of longitudinal vortices in a
+  turbulent boundary layer},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{623}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{27--58}.
+%Type = Article
+\bibitem[{Ersoy and Walker(1985)}]{Ersoy1985}
+\bibinfo{author}{S.~Ersoy}, \bibinfo{author}{J.~D.~A. Walker},
+\newblock \bibinfo{title}{Viscous flow induced by counter‐rotating vortices},
+\newblock \bibinfo{journal}{The Physics of Fluids} \bibinfo{volume}{28}
+  (\bibinfo{year}{1985}) \bibinfo{pages}{2687--2698}.
+%Type = Article
+\bibitem[{Lumley(1967)}]{Lumley1967}
+\bibinfo{author}{J.~L. Lumley},
+\newblock \bibinfo{title}{The structure of inhomogeneous turbulence},
+\newblock \bibinfo{journal}{Atmospheric Turbulence and Wave Propagation}
+  (\bibinfo{year}{1967}) \bibinfo{pages}{166--178}.
+%Type = Article
+\bibitem[{Hussain and Duraisamy(2011)}]{Hussain2011}
+\bibinfo{author}{F.~Hussain}, \bibinfo{author}{K.~Duraisamy},
+\newblock \bibinfo{title}{Mechanics of viscous vortex reconnection},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{23}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{021701}.
+%Type = Article
+\bibitem[{Yao and Hussain(2020)}]{Yao2020}
+\bibinfo{author}{J.~Yao}, \bibinfo{author}{F.~Hussain},
+\newblock \bibinfo{title}{A physical model of turbulence cascade via vortex
+  reconnection sequence and avalanche},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{883}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{A51}.
+%Type = Techreport
+\bibitem[{Sandborn(1981)}]{Sandborn1981}
+\bibinfo{author}{V.~A. Sandborn}, \bibinfo{title}{Aerodynamics-Control of
+  Surface Shear Stress of Fluctuations in Turbulent Boundary Layers},
+  \bibinfo{type}{Technical Report}, Colorado State University for Collins
+  Department of Civil Engineering, \bibinfo{year}{1981}.
+%Type = Article
+\bibitem[{Sutherland(1893)}]{Sutherland1893law}
+\bibinfo{author}{W.~Sutherland},
+\newblock \bibinfo{title}{Lii. the viscosity of gases and molecular force},
+\newblock \bibinfo{journal}{The London, Edinburgh, and Dublin Philosophical
+  Magazine and Journal of Science} \bibinfo{volume}{36} (\bibinfo{year}{1893})
+  \bibinfo{pages}{507--531}.
+%Type = Article
+\bibitem[{Chauhan et~al.(2009)Chauhan, Monkewitz, and Nagib}]{chauhan2009}
+\bibinfo{author}{K.~A. Chauhan}, \bibinfo{author}{P.~A. Monkewitz},
+  \bibinfo{author}{H.~M. Nagib},
+\newblock \bibinfo{title}{Criteria for assessing experiments in zero pressure
+  gradient boundary layers},
+\newblock \bibinfo{journal}{Fluid Dynamics Research} \bibinfo{volume}{41}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{021404}.
+%Type = Article
+\bibitem[{G{\"u}emes et~al.(2019)G{\"u}emes, {Sanmiguel Vila}, {\"O}rl{\"u},
+  Vinuesa, Schlatter, Ianiro, and Discetti}]{guemes2019APG}
+\bibinfo{author}{A.~G{\"u}emes}, \bibinfo{author}{C.~{Sanmiguel Vila}},
+  \bibinfo{author}{R.~{\"O}rl{\"u}}, \bibinfo{author}{R.~Vinuesa},
+  \bibinfo{author}{P.~Schlatter}, \bibinfo{author}{A.~Ianiro},
+  \bibinfo{author}{S.~Discetti},
+\newblock \bibinfo{title}{Flow organization in the wake of a rib in a turbulent
+  boundary layer with pressure gradient},
+\newblock \bibinfo{journal}{Experimental Thermal and Fluid Science}
+  \bibinfo{volume}{108} (\bibinfo{year}{2019}) \bibinfo{pages}{115 -- 124}.
+%Type = Article
+\bibitem[{{\"O}rl{\"u} et~al.(2010){\"O}rl{\"u}, Fransson, and
+  Alfredsson}]{orlu2010wallpos}
+\bibinfo{author}{R.~{\"O}rl{\"u}}, \bibinfo{author}{J.~H. Fransson},
+  \bibinfo{author}{P.~H. Alfredsson},
+\newblock \bibinfo{title}{On near wall measurements of wall bounded flows—the
+  necessity of an accurate determination of the wall position},
+\newblock \bibinfo{journal}{Progress in Aerospace Sciences}
+  \bibinfo{volume}{46} (\bibinfo{year}{2010}) \bibinfo{pages}{353 -- 387}.
+%Type = Article
+\bibitem[{Rodr{\'i}guez-L{\'o}pez et~al.(2015)Rodr{\'i}guez-L{\'o}pez, Bruce,
+  and Buxton}]{rodriguez2015skinfric}
+\bibinfo{author}{E.~Rodr{\'i}guez-L{\'o}pez}, \bibinfo{author}{P.~J.~K. Bruce},
+  \bibinfo{author}{O.~R.~H. Buxton},
+\newblock \bibinfo{title}{A robust post-processing method to determine skin
+  friction in turbulent boundary layers from the velocity profile},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{56}
+  (\bibinfo{year}{2015}) \bibinfo{pages}{68}.
+%Type = Article
+\bibitem[{Vinuesa and Nagib(2016)}]{vinuesa2016nagib}
+\bibinfo{author}{R.~Vinuesa}, \bibinfo{author}{H.~M. Nagib},
+\newblock \bibinfo{title}{Enhancing the accuracy of measurement techniques in
+  high reynolds number turbulent boundary layers for more representative
+  comparison to their canonical representations},
+\newblock \bibinfo{journal}{European Journal of Mechanics - B/Fluids}
+  \bibinfo{volume}{55} (\bibinfo{year}{2016}) \bibinfo{pages}{300 -- 312}.
+%Type = Article
+\bibitem[{Jim\'enez et~al.(2010)Jim\'enez, Hoyas, Simens, and
+  Mizuno}]{jimenez2010}
+\bibinfo{author}{J.~Jim\'enez}, \bibinfo{author}{S.~Hoyas},
+  \bibinfo{author}{M.~P. Simens}, \bibinfo{author}{Y.~Mizuno},
+\newblock \bibinfo{title}{Turbulent boundary layers and channels at moderate
+  {R}eynolds numbers},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{657}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{335–360}.
+%Type = Article
+\bibitem[{Alfredsson et~al.(2011)Alfredsson, Segalini, and
+  {\"O}rl{\"u}}]{alfredsson2011diagnostic}
+\bibinfo{author}{P.~H. Alfredsson}, \bibinfo{author}{A.~Segalini},
+  \bibinfo{author}{R.~{\"O}rl{\"u}},
+\newblock \bibinfo{title}{A new scaling for the streamwise turbulence intensity
+  in wall-bounded turbulent flows and what it tells us about the “outer”
+  peak},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{23}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{041702}.
+%Type = Article
+\bibitem[{Marusic et~al.(2010)Marusic, McKeon, Monkewitz, Nagib, Smits, and
+  Sreenivasan}]{Marusic2010wbt}
+\bibinfo{author}{I.~Marusic}, \bibinfo{author}{B.~J. McKeon},
+  \bibinfo{author}{P.~A. Monkewitz}, \bibinfo{author}{H.~M. Nagib},
+  \bibinfo{author}{A.~J. Smits}, \bibinfo{author}{K.~R. Sreenivasan},
+\newblock \bibinfo{title}{Wall-bounded turbulent flows at high {R}eynolds
+  numbers: {R}ecent advances and key issues},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{22}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{065103}.
+%Type = Article
+\bibitem[{Harun et~al.(2013)Harun, Monty, Mathis, and
+  Marusic}]{harun2013pressure}
+\bibinfo{author}{Z.~Harun}, \bibinfo{author}{J.~P. Monty},
+  \bibinfo{author}{R.~Mathis}, \bibinfo{author}{I.~Marusic},
+\newblock \bibinfo{title}{Pressure gradient effects on the large-scale
+  structure of turbulent boundary layers},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{715}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{477–498}.
+%Type = Article
+\bibitem[{Bradshaw(1967)}]{bradshaw1967}
+\bibinfo{author}{P.~Bradshaw},
+\newblock \bibinfo{title}{The turbulence structure of equilibrium boundary
+  layers},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{29}
+  (\bibinfo{year}{1967}) \bibinfo{pages}{625–645}.
+%Type = Article
+\bibitem[{Du et~al.(2002)Du, Symeonidis, and Karniadakis}]{Du2002}
+\bibinfo{author}{Y.~Du}, \bibinfo{author}{V.~Symeonidis},
+  \bibinfo{author}{G.~E. Karniadakis},
+\newblock \bibinfo{title}{Drag reduction in wall-bounded turbulence via a
+  transverse travelling wave},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{457}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{1–34}.
+
+\end{thebibliography}

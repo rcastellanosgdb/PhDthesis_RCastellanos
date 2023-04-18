@@ -1,0 +1,37 @@
+% Insert HERE any additional commands
+
+
+% as examples here are some commands from the JFM template:
+%
+\newcommand\etal{\mbox{\textit{et al.}}}
+\newcommand\etc{etc.\ }
+\newcommand\eg{e.g.\ }
+
+\providecommand\bnabla{\boldsymbol{\nabla}}
+\providecommand\bcdot{\boldsymbol{\cdot}}
+
+\newcommand\nRe{\mbox{$\mathrm{Re}$}}  % Reynolds number
+\newcommand\nPr{\mbox{$\mathrm{Pr}$}} % Prandtl number, cf TeX's \Pr product
+\newcommand\nPe{\mbox{$\mathrm{Pe}$}}  % Peclet number
+\newcommand\nSt{\mbox{$\mathrm{St}$}}  % Stanton or strouhal
+\newcommand\nNu{\mbox{$\mathrm{Nu}$}}  % Nusselt
+\newcommand\nBi{\mbox{$\mathrm{Bi}$}}  % Biot
+\newcommand\nFo{\mbox{$\mathrm{Fo}$}}  % Biot
+
+
+\newcounter{boxlblcounter}  
+\newcommand{\makeboxlabel}[1]{\fbox{#1}\hfill}% \hfill fills the label box
+\newenvironment{boxlabel}
+  {\begin{list}
+    {\arabic{boxlblcounter}}
+    {\usecounter{boxlblcounter}
+     \setlength{\labelwidth}{3em}
+     \setlength{\labelsep}{0em}
+     \setlength{\itemsep}{2pt}
+     \setlength{\leftmargin}{1.5cm}
+     \setlength{\rightmargin}{2cm}
+     \setlength{\itemindent}{0em} 
+     \let\makelabel=\makeboxlabel
+    }
+  }
+{\end{list}}

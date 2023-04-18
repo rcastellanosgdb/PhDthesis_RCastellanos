@@ -1,0 +1,88 @@
+%===============================================================================
+\chapter{Main contributions and conclusions}\label{ch04}
+%===============================================================================
+%
+The control of turbulence is a trendy research field with a potential expansion during the last decade thanks to the technological development hand in hand with novel algorithms based on artificial intelligence. This thesis aims at answering some of the numerous research questions within this exciting research area. This chapter gathers the main contributions and conclusions of the scientific publications performed in fulfilment of the objectives of this dissertation. For a more profound understanding and a detailed discussion of the results, the reader is referred to the appended papers in Part II of the present document.
+
+The research work under the scope of this thesis deals with the control of turbulent boundary layers to manage the convective heat transfer at the wall. Starting from the exploration of well-known actuation mechanisms in other applications, such as skin-friction reduction or mixing enhancement, two parametric studies were performed to shed light on the flow mechanisms behind wall heat fluxes. As described in Chapter~\ref{ch02}, among the variety of available actuation systems, both plasma actuators and jets in crossflow were considered. In paper 2, a spanwise array of streamwise DBD-plasma vortex generators is used to reduce heat transfer. The experimental results confirm a considerable alteration of the flow topology due to the formation of pairs of counter-rotating streamwise vortices embedded in the boundary layer. An effective 10\% reduction in convective heat transfer is achieved. On the other hand, the spanwise slot jet in Paper 3 is used to enhance heat transfer. After the parametric study on the pulsation parameters, a simplified model is proposed decoupling the effect of the carrier frequency and duty cycle. A characteristic frequency of the system is found at which heat transfer enhancement is magnified. Although the justification of the optimality remains an open research question, flow field measurements revealed the development of large-scale turbulent structures in the near-wall region, which promote entrainment and mixing, hence enhancing heat transfer.
+
+Seeking a more sophisticated control logic, the performance of machine-learning-based algorithms is evaluated in Paper 4. This article compares deep reinforcement learning and linear genetic programming control on a benchmark problem to assess their performance when varying the initial condition provided to the controller and in the presence of noise. In general, DRL outperforms LGPC; however, LGPC achieves significantly more compact and interpretable control laws, identifying subsets of the probes as being relevant to defining control actions. The numerical investigation concludes that RL and LGPC are up-and-coming flow control techniques, although LGPC seems more robust and implementable for practical applications. Based on this gained experience, Paper 5 deals with an experimental TBL control for heat transfer enhancement in which the control logic is given by linear genetic algorithms. The open-loop control problem can find the same characteristic frequency as in Paper 3, which corroborates its importance to maximize heat transfer.
+
+%===============================================================================
+%- Paper Highlights
+%===============================================================================
+\section{Paper highlights}
+%-------------------------------------------------------------------------------
+This section highlights the contributions of each of the papers included in the present thesis.\\
+
+\noindent {\bf  Paper~1. Methodological.} \\
+\noindent {\sc  Castellanos, R., Sanmiguel Vila, C., G\"uemes, A. \& Discetti, S.}{, 2021. }{\it  \let \\=~On the uncertainty of boundary-layer parameters from Ensemble PTV data . }{{Meas. Sci. Technol.}}{ {\bf  32}}{ (8)}{, 084006}.
+
+\begin{itemize}
+ \item An uncertainty quantification framework for turbulent boundary layer characterisation based on ensemble particle tracking velocimetry (EPTV) measurements is developed for the first time.
+  \item The effect of systematic errors due to finite spatial resolution and of random error due to convergence are investigated under different window sizes.
+  \item The uncertainty on the TBL parameters depends on the bin size used in the EPTV process expressed in wall units.
+\end{itemize}
+\vspace{.5cm}
+
+%-------------------------------------------------------------------------------
+\noindent {\bf  Paper~2.} \\
+\noindent {\sc  Castellanos, R., Michelis, T., Discetti, S., Ianiro, A. \& Kotsonis, M.}{, 2022. }{\it  \let \\=~Reducing turbulent convective heat transfer with streamwise plasma vortex generators. }{{Exp. Therm. Fluid Sci.}}{ {\bf  134}}{, 110596}.
+
+\begin{itemize}
+  \item A turbulence control experimental investigation is presented based on a spanwise array of streamwise DBD-plasma actuators vortex generators. The plasma actuators induce the formation of pairs of streamwise counter-rotating vortices embedded in the turbulent boundary layer. 
+  \item The plasma-induced vortices considerably alter the topology of the incoming flow. The geometry of the plasma actuator, together with its suction-injection mechanism, encloses the vortices in the spanwise direction, making them stationary and persistent far downstream.
+  \item Heat transfer is effectively reduced downstream of the actuation with a maximum average reduction of 9\% in the Stanton number. The Stanton number scales with the 2/7 power of the momentum coefficient.
+\end{itemize}
+\vspace{.5cm}
+
+%-------------------------------------------------------------------------------
+\noindent {\bf  Paper~3.}\\
+\noindent {\sc  Castellanos, R., Salih, G., Raiola, M., Ianiro, I. \& Discetti, S.}{, 2022. }{\it  \let \\=~Heat transfer enhancement in turbulent boundary layers with a pulsed slot jet in crossflow. }{{Appl. Therm. Eng.}}{ {\bf  Under review}}.
+
+\begin{itemize}
+    \item A spanwise jet in crossflow is used to enhance convective heat transfer at the wall within a turbulent boundary layer. A parametric study on the pulsation frequency and the duty cycle is performed.
+    \item The duty cycle is the parameter driving the injection of air and hence scales the overall heat transfer enhancement. Lower duty cycles lead to more cost-effective actuations for the maximization of convective heat transfer.
+    \item The convective heat transfer enhancement can be decoupled into two independent functions of the pulsation parameters.
+    \item A characteristic frequency of the dynamic system that maximizes the heat transfer is found.
+    \item The jet in crossflow induces a wall-tangent jet and a pair of counter-rotating vortices that increase momentum fluxes in the lower region of the boundary layer.
+\end{itemize}
+\vspace{.5cm}
+
+%-------------------------------------------------------------------------------
+\noindent {\bf  Paper~4.} \\
+{\sc  Castellanos, R., Cornejo-Maceda, G. Y., de la Fuente, I., Noack, B. R., Ianiro, I. \& Discetti, S.}{, 2022. }{\it  \let \\=~Machine learning flow control with few sensor feedback and measurement noise. }{{Phys. Fluids}}{ {\bf  34}}{ (4)}{, 047118}.
+
+\begin{itemize}
+  \item Wake control based on Deep Reinforcement Learning (DRL) and Linear Genetic Programming Control (LGPC) is assessed for a two-dimensional K\'{a}rm\'{a}n vortex street past a cylinder. Similar performance is observed in the absence of noise and for the fixed initial condition.
+  \item DRL shows higher robustness to variable initial conditions and noise contamination of the sensor data.
+  \item  LGPC identifies compact and interpretable control laws, which only use a subset of sensors, thus allowing reducing the system complexity with reasonably good results.
+\end{itemize}
+\vspace{.5cm}
+
+%-------------------------------------------------------------------------------%
+\noindent {\bf  Paper~5.} \\
+{\sc  Castellanos, R., Ianiro, I. \& Discetti, S.}{, 2022. }{\it  \let \\=~Genetically-inspired convective heat transfer enhancement. }{{Exp. Therm. Fluid Sci.}}{ {\bf  Submitted}}.
+
+\begin{itemize}
+    \item Machine learning control is used to optimise the convective heat transfer enhancement in a turbulent boundary layer on a flat plate.
+    \item The optimised control outperforms the steady-jet actuation with less power requirement.
+    \item The best control law induces an asymmetry in the flow field caused by the phase between actuators.
+    \item A characteristic pulsation frequency of the dynamic system that maximizes the heat transfer is found. Such frequency is approximately the inverse of the characteristic travel time of large-scale turbulent structures convected within the buffer layer.
+\end{itemize}
+%-------------------------------------------------------------------------------
+
+%===============================================================================
+%- Future work
+%===============================================================================-
+\section{Future work}
+%-------------------------------------------------------------------------------
+Despite the insightful discussion and explanation of the physical phenomena behind heat transfer processes in the aforementioned investigations, the ultimate contribution of this thesis is proof of the feasible implementation of sophisticated machine-learning algorithms in an experimental environment together with complex measurement techniques for turbulence. Although DRL, LGPC and LGAC have been previously tested in experimental investigations, Paper 5 is the first study in which IR thermography is used to update the controller. The sophistication of the experimental apparatus and the software orchestrating the learning loop foreshadows the unavoidable implementation of a feedback signal for real-time closed-loop control.
+
+Several interesting research lines may arise from the conclusions drawn in this thesis. Some of the possible future investigations are listed below:
+
+\begin{itemize}
+    \item The implementation of closed-loop control in which the actuation is driven by the feedback signal provided by sensors. For this purpose, it is already planned to use microphones embedded in the wall and placed upstream of the slot jets. The training process is divided into two loops: the learning loop, in which the controller is updated based on the cost function, and the control loop, in which the instantaneous actuation is adjusted based on the sensor signal. In the latter, the agent or control law is unaltered and runs in real-time, while the former is the actual learning cycle of the algorithm, which is not required to be real-time for certain applications as shown in Paper 5.
+    \item Although this thesis is mainly experimental, it is interesting to test other control algorithms in a numerical environment. The numerical simulations are a perfect test bench for sophisticated algorithms. In particular, two possible control logics are proposed: (1) the use of three-dimensional convolutional neural networks to envision more complex control laws; and (2) the implementation of a reduced-order modelling together with a machine learning control algorithm, pursuing the best control law in the low-dimensional subspace.
+    \item Application of the gained experience and knowledge to other flow configurations. In particular, it is already planned to implement the control on two base flows: a turbulent jet, targeting noise reduction, and a bluff body for wake suppression and drag reduction. 
+\end{itemize}

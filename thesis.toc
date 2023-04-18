@@ -1,0 +1,126 @@
+\babel@toc {english}{}\relax 
+\babel@toc {swedish}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {swedish}{}\relax 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{}{Acknowledgements}}{v}{chapter*.1}%
+\contentsline {chapter}{\tocchapter {Chapter}{}{Abstract}}{ix}{frontsection.3}%
+\babel@toc {swedish}{}\relax 
+\contentsline {chapter}{\tocchapter {Kapitel}{}{Resumen}}{xiii}{frontsection.4}%
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\tocchapter {Chapter}{}{Preface}}{xvii}{frontsection.5}%
+\contentsline {part}{\tocpart {Part}{I}{Overview and summary}}{~}{part.1}%
+\contentsline {chapter}{\tocchapter {Chapter}{1}{Introduction}}{1}{chapter.1}%
+\contentsline {section}{\tocsection {}{1.1}{Objectives}}{3}{section.1.1}%
+\contentsline {section}{\tocsection {}{1.2}{Thesis structure}}{4}{section.1.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{2}{Heat transfer}}{7}{chapter.2}%
+\contentsline {section}{\tocsection {}{2.1}{Overview of heat transfer processes}}{7}{section.2.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Heat transfer in fluid flows: Convection}}{8}{section*.3}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Analogy between Momentum and Heat Transfer}}{10}{section*.5}%
+\contentsline {section}{\tocsection {}{2.2}{Strategies for heat transfer control}}{12}{section.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.2.1}{Plasma actuators}}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\tocsubsection {}{2.2.2}{Jets in crossflow}}{17}{subsection.2.2.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{3}{Control logic design}}{23}{chapter.3}%
+\contentsline {section}{\tocsection {}{3.1}{Turbulence flow control}}{23}{section.3.1}%
+\contentsline {subsection}{\tocsubsection {}{3.1.1}{Flow control as an optimisation problem}}{25}{subsection.3.1.1}%
+\contentsline {section}{\tocsection {}{3.2}{Reinforcement Learning}}{27}{section.3.2}%
+\contentsline {subsection}{\tocsubsection {}{3.2.1}{Basic elements, principles, and mathematical foundation}}{27}{subsection.3.2.1}%
+\contentsline {subsection}{\tocsubsection {}{3.2.2}{Policy-based methods}}{29}{subsection.3.2.2}%
+\contentsline {section}{\tocsection {}{3.3}{Evolutionary Algorithms}}{30}{section.3.3}%
+\contentsline {subsection}{\tocsubsection {}{3.3.1}{Genetic Programming}}{31}{subsection.3.3.1}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Monte Carlo optimisation}}{33}{section*.12}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Selection}}{33}{section*.13}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Crossover for exploitation}}{34}{section*.14}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Mutation for exploration}}{34}{section*.15}%
+\contentsline {subsubsection}{\tocsubsubsection {}{}{Replication and elitism for memory}}{34}{section*.16}%
+\contentsline {chapter}{\tocchapter {Chapter}{4}{Main contributions and conclusions}}{35}{chapter.4}%
+\contentsline {section}{\tocsection {}{4.1}{Paper highlights}}{36}{section.4.1}%
+\contentsline {section}{\tocsection {}{4.2}{Future work}}{37}{section.4.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{}{Bibliography}}{39}{chapter*.17}%
+\clearpage 
+\contentsline {part}{\tocpart {Part}{II}{Scientific Journal Publications}}{~}{part.2}%
+\contentsline {chapter}{\tocchapter {Chapter}{}{Summary of the papers}}{51}{chapter*.18}%
+\contentsline {paper}{\tocpaper {Paper}{1}{On the uncertainty of boundary-layer parameters from Ensemble PTV data}}{55}{paper.1}%
+\setcounter {tocdepth}{0}
+\contentsline {section}{\tocsection {}{1}{Introduction}}{57}{section.0.1}%
+\contentsline {section}{\tocsection {}{2}{Methodology}}{60}{section.0.2}%
+\contentsline {subsection}{\tocsubsection {}{2.1}{Synthetic profile generation}}{60}{subsection.0.2.1}%
+\contentsline {subsection}{\tocsubsection {}{2.2}{Calculation of the boundary-layer parameters}}{62}{subsection.0.2.2}%
+\contentsline {section}{\tocsection {}{3}{Systematic error estimation for synthetic data}}{63}{section.0.3}%
+\contentsline {section}{\tocsection {}{4}{{Random uncertainty measurements - }experimental Validation}}{66}{section.0.4}%
+\contentsline {subsection}{\tocsubsection {}{4.1}{Experimental setup}}{66}{subsection.0.4.1}%
+\contentsline {subsection}{\tocsubsection {}{4.2}{Data processing}}{68}{subsection.0.4.2}%
+\contentsline {subsection}{\tocsubsection {}{4.3}{EPTV and data post-processing}}{68}{subsection.0.4.3}%
+\contentsline {subsection}{\tocsubsection {}{4.4}{Results}}{68}{subsection.0.4.4}%
+\contentsline {section}{\tocsection {}{5}{Conclusions}}{70}{section.0.5}%
+\contentsline {section}{\tocsection {}{}{Code availability}}{71}{section*.26}%
+\contentsline {section}{\tocsection {}{}{Acknowledgements}}{71}{section*.27}%
+\contentsline {paper}{\tocpaper {Paper}{2}{Reducing turbulent convective heat transfer with streamwise plasma vortex generators}}{75}{paper.2}%
+\setcounter {tocdepth}{0}
+\contentsline {section}{\tocsection {}{1}{Introduction}}{77}{section.0.1}%
+\contentsline {section}{\tocsection {}{2}{Methodology }}{81}{section.0.2}%
+\contentsline {subsection}{\tocsubsection {}{2.1}{Notation and conventions}}{81}{subsection.0.2.1}%
+\contentsline {subsection}{\tocsubsection {}{2.2}{Wind tunnel model and conditions }}{81}{subsection.0.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.3}{DBD-Plasma Actuator configuration }}{81}{subsection.0.2.3}%
+\contentsline {subsection}{\tocsubsection {}{2.4}{Velocity measurements }}{84}{subsection.0.2.4}%
+\contentsline {subsection}{\tocsubsection {}{2.5}{Infrared thermography measurements }}{86}{subsection.0.2.5}%
+\contentsline {subsection}{\tocsubsection {}{2.6}{Momentum coefficient at quiescent conditions}}{88}{subsection.0.2.6}%
+\contentsline {section}{\tocsection {}{3}{Time-averaged flow field}}{89}{section.0.3}%
+\contentsline {section}{\tocsection {}{4}{Turbulent Boundary Layer analysis }}{91}{section.0.4}%
+\contentsline {subsection}{\tocsubsection {}{4.1}{Characterisation of the reference TBL }}{92}{subsection.0.4.1}%
+\contentsline {subsection}{\tocsubsection {}{4.2}{Plasma forcing effect on the mean flow field }}{93}{subsection.0.4.2}%
+\contentsline {subsection}{\tocsubsection {}{4.3}{Actuation effect on the fluctuating flow field}}{97}{subsection.0.4.3}%
+\contentsline {section}{\tocsection {}{5}{Wall distribution of the Stanton number}}{99}{section.0.5}%
+\contentsline {section}{\tocsection {}{6}{Conclusions}}{103}{section.0.6}%
+\contentsline {section}{\tocsection {}{}{Acknowledgements}}{104}{section*.43}%
+\contentsline {section}{\tocsection {}{}{Declaration of Interest}}{104}{section*.44}%
+\contentsline {paper}{\tocpaper {Paper}{3}{Heat transfer enhancement in turbulent boundary layers with a pulsed slot jet in crossflow}}{111}{paper.3}%
+\setcounter {tocdepth}{0}
+\contentsline {section}{\tocsection {}{1}{Introduction}}{113}{section.0.1}%
+\contentsline {section}{\tocsection {}{2}{Methodology and experimental setup }}{116}{section.0.2}%
+\contentsline {subsection}{\tocsubsection {}{2.1}{Wind tunnel model and flow conditions }}{116}{subsection.0.2.1}%
+\contentsline {subsection}{\tocsubsection {}{2.2}{Actuation system }}{119}{subsection.0.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.3}{Infrared thermography measurements }}{120}{subsection.0.2.3}%
+\contentsline {subsection}{\tocsubsection {}{2.4}{Velocity measurements }}{121}{subsection.0.2.4}%
+\contentsline {section}{\tocsection {}{3}{Results and discussion on heat transfer }}{122}{section.0.3}%
+\contentsline {subsection}{\tocsubsection {}{3.1}{Wall distribution of the Nusselt number}}{123}{subsection.0.3.1}%
+\contentsline {subsection}{\tocsubsection {}{3.2}{Performance and Interpretation of heat transfer enhancement}}{126}{subsection.0.3.2}%
+\contentsline {section}{\tocsection {}{4}{Flow dynamics assessment}}{130}{section.0.4}%
+\contentsline {section}{\tocsection {}{5}{Conclusions }}{137}{section.0.5}%
+\contentsline {section}{\tocsection {}{}{Acknowledgments}}{138}{section*.62}%
+\contentsline {paper}{\tocpaper {Paper}{4}{Machine learning flow control with few sensor feedback and measurement noise}}{143}{paper.4}%
+\setcounter {tocdepth}{0}
+\contentsline {section}{\tocsection {}{1}{Introduction}}{145}{section.0.1}%
+\contentsline {section}{\tocsection {}{2}{Methodology}}{148}{section.0.2}%
+\contentsline {subsection}{\tocsubsection {}{2.1}{Simulation Environment}}{148}{subsection.0.2.1}%
+\contentsline {subsection}{\tocsubsection {}{2.2}{Formulation of the optimization problem}}{150}{subsection.0.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.3}{Deep Reinforcement Learning}}{151}{subsection.0.2.3}%
+\contentsline {subsection}{\tocsubsection {}{2.4}{Linear Genetic Programming}}{152}{subsection.0.2.4}%
+\contentsline {subsection}{\tocsubsection {}{2.5}{Training standards}}{153}{subsection.0.2.5}%
+\contentsline {subsection}{\tocsubsection {}{2.6}{Control law visualization}}{154}{subsection.0.2.6}%
+\contentsline {section}{\tocsection {}{3}{Performance analysis}}{155}{section.0.3}%
+\contentsline {subsection}{\tocsubsection {}{3.1}{Controller in the absence of noise}}{156}{subsection.0.3.1}%
+\contentsline {subsection}{\tocsubsection {}{3.2}{Robustness to measurement noise}}{159}{subsection.0.3.2}%
+\contentsline {section}{\tocsection {}{4}{Control results and discussion }}{162}{section.0.4}%
+\contentsline {section}{\tocsection {}{5}{Conclusions}}{165}{section.0.5}%
+\contentsline {section}{\tocsection {}{}{Acknowledgments}}{166}{section*.76}%
+\contentsline {section}{\tocsection {}{}{Data Availability Statement}}{166}{section*.77}%
+\contentsline {section}{\tocsection {}{Appendix\ A}{Flow control performance training at fixed Initial Condition}}{166}{section.0.1}%
+\contentsline {paper}{\tocpaper {Paper}{5}{Genetically-inspired convective heat transfer enhancement in a turbulent boundary layer}}{171}{paper.5}%
+\setcounter {tocdepth}{0}
+\contentsline {section}{\tocsection {}{1}{Introduction}}{173}{section.0.1}%
+\contentsline {section}{\tocsection {}{2}{Experimental setup and Methodology }}{176}{section.0.2}%
+\contentsline {subsection}{\tocsubsection {}{2.1}{Wind tunnel setup and flow conditions }}{176}{subsection.0.2.1}%
+\contentsline {subsection}{\tocsubsection {}{2.2}{Actuation system }}{177}{subsection.0.2.2}%
+\contentsline {subsection}{\tocsubsection {}{2.3}{Heat transfer measurements }}{178}{subsection.0.2.3}%
+\contentsline {subsection}{\tocsubsection {}{2.4}{Velocity measurements }}{179}{subsection.0.2.4}%
+\contentsline {section}{\tocsection {}{3}{Characterization of the unperturbed and steady-jet flow}}{180}{section.0.3}%
+\contentsline {section}{\tocsection {}{4}{Machine Learning Control (MLC)}}{183}{section.0.4}%
+\contentsline {subsection}{\tocsubsection {}{4.1}{Formulation of the optimisation problem}}{183}{subsection.0.4.1}%
+\contentsline {subsection}{\tocsubsection {}{4.2}{Cost function}}{185}{subsection.0.4.2}%
+\contentsline {subsection}{\tocsubsection {}{4.3}{Linear Genetic Algorithms as regression solver}}{187}{subsection.0.4.3}%
+\contentsline {subsection}{\tocsubsection {}{4.4}{Training Process}}{187}{subsection.0.4.4}%
+\contentsline {section}{\tocsection {}{5}{Performance of the controller }}{190}{section.0.5}%
+\contentsline {section}{\tocsection {}{6}{Discussion on the actuated flow}}{194}{section.0.6}%
+\contentsline {section}{\tocsection {}{7}{Conclusions }}{198}{section.0.7}%
+\contentsline {section}{\tocsection {}{}{Acknowledgments}}{199}{section*.100}%

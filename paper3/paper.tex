@@ -1,0 +1,95 @@
+%------------------------------------------------------------------------------
+% Define title, author(s), affiliation and publishing status
+%
+\papertitle[ML flow control with few sensor feedback and measurement noise] % Short title used in healines (optional)
+{%
+Machine learning flow control with few sensor feedback and measurement noise% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+}%
+%
+\papertoctitle{Machine learning flow control with few sensor feedback and measurement noise} % Title for toc
+%
+\paperauthor[R. Castellanos \etal] % Short authors used in headlines and List Of Papers
+{%
+  Rodrigo Castellanos$^{1,2}$, Guy Y. Cornejo-Maceda$^{3}$, Ignacio de la Fuente$^{1}$ , Bernd R. Noack$^{3,4}$, Andrea Ianiro$^1$ \& Stefano Discetti$^{1}$%
+}%
+%
+\listpaperauthor{Castellanos, R., Cornejo-Maceda, G. Y., de la Fuente, I., Noack, B. R., Ianiro, I. \& Discetti, S.}% (optional) Short authors used in List Of Papers
+%
+\paperaffiliation
+{%
+  $^1$ Aerospace Engineering Research Group, Universidad Carlos III de Madrid, Legan\'{e}s 28911, Spain\\%
+  $^2$ Theoretical and Computational Aerodynamics Branch, Flight Physics Department, Spanish National Institute for Aerospace Technology (INTA), Torrej\'on de Ardoz 28850, Spain. \\%
+  $^3$ School of Mechanical Engineering and Automation, Harbin Institute of Technology (Shenzhen),  University Town, Xili, Shenzhen 518055, People’s Republic of China \\%
+  $^4$ Institut für Strömungsmechanik und Technische Akustik (ISTA), Technische Universität Berlin, Müller-Breslau-Straße 8, D-10623 Berlin, Germany
+}%
+%
+\paperjournal[Phys. Fluids] % Short publish info used in List Of Papers
+{%
+	Physics of Fluids%
+}%
+%
+\papervolume{34}%
+%
+\papernumber{4}
+%
+\paperpages{047118}%
+%
+\paperyear{2022}%
+%
+\papersummary%
+{% Insert summary of the paper here (used in introduction)
+A comparative assessment of machine learning (ML) methods for active flow control is performed. The chosen benchmark problem is the drag reduction of a two-dimensional Kármán vortex street past a circular cylinder at a low Reynolds number ($Re=100$). 
+The flow is manipulated with two blowing/suction actuators on the upper and lower side of a cylinder. The feedback employs several velocity sensors. Two probe configurations are evaluated: 5 and 11 velocity probes located at different points around the cylinder and in the wake. 
+The control laws are optimized with Deep Reinforcement Learning (DRL) and Linear Genetic Programming Control (LGPC). 
+By interacting with the unsteady wake, both methods successfully stabilize the vortex alley and effectively reduce drag while using small mass flow rates for the actuation. DRL has shown higher robustness with respect to variable initial conditions and to noise contamination of the sensor data; on the other hand, LGPC is able to identify compact and interpretable control laws, which only use a subset of sensors, thus allowing reducing the system complexity with reasonably good results. 
+Our study points at directions of future machine learning control combining desirable features of different approaches.
+}
+%
+\graphicspath{{paper3/}}%
+%
+%
+%===============================================================================
+%                            BEGIN PAPER
+%===============================================================================
+%
+\begin{paper}
+
+\makepapertitle
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+%
+\begin{paperabstract}
+A comparative assessment of machine learning (ML) methods for active flow control is performed. The chosen benchmark problem is the drag reduction of a two-dimensional Kármán vortex street past a circular cylinder at a low Reynolds number ($Re=100$). 
+The flow is manipulated with two blowing/suction actuators on the upper and lower side of a cylinder. The feedback employs several velocity sensors. Two probe configurations are evaluated: 5 and 11 velocity probes located at different points around the cylinder and in the wake. 
+The control laws are optimized with Deep Reinforcement Learning (DRL) and Linear Genetic Programming Control (LGPC). 
+By interacting with the unsteady wake, both methods successfully stabilize the vortex alley and effectively reduce drag while using small mass flow rates for the actuation. DRL has shown higher robustness with respect to variable initial conditions and to noise contamination of the sensor data; on the other hand, LGPC is able to identify compact and interpretable control laws, which only use a subset of sensors, thus allowing reducing the system complexity with reasonably good results. 
+Our study points at directions of future machine learning control combining desirable features of different approaches.
+
+        \keywords{Machine Learning, Deep Reinforcement Learning, Linear Genetic Programming,  Flow Control, Drag Reduction}
+\end{paperabstract}
+
+
+%------------------------------------------------------------------------------
+% Article
+%------------------------------------------------------------------------------
+%
+\input{paper3/article.tex}
+
+
+%------------------------------------------------------------------------------
+% Bibliography
+%------------------------------------------------------------------------------
+%
+%\clearpage
+\bibliographystyle{jfm}
+\bibliography{paper3/bib3}
+%
+\IfFileExists{paper3/bib3.bbl}{\input{paper3/bib3.bbl}}{}
+
+
+%===============================================================================
+%                            END PAPER
+%===============================================================================
+\end{paper}

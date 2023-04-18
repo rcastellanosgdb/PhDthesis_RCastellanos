@@ -1,0 +1,982 @@
+\begin{thebibliography}{186}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[Andreopoulos \& Rodi(1984)]{andreopoulos1984experimental}
+{\sc Andreopoulos, J. \& Rodi, W.} 1984 Experimental investigation of jets in a
+  crossflow. {\em Journal of Fluid Mechanics\/} {\bf 138}, 93--127.
+
+\bibitem[Astarita \& Carlomagno(2012)]{astarita2012infrared}
+{\sc Astarita, T. \& Carlomagno, G.~M.} 2012 {\em Infrared thermography for
+  thermo-fluid-dynamics\/}. Springer Science \& Business Media.
+
+\bibitem[Awais \& Bhuiyan(2018)]{Awais2018review}
+{\sc Awais, M. \& Bhuiyan, A.~A.} 2018 Heat transfer enhancement using
+  different types of vortex generators (vgs): A review on experimental and
+  numerical activities. {\em Thermal Science and Engineering Progress\/} {\bf
+  5}, 524--545.
+
+\bibitem[Batchelor(1953)]{batchelor1953theory}
+{\sc Batchelor, G.} 1953 {\em The Theory of Homogeneous Turbulence\/}. {\em
+  Cambridge Science Classics\/} . Cambridge University Press.
+
+\bibitem[Becker {\em et~al.\/}(2007)Becker, King, Petz \&
+  Nitsche]{Becker2007extseek}
+{\sc Becker, R., King, R., Petz, R. \& Nitsche, W.} 2007 Adaptive closed-loop
+  separation control on a high-lift configuration using extremum seeking. {\em
+  AIAA Journal\/} {\bf 45}~(6), 1382--1392.
+
+\bibitem[Beintema {\em et~al.\/}(2020)Beintema, Corbetta, Biferale \&
+  Toschi]{Beintema2020controlRBC}
+{\sc Beintema, G., Corbetta, A., Biferale, L. \& Toschi, F.} 2020 Controlling
+  rayleigh–bénard convection via reinforcement learning. {\em Journal of
+  Turbulence\/} {\bf 21}, 585--605.
+
+\bibitem[Bejan(1948)]{bejan1948HT}
+{\sc Bejan, A.} 1948 {\em Heat transfer\/}. John Wiley \& Sons.
+
+\bibitem[Bellman(1952)]{Bellman1952dyprog}
+{\sc Bellman, R.} 1952 On the theory of dynamic programming. {\em Proceedings
+  of the National Academy of Sciences\/} {\bf 38}~(8), 716--719.
+
+\bibitem[Benard \& Moreau(2014)]{Benard2014review}
+{\sc Benard, N. \& Moreau, E.} 2014 Electrical and mechanical characteristics
+  of surface ac dielectric barrier discharge plasma actuators applied to
+  airflow control. {\em Experiments in Fluids\/} {\bf 55}~(11), 1846.
+
+\bibitem[Benard {\em et~al.\/}(2016)Benard, Pons-Prats, Periaux, Bugeda, Braud,
+  Bonnet \& Moreau]{Benard2016ga}
+{\sc Benard, N., Pons-Prats, J., Periaux, J., Bugeda, G., Braud, P., Bonnet,
+  J.~P. \& Moreau, E.} 2016 Turbulent separated shear flow control by surface
+  plasma actuator: experimental optimization by genetic algorithm approach.
+  {\em Experiments in Fluids\/} {\bf 57}~(2), 22.
+
+\bibitem[Bergman {\em et~al.\/}(2011)Bergman, , Incropera, Dewitt \&
+  Lavine]{bergman2011fundamentals}
+{\sc Bergman, T.~L., , Incropera, F.~P., Dewitt, D.~P. \& Lavine, A.~S.} 2011
+  {\em Fundamentals of heat and mass transfer\/}, 7th edn. John Wiley \& Sons.
+
+\bibitem[Bodenschatz {\em et~al.\/}(2000)Bodenschatz, Pesch \&
+  Ahlers]{Bodenschatz2000RBC}
+{\sc Bodenschatz, E., Pesch, W. \& Ahlers, G.} 2000 {Recent Developments in
+  Rayleigh-Bénard Convection}. {\em Annual Review of Fluid Mechanics\/} {\bf
+  32}~(1), 709--778.
+
+\bibitem[Bradshaw(1971)]{Bradshaw1971turbulence}
+{\sc Bradshaw, P.}, ed. 1971 {\em An Introduction to Turbulence and its
+  Measurement\/}. {\em Thermodynamics and Fluid Mechanics Series\/} . Pergamon.
+
+\bibitem[Brameier \& Banzhaf(2007)]{brameier2007linear}
+{\sc Brameier, M. \& Banzhaf, W.} 2007 {\em Linear Genetic Programming\/}. {\em
+  Genetic and Evolutionary Computation\/} . Springer US.
+
+\bibitem[Broadwell \& Breidenthal(1984)]{broadwell1984structure}
+{\sc Broadwell, J.~E. \& Breidenthal, R.~E.} 1984 Structure and mixing of a
+  transverse jet in incompressible flow. {\em Journal of Fluid Mechanics\/}
+  {\bf 148}, 405--412.
+
+\bibitem[Brunton \& Noack(2015)]{BruntonNoack2015review}
+{\sc Brunton, S.~L. \& Noack, B.~R.} 2015 {Closed-Loop Turbulence Control:
+  Progress and Challenges}. {\em Applied Mechanics Reviews\/} {\bf 67}~(5),
+  050801.
+
+\bibitem[Brunton {\em et~al.\/}(2020)Brunton, Noack \&
+  Koumoutsakos]{BruntonNoackKoumoutsakos2020}
+{\sc Brunton, S.~L., Noack, B.~R. \& Koumoutsakos, P.} 2020 {Machine Learning
+  for Fluid Mechanics}. {\em {Annual Review of Fluid Mechanics}\/} {\bf
+  52}~(1), 477--508.
+
+\bibitem[Butler \& Farrell(1993)]{Butler1993streak}
+{\sc Butler, K.~M. \& Farrell, B.~F.} 1993 Optimal perturbations and streak
+  spacing in wall‐bounded turbulent shear flow. {\em Physics of Fluids A:
+  Fluid Dynamics\/} {\bf 5}~(3), 774--777.
+
+\bibitem[Bøhn {\em et~al.\/}(2019)Bøhn, Coates, Moe \& Johansen]{bohn2019DRL}
+{\sc Bøhn, E., Coates, E.~M., Moe, S. \& Johansen, T.~A.} 2019 Deep
+  reinforcement learning attitude control of fixed-wing uavs using proximal
+  policy optimization. In {\em 2019 {International} {Conference} on {Unmanned}
+  {Aircraft} {Systems} ({ICUAS})\/}, pp. 523--533. IEEE.
+
+\bibitem[Cattafesta \& Sheplak(2011)]{Cattafesta2011revFC}
+{\sc Cattafesta, L.~N. \& Sheplak, M.} 2011 Actuators for active flow control.
+  {\em Annual Review of Fluid Mechanics\/} {\bf 43}~(1), 247--272.
+
+\bibitem[Cheng {\em et~al.\/}(2021{\natexlab{{\em a\/}}})Cheng, Qiao, Zhang,
+  Quadrio \& Zhou]{cheng2021skin}
+{\sc Cheng, X., Qiao, Z., Zhang, X., Quadrio, M. \& Zhou, Y.}
+  2021{\natexlab{{\em a\/}}} Skin-friction reduction using periodic blowing
+  through streamwise slits. {\em Journal of Fluid Mechanics\/} {\bf 920}.
+
+\bibitem[Cheng {\em et~al.\/}(2021{\natexlab{{\em b\/}}})Cheng, Wong, Hussain,
+  Schröder \& Zhou]{cheng_wong_hussain_schroder_zhou_2021}
+{\sc Cheng, X., Wong, C., Hussain, F., Schröder, W. \& Zhou, Y.}
+  2021{\natexlab{{\em b\/}}} Flat plate drag reduction using plasma-generated
+  streamwise vortices. {\em Journal of Fluid Mechanics\/} {\bf 918}, A24.
+
+\bibitem[Chilton \& Colburn(1934)]{Chilton1934Jfactor}
+{\sc Chilton, T.~H. \& Colburn, A.~P.} 1934 Mass transfer (absorption)
+  coefficients prediction from data on heat transfer and fluid friction. {\em
+  Industrial {\&} Engineering Chemistry\/} {\bf 26}~(11), 1183--1187.
+
+\bibitem[Choi {\em et~al.\/}(1994)Choi, Moin \& Kim]{Choi1994}
+{\sc Choi, H., Moin, P. \& Kim, J.} 1994 Active turbulence control for drag
+  reduction in wall-bounded flows. {\em Journal of Fluid Mechanics\/} {\bf
+  262}, 75–110.
+
+\bibitem[Churchill(1997)]{churchill1997critique}
+{\sc Churchill, S.~W.} 1997 Critique of the classical algebraic analogies
+  between heat, mass, and momentum transfer. {\em Industrial \& {E}ngineering
+  chemistry research\/} {\bf 36}~(9), 3866--3878.
+
+\bibitem[Chyu \& Natarajan(1996)]{Chyu1996obstacles}
+{\sc Chyu, M. \& Natarajan, V.} 1996 Heat transfer on the base surface of
+  threedimensional protruding elements. {\em International Journal of Heat and
+  Mass Transfer\/} {\bf 39}~(14), 2925--2935.
+
+\bibitem[Clarke(1968)]{Clarke1968law3}
+{\sc Clarke, A.~C.} 1968 Clarke's third law on ufo's. {\em Science\/} {\bf
+  159}~(3812), 255--255.
+
+\bibitem[Colburn(1933)]{colburn1933analogy}
+{\sc Colburn, A.~P.} 1933 A method for correlating forced convection heat
+  transfer data and a comparison with fluid friction. {\em Trans. AIChE\/} {\bf
+  29}, 174--210.
+
+\bibitem[Corke {\em et~al.\/}(2010)Corke, Enloe \& Wilkinson]{Corke2010}
+{\sc Corke, T.~C., Enloe, C.~L. \& Wilkinson, S.~P.} 2010 Dielectric barrier
+  discharge plasma actuators for flow control. {\em Annual Review of Fluid
+  Mechanics\/} {\bf 42}~(1), 505--529.
+
+\bibitem[Cornejo~Maceda(2021)]{cornejomacedaPhD}
+{\sc Cornejo~Maceda, G.~Y.} 2021 Gradient-enriched machine learning control
+  exemplified for shear flows in simulations and experiments. PhD thesis,
+  Universit\'e Paris-Saclay.
+
+\bibitem[Cornejo~Maceda {\em et~al.\/}(2019)Cornejo~Maceda, Noack, Lusseyran,
+  Deng, Pastur \& Morzy\'nski]{cornejomaceda2019pamm}
+{\sc Cornejo~Maceda, G.~Y., Noack, B.~R., Lusseyran, F., Deng, N., Pastur, L.
+  \& Morzy\'nski, M.} 2019 Artificial intelligence control applied to drag
+  reduction of the fluidic pinball. {\em Proc.\ Appl.\ Math.\ Mech.\/} {\bf
+  19}~(1), e201900268.
+
+\bibitem[Cortelezzi \& Karagozian(2001)]{cortelezzi2001formation}
+{\sc Cortelezzi, L. \& Karagozian, A.~R.} 2001 On the formation of the
+  counter-rotating vortex pair in transverse jets. {\em Journal of Fluid
+  Mechanics\/} {\bf 446}, 347–373.
+
+\bibitem[Duriez {\em et~al.\/}(2017)Duriez, Brunton \& Noack]{duriez2017book}
+{\sc Duriez, T., Brunton, S.~L. \& Noack, B.~R.} 2017 {\em Machine {Learning}
+  {Control} – {Taming} {Nonlinear} {Dynamics} and {Turbulence}\/}, {\em Fluid
+  {Mechanics} and {Its} {Applications}\/}, vol. 116. Springer International
+  Publishing.
+
+\bibitem[Duriez {\em et~al.\/}(2014)Duriez, Parezanović, Cordier, Noack,
+  Delville, Bonnet, Segond \& Abel]{duriez2014MLC}
+{\sc Duriez, T., Parezanović, V., Cordier, L., Noack, B.~R., Delville, J.,
+  Bonnet, J.~P., Segond, M. \& Abel, M.} 2014 Closed-{Loop} {Turbulence}
+  {Control} {Using} {Machine} {Learning}. {\em arXiv:1404.4589 [nlin,
+  physics:physics]\/} ArXiv: 1404.4589v1.
+
+\bibitem[Eckert \& Drake(1959)]{eckert1959HMT}
+{\sc Eckert, E. R.~G. \& Drake, R.~M.} 1959 {\em Heat and Mass transfer\/}.
+  McGraw-Hill Book Company.
+
+\bibitem[Eliasson \& Kogelschatz(1991)]{Eliasson1991streamers}
+{\sc Eliasson, B. \& Kogelschatz, U.} 1991 Nonequilibrium volume plasma
+  chemical processing. {\em IEEE Transactions on Plasma Science\/} {\bf
+  19}~(6), 1063--1077.
+
+\bibitem[Eroglu \& Breidenthal(2001)]{eroglu2001structure}
+{\sc Eroglu, A. \& Breidenthal, R.~E.} 2001 Structure, penetration, and mixing
+  of pulsed jets in crossflow. {\em AIAA journal\/} {\bf 39}~(3), 417--423.
+
+\bibitem[{European Commission}(2018)]{EUC2018}
+{\sc {European Commission}} 2018 {A clean planet for all. A European strategic
+  long-term vision for a prosperous, modern, competitive and climate neutral
+  economy}. COM 773.
+
+\bibitem[Fan {\em et~al.\/}(2020)Fan, Yang, Wang, Triantafyllou \&
+  Karniadakis]{Fan2020}
+{\sc Fan, D., Yang, L., Wang, Z., Triantafyllou, M.~S. \& Karniadakis, G.~E.}
+  2020 Reinforcement learning for bluff body active flow control in experiments
+  and simulations. {\em Proceedings of the National Academy of Sciences\/} {\bf
+  117}.
+
+\bibitem[Fisk(1967)]{Fisk1967reg}
+{\sc Fisk, P.~R.} 1967 Models of the second kind in regression analysis. {\em
+  Journal of the Royal Statistical Society: Series B (Methodological)\/} {\bf
+  29}~(2), 266--281.
+
+\bibitem[Fric \& Roshko(1994)]{fric_roshko_1994}
+{\sc Fric, T.~F. \& Roshko, A.} 1994 Vortical structure in the wake of a
+  transverse jet. {\em Journal of Fluid Mechanics\/} {\bf 279}, 1–47.
+
+\bibitem[Fridman(2008)]{fridman2008plasma}
+{\sc Fridman, A.} 2008 {\em Plasma Chemistry\/}. Cambridge University Press.
+
+\bibitem[Fukagata \& Kasagi(2003)]{Fukagata2003oppcontrol}
+{\sc Fukagata, K. \& Kasagi, N.} 2003 Drag reduction in turbulent pipe flow
+  with feedback control applied partially to wall. {\em International Journal
+  of Heat and Fluid Flow\/} {\bf 24}~(4), 480--490, selected Papers from the
+  Fifth International Conference on Engineering Turbulence Modelling and
+  Measurements.
+
+\bibitem[Garnier {\em et~al.\/}(2021)Garnier, Viquerat, Rabault, Larcher,
+  Kuhnle \& Hachem]{Garnier2021RLrev}
+{\sc Garnier, P., Viquerat, J., Rabault, J., Larcher, A., Kuhnle, A. \& Hachem,
+  E.} 2021 A review on deep reinforcement learning for fluid mechanics. {\em
+  Computers \& Fluids\/} {\bf 225}, 104973.
+
+\bibitem[Gautier {\em et~al.\/}(2015)Gautier, Aider, Duriez, Noack, Segond \&
+  Abel]{gautier2015MLC}
+{\sc Gautier, N., Aider, J.~L., Duriez, T., Noack, B.~R., Segond, M. \& Abel,
+  M.} 2015 Closed-loop separation control using machine learning. {\em Journal
+  of Fluid Mechanics\/} {\bf 770}, 442--457.
+
+\bibitem[Gazzola {\em et~al.\/}(2014)Gazzola, Hejazialhosseini \&
+  Koumoutsakos]{gazzola2014RL}
+{\sc Gazzola, M., Hejazialhosseini, B. \& Koumoutsakos, P.} 2014 Reinforcement
+  learning and wavelet adapted vortex methods for simulations of self-propelled
+  swimmers. {\em SIAM Journal on Scientific Computing\/} {\bf 36}~(3),
+  B622--B639.
+
+\bibitem[Gebhart(1971)]{Gebhart1971HT}
+{\sc Gebhart, B.} 1971 {\em Heat transfer\/}. McGraw-Hill Book Company.
+
+\bibitem[Gelbert {\em et~al.\/}(2012)Gelbert, Moeck, Paschereit \&
+  King]{Gelbert2012extseek}
+{\sc Gelbert, G., Moeck, J.~P., Paschereit, C.~O. \& King, R.} 2012 Advanced
+  algorithms for gradient estimation in one- and two-parameter extremum seeking
+  controllers. {\em Journal of Process Control\/} {\bf 22}~(4), 700--709.
+
+\bibitem[Germain(1955)]{Germain1955taw}
+{\sc Germain, P.} 1955 {\em Quarterly of Applied Mathematics\/} {\bf 12}~(4),
+  442--444.
+
+\bibitem[Gharib {\em et~al.\/}(1998)Gharib, Rambod \&
+  Shariff]{gharib1998scalingVR}
+{\sc Gharib, M., Rambod, E. \& Shariff, K.} 1998 A universal time scale for
+  vortex ring formation. {\em Journal of Fluid Mechanics\/} {\bf 360},
+  121–140.
+
+\bibitem[Giachetti {\em et~al.\/}(2018)Giachetti, Fénot, Couton \&
+  Plourde]{Giachetti2018synjet}
+{\sc Giachetti, B., Fénot, M., Couton, D. \& Plourde, F.} 2018 Influence of
+  reynolds number synthetic jet dynamic in crossflow configuration on heat
+  transfer enhancement. {\em International Journal of Heat and Mass Transfer\/}
+  {\bf 118}, 1--13.
+
+\bibitem[Glezer {\em et~al.\/}(2005)Glezer, Amitay \&
+  Honohan]{Glezer2005control}
+{\sc Glezer, A., Amitay, M. \& Honohan, A.~M.} 2005 Aspects of low- and
+  high-frequency actuation for aerodynamic flow control. {\em AIAA Journal\/}
+  {\bf 43}~(7), 1501--1511.
+
+\bibitem[Goodfellow {\em et~al.\/}(2016)Goodfellow, Bengio \&
+  Courville]{Goodfellow2016book}
+{\sc Goodfellow, I., Bengio, Y. \& Courville, A.} 2016 {\em Deep Learning\/}.
+  MIT Press.
+
+\bibitem[Gosselin {\em et~al.\/}(2009)Gosselin, Tye-Gingras \&
+  Mathieu-Potvin]{Gosselin2009GareviewHT}
+{\sc Gosselin, L., Tye-Gingras, M. \& Mathieu-Potvin, F.} 2009 Review of
+  utilization of genetic algorithms in heat transfer problems. {\em
+  International Journal of Heat and Mass Transfer\/} {\bf 52}~(9), 2169--2188.
+
+\bibitem[Grundmann \& Tropea(2008)]{Grundmann2008cancelTS}
+{\sc Grundmann, S. \& Tropea, C.} 2008 {Active cancellation of artificially
+  introduced Tollmien--Schlichting waves using plasma actuators}. {\em
+  Experiments in Fluids\/} {\bf 44}~(5), 795--806.
+
+\bibitem[Gutmark \& Grinstein(1999)]{Gutmark1999noncirc}
+{\sc Gutmark, E.~J. \& Grinstein, F.~F.} 1999 Flow control with noncircular
+  jets. {\em Annual Review of Fluid Mechanics\/} {\bf 31}~(1), 239--272.
+
+\bibitem[Hamilton {\em et~al.\/}(1995)Hamilton, Kim \& Waleffe]{hamilton1995}
+{\sc Hamilton, J.~M., Kim, J. \& Waleffe, F.} 1995 Regeneration mechanisms of
+  near-wall turbulence structures. {\em Journal of Fluid Mechanics\/} {\bf
+  287}, 317–348.
+
+\bibitem[Hansen \& Ostermeier(1996)]{Hansen1996cmaes}
+{\sc Hansen, N. \& Ostermeier, A.} 1996 Adapting arbitrary normal mutation
+  distributions in evolution strategies: the covariance matrix adaptation. In
+  {\em Proceedings of IEEE International Conference on Evolutionary
+  Computation\/}, pp. 312--317.
+
+\bibitem[Holland(1975)]{holland1992adaptation}
+{\sc Holland, J.~H.} 1975 {\em Adaptation in natural and artificial systems: an
+  introductory analysis with applications to biology, control, and artificial
+  intelligence\/}. Ann Arbor: Univ. Mich. Press.
+
+\bibitem[Hornik {\em et~al.\/}(1989)Hornik, Stinchcombe \&
+  White]{Hornik1989MLP}
+{\sc Hornik, K., Stinchcombe, M. \& White, H.} 1989 Multilayer feedforward
+  networks are universal approximators. {\em Neural Networks\/} {\bf 2}~(5),
+  359--366.
+
+\bibitem[Hwang \& Liou(1995)]{Hwang1995roughness}
+{\sc Hwang, J.~J. \& Liou, T.~M.} 1995 {Heat Transfer and Friction in a
+  Low-Aspect-Ratio Rectangular Channel With Staggered Perforated Ribs on Two
+  Opposite Walls}. {\em Journal of Heat Transfer\/} {\bf 117}~(4), 843--850.
+
+\bibitem[Iuso {\em et~al.\/}(2002)Iuso, Onorato, Spazzini \&
+  Di~Cicca]{iuso2002}
+{\sc Iuso, G., Onorato, M., Spazzini, P.~G. \& Di~Cicca, G.~M.} 2002 Wall
+  turbulence manipulation by large-scale streamwise vortices. {\em Journal of
+  Fluid Mechanics\/} {\bf 473}, 23–58.
+
+\bibitem[Jacobi \& Shah(1995)]{jacobi1995}
+{\sc Jacobi, A.~M. \& Shah, R.~K.} 1995 Heat transfer surface enhancement
+  through the use of longitudinal vortices: A review of recent progress. {\em
+  Experimental Thermal and Fluid Science\/} {\bf 11}~(3), 295--309, generation
+  and Structure of Vortical Flows for Heat Transfer Enhancement.
+
+\bibitem[Jiang {\em et~al.\/}(2018)Jiang, Zhu, Mathai, Verzicco, Lohse \&
+  Sun]{Hechuan2018ratchet}
+{\sc Jiang, H., Zhu, X., Mathai, V., Verzicco, R., Lohse, D. \& Sun, C.} 2018
+  Controlling heat transport and flow structures in thermal turbulence using
+  ratchet surfaces. {\em Phys. Rev. Lett.\/} {\bf 120}, 044501.
+
+\bibitem[Jim\'{e}nez(1994)]{Jimenez1994nwcontrol}
+{\sc Jim\'{e}nez, J.} 1994 On the structure and control of near wall
+  turbulence. {\em Physics of Fluids\/} {\bf 6}~(2), 944--953.
+
+\bibitem[Jim\'{e}nez(2018)]{jimenez2018cs}
+{\sc Jim\'{e}nez, J.} 2018 Coherent structures in wall-bounded turbulence. {\em
+  Journal of Fluid Mechanics\/} {\bf 842}, P1.
+
+\bibitem[Jim\'{e}nez \& Pinelli(1999)]{Jimenez1999}
+{\sc Jim\'{e}nez, J. \& Pinelli, A.} 1999 The autonomous cycle of near-wall
+  turbulence. {\em Journal of Fluid Mechanics\/} {\bf 389}, 335–--359.
+
+\bibitem[Johari(2006)]{Johari2006scaling}
+{\sc Johari, H.} 2006 Scaling of fully pulsed jets in crossflow. {\em AIAA
+  Journal\/} {\bf 44}~(11), 2719--2725.
+
+\bibitem[Johari {\em et~al.\/}(1999)Johari, Pacheco-Tougas \&
+  Hermanson]{johari1999penetration}
+{\sc Johari, H., Pacheco-Tougas, M. \& Hermanson, J.} 1999 Penetration and
+  mixing of fully modulated turbulent jets in crossflow. {\em AIAA journal\/}
+  {\bf 37}~(7), 842--850.
+
+\bibitem[Jukes {\em et~al.\/}(2006{\natexlab{{\em a\/}}})Jukes, Choi, Johnson
+  \& Scott]{Jukes2006}
+{\sc Jukes, T., Choi, K., Johnson, G. \& Scott, S.} 2006{\natexlab{{\em a\/}}}
+  Characterization of surface plasma-induced wall flows through velocity and
+  temperature measurements. {\em AIAA Journal\/} {\bf 44}~(4), 764--771.
+
+\bibitem[Jukes {\em et~al.\/}(2006{\natexlab{{\em b\/}}})Jukes, Choi, Johnson
+  \& Scott]{jukes2006TBLcontrol}
+{\sc Jukes, T., Choi, K., Johnson, G. \& Scott, S.} 2006{\natexlab{{\em b\/}}}
+  {\em Turbulent Drag Reduction by Surface Plasma Through Spanwise Flow
+  Oscillation\/}.
+
+\bibitem[Jukes \& Choi(2013)]{jukes2013plasmaVG}
+{\sc Jukes, T. \& Choi, K.~S.} 2013 On the formation of streamwise vortices by
+  plasma vortex generators. {\em Journal of Fluid Mechanics\/} {\bf 733},
+  370--393.
+
+\bibitem[Kamotani \& Greber(1972)]{kamotani1972experiments}
+{\sc Kamotani, Y. \& Greber, I.} 1972 Experiments on a turbulent jet in a cross
+  flow. {\em AIAA journal\/} {\bf 10}~(11), 1425--1429.
+
+\bibitem[Karagozian(1986)]{karagozian1986analytical}
+{\sc Karagozian, A.~R.} 1986 An analytical model for the vorticity associated
+  with a transverse jet. {\em AIAA journal\/} {\bf 24}~(3), 429--436.
+
+\bibitem[Karagozian(2010)]{karagozian2010transverse}
+{\sc Karagozian, A.~R.} 2010 Transverse jets and their control. {\em Progress
+  in energy and combustion science\/} {\bf 36}~(5), 531--553.
+
+\bibitem[Karagozian(2014)]{Karagozian2014revJICF}
+{\sc Karagozian, A.~R.} 2014 The jet in crossflow. {\em Physics of Fluids\/}
+  {\bf 26}~(10), 101303.
+
+\bibitem[Ke {\em et~al.\/}(2019)Ke, Chen, Li, Wang \& Chen]{Ke2019VG}
+{\sc Ke, Z., Chen, C.~L., Li, K., Wang, S. \& Chen, C.~H.} 2019 Vortex dynamics
+  and heat transfer of longitudinal vortex generators in a rectangular channel.
+  {\em International Journal of Heat and Mass Transfer\/} {\bf 132}, 871--885.
+
+\bibitem[Kelso \& Smits(1995)]{kelso1995horseshoe}
+{\sc Kelso, R. \& Smits, A.} 1995 Horseshoe vortex systems resulting from the
+  interaction between a laminar boundary layer and a transverse jet. {\em
+  Physics of Fluids\/} {\bf 7}~(1), 153--158.
+
+\bibitem[Kelso {\em et~al.\/}(1996)Kelso, Lim \& Perry]{kelso1996experimental}
+{\sc Kelso, R.~M., Lim, T. \& Perry, A.} 1996 An experimental study of round
+  jets in cross-flow. {\em Journal of fluid mechanics\/} {\bf 306}, 111--144.
+
+\bibitem[Kenjere\v{s}(2008)]{Kenjere2008EMheat}
+{\sc Kenjere\v{s}, S.} 2008 Electromagnetic enhancement of turbulent heat
+  transfer. {\em Phys. Rev. E\/} {\bf 78}, 066309.
+
+\bibitem[Kim \& Bewley(2007)]{Kim2007linearcontrol}
+{\sc Kim, J. \& Bewley, T.~R.} 2007 A linear systems approach to flow control.
+  {\em Annual Review of Fluid Mechanics\/} {\bf 39}~(1), 383--417.
+
+\bibitem[Kogelschatz(2002)]{Kogelschatz2002filamentary}
+{\sc Kogelschatz, U.} 2002 Filamentary, patterned, and diffuse barrier
+  discharges. {\em IEEE Transactions on Plasma Science\/} {\bf 30}~(4),
+  1400--1408.
+
+\bibitem[Kolmogorov(1941)]{Kolmogorov1941}
+{\sc Kolmogorov, A.~N.} 1941 Dissipation of energy in the locally isotropic
+  turbulence. {\em Doklady Akademiia Nauk SSSR\/} {\bf 32}, 19--21.
+
+\bibitem[Kotsonis(2015)]{Kotsonis2015review}
+{\sc Kotsonis, M.} 2015 Diagnostics for characterisation of plasma actuators.
+  {\em Measurement Science and Technology\/} {\bf 26}~(9), 092001.
+
+\bibitem[Kotsonis {\em et~al.\/}(2015)Kotsonis, Shukla \&
+  Pr{\"o}bsting]{kotsonis2015control}
+{\sc Kotsonis, M., Shukla, R.~K. \& Pr{\"o}bsting, S.} 2015 {Control of Natural
+  Tollmien-Schlichting Waves using Dielectric Barrier Discharge Plasma
+  Actuators}. {\em International Journal of Flow Control\/} {\bf 7}.
+
+\bibitem[Koumoutsakos {\em et~al.\/}(2001)Koumoutsakos, Freund \&
+  Parekh]{Koumoutsakos2001evolcontrol}
+{\sc Koumoutsakos, P., Freund, J. \& Parekh, D.} 2001 Evolution strategies for
+  automatic optimization of jet mixing. {\em AIAA Journal\/} {\bf 39}~(5),
+  967--969.
+
+\bibitem[Koza(1994)]{Koza1994gp}
+{\sc Koza, J.~R.} 1994 Genetic programming as a means for programming computers
+  by natural selection. {\em Statistics and Computing\/} {\bf 4}~(2), 87--112.
+
+\bibitem[Krogstad \& Kourakine(2000)]{Krogstad2000slitjet}
+{\sc Krogstad, P.~A. \& Kourakine, A.} 2000 Some effects of localized injection
+  on the turbulence structure in a boundary layer. {\em Physics of Fluids\/}
+  {\bf 12}~(11), 2990--2999.
+
+\bibitem[Krothapalli {\em et~al.\/}(1990)Krothapalli, Lourenco \&
+  Buchlin]{Krothapalli1990HSvort}
+{\sc Krothapalli, A., Lourenco, L. \& Buchlin, J.~M.} 1990 Separated flow
+  upstream of a jet in a crossflow. {\em AIAA Journal\/} {\bf 28}~(3),
+  414--420.
+
+\bibitem[Krsti\'{c} \& Wang(2000)]{Krstic2000extremumseek}
+{\sc Krsti\'{c}, M. \& Wang, H.~H.} 2000 Stability of extremum seeking feedback
+  for general nonlinear dynamic systems. {\em Automatica\/} {\bf 36}~(4),
+  595--601.
+
+\bibitem[Kunhardt(1980)]{Kunhardt1980breakdown}
+{\sc Kunhardt, E.~E.} 1980 Electrical breakdown of gases: The prebreakdown
+  stage. {\em IEEE Transactions on Plasma Science\/} {\bf 8}~(3), 130--138.
+
+\bibitem[Kunhardt \& Luessen(1983)]{kunhardt1983electrical}
+{\sc Kunhardt, E.~E. \& Luessen, L.~H.} 1983 {\em {Electrical breakdown and
+  discharges in gases: part A fundamental processes and breakdown}\/}, ,
+  vol.~89. Springer New York.
+
+\bibitem[Langmuir(1928)]{Langmuir1928plasma}
+{\sc Langmuir, I.} 1928 Oscillations in ionized gases. {\em Proceedings of the
+  National Academy of Sciences\/} {\bf 14}~(8), 627--637.
+
+\bibitem[Laroussi {\em et~al.\/}(2002)Laroussi, Alexeff, Richardson \&
+  Dyer]{Laroussi2002resistive}
+{\sc Laroussi, M., Alexeff, I., Richardson, J. \& Dyer, F.} 2002 The resistive
+  barrier discharge. {\em IEEE Transactions on Plasma Science\/} {\bf 30}~(1),
+  158--159.
+
+\bibitem[Leger {\em et~al.\/}(2001)Leger, Moreau \& Touchard]{Leger2001corona}
+{\sc Leger, L., Moreau, E. \& Touchard, G.} 2001 Control of low velocity
+  airflow along a flat plate with a dc electrical discharge. In {\em Conference
+  Record of the 2001 IEEE Industry Applications Conference. 36th IAS Annual
+  Meeting (Cat. No.01CH37248)\/}, , vol.~3, pp. 1536--1543 vol.3.
+
+\bibitem[Li {\em et~al.\/}(2019)Li, Boree, Noack, Cordier \&
+  Harambat]{li2019prf}
+{\sc Li, R., Boree, J., Noack, B.~R., Cordier, L. \& Harambat, F.} 2019 Drag
+  reduction mechanisms of a car model at moderate yaw by bi-frequency forcing.
+  {\em Physics Reviews Fluids\/} {\bf 4}~(3), 034604.
+
+\bibitem[Li {\em et~al.\/}(2017)Li, Noack, Cordier, Bor\'ee \&
+  Harambat]{li2017GP}
+{\sc Li, R., Noack, B.~R., Cordier, L., Bor\'ee, J. \& Harambat, F.} 2017 Drag
+  reduction of a car model by linear genetic programming control. {\em
+  Experiments in Fluids\/} {\bf 58}~(8), 103.
+
+\bibitem[Lienhard \& Lienhard(2020)]{Lienhard2020HT}
+{\sc Lienhard, IV, J.~H. \& Lienhard, V, J.~H.} 2020 {\em A Heat Transfer
+  Textbook\/}, 5th edn. Cambridge, MA: Phlogiston Press, version 5.10.
+
+\bibitem[Lienhard~V(2020)]{Lienhard2020}
+{\sc Lienhard~V, J.~H.} 2020 {Heat Transfer in Flat-Plate Boundary Layers: A
+  Correlation for Laminar, Transitional, and Turbulent Flow}. {\em Journal of
+  Heat Transfer\/} {\bf 142}~(6).
+
+\bibitem[Lin(2002)]{Lin2002reviewVG}
+{\sc Lin, J.~C.} 2002 Review of research on low-profile vortex generators to
+  control boundary-layer separation. {\em Progress in {A}erospace {S}ciences\/}
+  {\bf 38}~(4), 389--420.
+
+\bibitem[Liscinsky {\em et~al.\/}(1996)Liscinsky, True \&
+  Holdeman]{liscinsky1996crossflow}
+{\sc Liscinsky, D.~S., True, B. \& Holdeman, J.} 1996 Crossflow mixing of
+  noncircular jets. {\em Journal of propulsion and power\/} {\bf 12}~(2),
+  225--230.
+
+\bibitem[Little {\em et~al.\/}(2010)Little, Nishihara, Adamovich \&
+  Samimy]{Little2010airfoilplasma}
+{\sc Little, J., Nishihara, M., Adamovich, I. \& Samimy, M.} 2010 High-lift
+  airfoil trailing edge separation control using a single dielectric barrier
+  discharge plasma actuator. {\em Experiments in Fluids\/} {\bf 48}~(3),
+  521--537.
+
+\bibitem[Luchtenburg {\em et~al.\/}(2009)Luchtenburg, G\"unther, Noack, King \&
+  Tadmor]{luchtenburg2009galerkin}
+{\sc Luchtenburg, D.~M., G\"unther, B., Noack, B.~R., King, R. \& Tadmor, G.}
+  2009 A generalized mean-field model of the natural and high-frequency
+  actuated flow around a high-lift configuration. {\em Journal of Fluid
+  Mechanics\/} {\bf 623}, 283–316.
+
+\bibitem[Léal {\em et~al.\/}(2013)Léal, Miscevic, Lavieille, Amokrane,
+  Pigache, Topin, Nogarède \& Tadrist]{Leal2013rev_electroactive}
+{\sc Léal, L., Miscevic, M., Lavieille, P., Amokrane, M., Pigache, F., Topin,
+  F., Nogarède, B. \& Tadrist, L.} 2013 An overview of heat transfer
+  enhancement methods and new perspectives: Focus on active methods using
+  electroactive materials. {\em International Journal of Heat and Mass
+  Transfer\/} {\bf 61}, 505--524.
+
+\bibitem[Mahesh(2013)]{Mahesh2013revJICF}
+{\sc Mahesh, K.} 2013 The interaction of jets with crossflow. {\em Annual
+  Review of Fluid Mechanics\/} {\bf 45}~(1), 379--407.
+
+\bibitem[Mallor {\em et~al.\/}(2019)Mallor, Raiola, {Sanmiguel Vila}, \"Orl\"u,
+  Discetti \& Ianiro]{Mallor2019ribPOD}
+{\sc Mallor, F., Raiola, M., {Sanmiguel Vila}, C., \"Orl\"u, R., Discetti, S.
+  \& Ianiro, A.} 2019 Modal decomposition of flow fields and convective heat
+  transfer maps: An application to wall-proximity square ribs. {\em
+  Experimental Thermal and Fluid Science\/} {\bf 102}, 517--527.
+
+\bibitem[Mallor {\em et~al.\/}(2018)Mallor, {Sanmiguel Vila}, Ianiro \&
+  Discetti]{mallor2018cubes}
+{\sc Mallor, F., {Sanmiguel Vila}, C., Ianiro, A. \& Discetti, S.} 2018
+  Wall-mounted perforated cubes in a boundary layer: Local heat transfer
+  enhancement and control. {\em International Journal of Heat and Mass
+  Transfer\/} {\bf 117}, 498 -- 507.
+
+\bibitem[Manglik(2003)]{manglik2003heat}
+{\sc Manglik, R.~M.} 2003 Heat transfer enhancement. In {\em Heat transfer
+  handbook\/} (ed. A.~Bejan \& K.~A. D.), chap.~14, pp. 1029--1130. Wiley, New
+  York.
+
+\bibitem[M'Closkey {\em et~al.\/}(2002)M'Closkey, King, CortelezzI \&
+  Karagozian]{MCLOSKEY2002}
+{\sc M'Closkey, R.~T., King, J.~M., CortelezzI, L. \& Karagozian, A.~R.} 2002
+  The actively controlled jet in crossflow. {\em Journal of Fluid Mechanics\/}
+  {\bf 452}, 325--335.
+
+\bibitem[Megerian {\em et~al.\/}(2007)Megerian, Davitian, Alves \&
+  Karagozian]{megerian2007transverse}
+{\sc Megerian, S., Davitian, J., Alves, L. d.~B. \& Karagozian, A.} 2007
+  Transverse-jet shear-layer instabilities. part 1. experimental studies. {\em
+  Journal of fluid Mechanics\/} {\bf 593}, 93--129.
+
+\bibitem[Michelis(2017)]{michelis2017boundary}
+{\sc Michelis, T.} 2017 Boundary layer separation: Diagnostics and control. PhD
+  thesis, Delft University of Technology.
+
+\bibitem[Michelis \& Kotsonis(2015)]{Michelis2015track}
+{\sc Michelis, T. \& Kotsonis, M.} 2015 {Flow Control on a Transport Truck Side
+  Mirror Using Plasma Actuators}. {\em Journal of Fluids Engineering\/} {\bf
+  137}~(11), 111103.
+
+\bibitem[Minelli {\em et~al.\/}(2020)Minelli, Dong, Noack \&
+  Krajnović]{minelli2020lgac}
+{\sc Minelli, G., Dong, T., Noack, B.~R. \& Krajnović, S.} 2020 Upstream
+  actuation for bluff-body wake control driven by a genetically inspired
+  optimization. {\em Journal of Fluid Mechanics\/} {\bf 893}, A1.
+
+\bibitem[Mnih {\em et~al.\/}(2015)Mnih, Kavukcuoglu, Silver, Rusu, Veness,
+  Bellemare, Graves, Riedmiller, Fidjeland, Ostrovski, Petersen, Beattie,
+  Sadik, Antonoglou, King, Kumaran, Wierstra, Legg \& Hassabis]{mnih2015DRL}
+{\sc Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.~A., Veness, J., Bellemare,
+  M.~G., Graves, A., Riedmiller, M., Fidjeland, A.~K., Ostrovski, G., Petersen,
+  S., Beattie, C., Sadik, A., Antonoglou, I., King, H., Kumaran, D., Wierstra,
+  D., Legg, S. \& Hassabis, D.} 2015 Human-level control through deep
+  reinforcement learning. {\em Nature\/} {\bf 518}~(7540), 529--533.
+
+\bibitem[Moffat \& Kays(1984)]{Moffat1984review}
+{\sc Moffat, R. \& Kays, W.} 1984 A review of turbulent-boundary-layer heat
+  transfer research at stanford, 1958-1983. {\em Advances in Heat Transfer\/},
+  vol.~16, pp. 241--365. Elsevier.
+
+\bibitem[Moin \& Mahesh(1998)]{Moin1998DNS}
+{\sc Moin, P. \& Mahesh, K.} 1998 {Direct Numerical Simulation: A Tool in
+  Turbulence Research}. {\em Annual Review of Fluid Mechanics\/} {\bf 30}~(1),
+  539--578.
+
+\bibitem[Moreau(2007)]{Moreau2007review}
+{\sc Moreau, E.} 2007 Airflow control by non-thermal plasma actuators. {\em
+  Journal of Physics D: Applied Physics\/} {\bf 40}~(3), 605--636.
+
+\bibitem[Nadjahi {\em et~al.\/}(2018)Nadjahi, Louahlia \&
+  Lemasson]{Nadjahi2018DCcooling}
+{\sc Nadjahi, C., Louahlia, H. \& Lemasson, S.} 2018 A review of thermal
+  management and innovative cooling strategies for data center. {\em
+  Sustainable Computing: Informatics and Systems\/} {\bf 19}, 14--28.
+
+\bibitem[Nakamura {\em et~al.\/}(2001)Nakamura, Igarashi \&
+  Tsutsui]{nakamura2001cube}
+{\sc Nakamura, H., Igarashi, T. \& Tsutsui, T.} 2001 Local heat transfer around
+  a wall-mounted cube in the turbulent boundary layer. {\em International
+  Journal of Heat and Mass Transfer\/} {\bf 44}~(18), 3385--3395.
+
+\bibitem[Noack {\em et~al.\/}(2011)Noack, Morzynski \&
+  Tadmor]{noack2011ROMcontrol}
+{\sc Noack, B.~R., Morzynski, M. \& Tadmor, G.} 2011 {\em {Reduced-Order
+  Modelling for Flow Control}\/}, , vol. 528. Springer Science \& Business
+  Media.
+
+\bibitem[Novati {\em et~al.\/}(2019)Novati, Mahadevan \&
+  Koumoutsakos]{Novati2019gliding}
+{\sc Novati, G., Mahadevan, L. \& Koumoutsakos, P.} 2019 Controlled gliding and
+  perching through deep-reinforcement-learning. {\em Phys. Rev. Fluids\/} {\bf
+  4}, 093902.
+
+\bibitem[Papapetrou {\em et~al.\/}(2018)Papapetrou, Kosmadakis, Cipollina, {La
+  Commare} \& Micale]{Papapetrou2018thermalloss}
+{\sc Papapetrou, M., Kosmadakis, G., Cipollina, A., {La Commare}, U. \& Micale,
+  G.} 2018 Industrial waste heat: Estimation of the technically available
+  resource in the eu per industrial sector, temperature level and country. {\em
+  Applied Thermal Engineering\/} {\bf 138}, 207--216.
+
+\bibitem[Parezanovi\'c {\em et~al.\/}(2016)Parezanovi\'c, Cordier, Spohn,
+  Duriez, Noack, Bonnet, Segond, Abel \& Brunton]{Parezanovic2016jfm}
+{\sc Parezanovi\'c, V., Cordier, L., Spohn, A., Duriez, T., Noack, B.~R.,
+  Bonnet, J.-P., Segond, M., Abel, M. \& Brunton, S.~L.} 2016 Frequency
+  selection by feedback control in a turbulent shear flow. {\em J.\ Fluid
+  Mech.\/} {\bf 797}, 247--283.
+
+\bibitem[Park \& Choi(1999)]{park1999}
+{\sc Park, J. \& Choi, H.} 1999 Effects of uniform blowing or suction from a
+  spanwise slot on a turbulent boundary layer flow. {\em Physics of Fluids\/}
+  {\bf 11}~(10), 3095--3105.
+
+\bibitem[Pastoor {\em et~al.\/}(2008)Pastoor, Henning, Noack, King \&
+  Tadmor]{pastoor2008control}
+{\sc Pastoor, M., Henning, L., Noack, B.~R., King, R. \& Tadmor, G.} 2008
+  Feedback shear layer control for bluff body drag reduction. {\em Journal of
+  Fluid Mechanics\/} {\bf 608}, 161–196.
+
+\bibitem[Pfeiffer \& King(2018)]{Pfeiffer2018robustcontrol}
+{\sc Pfeiffer, J. \& King, R.} 2018 Robust control of drag and lateral dynamic
+  response for road vehicles exposed to cross-wind gusts. {\em Experiments in
+  Fluids\/} {\bf 59}~(3), 45.
+
+\bibitem[Plesniak \& Cusano(2005)]{plesniak2005scalar}
+{\sc Plesniak, M.~W. \& Cusano, D.~M.} 2005 Scalar mixing in a confined
+  rectangular jet in crossflow. {\em Journal of Fluid Mechanics\/} {\bf 524},
+  1--45.
+
+\bibitem[Pope(2000)]{pope2000}
+{\sc Pope, S.~B.} 2000 {\em Turbulent Flows\/}. Cambridge University Press.
+
+\bibitem[Prandtl(1904)]{prandtl1904BL}
+{\sc Prandtl, L.} 1904 {\"U}ber flussigkeitsbewegung bei sehr kleiner reibung.
+  {\em Verhandl. III, Internat. Math.-Kong., Heidelberg, Teubner, Leipzig\/}
+  pp. 484--491.
+
+\bibitem[Prandtl(1910)]{prandtl1910beziehung}
+{\sc Prandtl, L.} 1910 Eine beziehung zwischen warmeaustausch and
+  stromungswiderstand der flussigkeiten. {\em Phys. Z.\/} {\bf 11}, 1072--1078.
+
+\bibitem[Puzu {\em et~al.\/}(2019)Puzu, Prasertsan \& Nuntadusit]{puzu2019jet}
+{\sc Puzu, N., Prasertsan, S. \& Nuntadusit, C.} 2019 Heat transfer enhancement
+  and flow characteristics of vortex generating jet on flat plate with
+  turbulent boundary layer. {\em {Applied Thermal Engineering}\/} {\bf 148},
+  196--207.
+
+\bibitem[Rabault {\em et~al.\/}(2019)Rabault, Kuchta, Jensen, Réglade \&
+  Cerardi]{rabault2019JFM}
+{\sc Rabault, J., Kuchta, M., Jensen, A., Réglade, U. \& Cerardi, N.} 2019
+  Artificial neural networks trained through deep reinforcement learning
+  discover control strategies for active ﬂow control. {\em Journal of fluid
+  mechanics\/} {\bf 865}, 281--302.
+
+\bibitem[Rabault \& Kuhnle(2019)]{rabault2019DRL}
+{\sc Rabault, J. \& Kuhnle, A.} 2019 Accelerating deep reinforcement learning
+  strategies of flow control through a multi-environment approach. {\em Physics
+  of Fluids\/} {\bf 31}~(9), 094--105.
+
+\bibitem[Raibaudo {\em et~al.\/}(2020)Raibaudo, Zhong, Noack \&
+  Martinuzzi]{raibaudo2019pof}
+{\sc Raibaudo, C., Zhong, P., Noack, B.~R. \& Martinuzzi, R.~J.} 2020 Machine
+  learning strategies applied to the control of a fluidic pinball. {\em Physics
+  of Fluids\/} {\bf 32}~(1), 015108.
+
+\bibitem[\r{A}kervik {\em et~al.\/}(2007)\r{A}kervik, H{\oe}pffner, Ehrenstein
+  \& Henningson]{akervik2007galerkin}
+{\sc \r{A}kervik, E., H{\oe}pffner, J., Ehrenstein, U. \& Henningson, D.~S.}
+  2007 Optimal growth, model reduction and control in a separated
+  boundary-layer flow using global eigenmodes. {\em Journal of Fluid
+  Mechanics\/} {\bf 579}, 305–314.
+
+\bibitem[Reddy {\em et~al.\/}(2016)Reddy, Celani, Sejnowski \&
+  Vergassola]{reddy_learning_2016}
+{\sc Reddy, G., Celani, A., Sejnowski, T.~J. \& Vergassola, M.} 2016 Learning
+  to soar in turbulent environments. {\em Proceedings of the National Academy
+  of Sciences\/} {\bf 113}~(33), E4877--E4884.
+
+\bibitem[Ren {\em et~al.\/}(2019)Ren, Wang \& Tang]{Ren2019pof}
+{\sc Ren, F., Wang, C. \& Tang, H.} 2019 Active control of vortex-induced
+  vibration of a circular cylinder using machine learning. {\em Physics of
+  Fluids\/} {\bf 31}~(9), 093601.
+
+\bibitem[Ren {\em et~al.\/}(2021)Ren, Verma, Li, Teuwen \&
+  Jiang]{Ren2021windturb}
+{\sc Ren, Z., Verma, A.~S., Li, Y., Teuwen, J.~J. \& Jiang, Z.} 2021 Offshore
+  wind turbine operations and maintenance: A state-of-the-art review. {\em
+  Renewable and Sustainable Energy Reviews\/} {\bf 144}, 110886.
+
+\bibitem[Reynolds(1874)]{reynolds1874analogy}
+{\sc Reynolds, O.} 1874 On the extent and action of the heating surface of
+  steam boilers. {\em Proc. Lit. Philos. Soc. Manchester\/} {\bf 14}, 7--12.
+
+\bibitem[Richardson(1920)]{Richardson1920}
+{\sc Richardson, L.~F.} 1920 The supply of energy from and to atmospheric
+  eddies. {\em Proceedings of the Royal Society of London. Series A, Containing
+  Papers of a Mathematical and Physical Character\/} {\bf 97}~(686), 354--373.
+
+\bibitem[Rodrigues {\em et~al.\/}(2018)Rodrigues, Pascoa \&
+  Trancossi]{Rodrigues2018}
+{\sc Rodrigues, F., Pascoa, J. \& Trancossi, M.} 2018 {Experimental Analysis of
+  Dielectric Barrier Discharge Plasma Actuators Thermal Characteristics Under
+  External Flow Influence}. {\em Journal of Heat Transfer\/} {\bf 140}~(10).
+
+\bibitem[Roth {\em et~al.\/}(1998)Roth, Sherman \& Wilkinson]{Roth1998dbd}
+{\sc Roth, J., Sherman, D. \& Wilkinson, S.} 1998 {\em Boundary layer flow
+  control with a one atmosphere uniform glow discharge surface plasma\/}.
+
+\bibitem[Roupassov {\em et~al.\/}(2009)Roupassov, Nikipelov, Nudnova \&
+  Starikovskii]{Roupassov2009nsplasma}
+{\sc Roupassov, D.~V., Nikipelov, A.~A., Nudnova, M.~M. \& Starikovskii, A.~Y.}
+  2009 Flow separation control by plasma actuator with nanosecond
+  pulsed-periodic discharge. {\em {AIAA Journal}\/} {\bf 47}~(1), 168--185.
+
+\bibitem[Rowley \& Williams(2006)]{Rowley2006control}
+{\sc Rowley, C.~W. \& Williams, D.~R.} 2006 Dynamics and control of
+  {high-Reynolds-number} flow over open cavities. {\em Annual Review of Fluid
+  Mechanics\/} {\bf 38}~(1), 251--276.
+
+\bibitem[Roy \& Wang(2008)]{roy2008plasma}
+{\sc Roy, S. \& Wang, C.~C.} 2008 Plasma actuated heat transfer. {\em Applied
+  Physics Letters\/} {\bf 92}~(23), 231501.
+
+\bibitem[Samimy {\em et~al.\/}(2004)Samimy, Adamovich, Webb, Kastner, Hileman,
+  Keshav \& Palm]{Samimy2004arcfilament}
+{\sc Samimy, M., Adamovich, I., Webb, B., Kastner, J., Hileman, J., Keshav, S.
+  \& Palm, P.} 2004 Development and characterization of plasma actuators for
+  high-speed jet control. {\em Experiments in Fluids\/} {\bf 37}~(4), 577--588.
+
+\bibitem[Sau \& Mahesh(2008)]{Sau2008dynamicsVRICF}
+{\sc Sau, R. \& Mahesh, K.} 2008 Dynamics and mixing of vortex rings in
+  crossflow. {\em Journal of Fluid Mechanics\/} {\bf 604}, 389–409.
+
+\bibitem[Sau \& Mahesh(2010)]{Sau2010optJICF}
+{\sc Sau, R. \& Mahesh, K.} 2010 Optimization of pulsed jets in crossflow. {\em
+  Journal of Fluid Mechanics\/} {\bf 653}, 365–390.
+
+\bibitem[Schaul {\em et~al.\/}(2015)Schaul, Horgan, Gregor \&
+  Silver]{schaul2015app}
+{\sc Schaul, T., Horgan, D., Gregor, K. \& Silver, D.} 2015 Universal value
+  function approximators. In {\em Proceedings of the 32nd International
+  Conference on Machine Learning\/} (ed. F.~Bach \& D.~Blei), {\em Proceedings
+  of Machine Learning Research\/}, vol.~37, pp. 1312--1320. Lille, France:
+  PMLR.
+
+\bibitem[Schoppa \& Hussain(1998)]{Schoppa1998}
+{\sc Schoppa, W. \& Hussain, F.} 1998 A large-scale control strategy for drag
+  reduction in turbulent boundary layers. {\em Physics of Fluids\/} {\bf
+  10}~(5), 1049--1051.
+
+\bibitem[Schoppa \& Hussain(2002)]{schoppa2002}
+{\sc Schoppa, W. \& Hussain, F.} 2002 Coherent structure generation in
+  near-wall turbulence. {\em Journal of Fluid Mechanics\/} {\bf 453}, 57–108.
+
+\bibitem[Schulman {\em et~al.\/}(2017)Schulman, Wolski, Dhariwal, Radford \&
+  Klimov]{schulman_proximal_2017}
+{\sc Schulman, J., Wolski, F., Dhariwal, P., Radford, A. \& Klimov, O.} 2017
+  {Proximal Policy Optimization Algorithms}. {\em CoRR\/} {\bf abs/1707.06347}.
+
+\bibitem[Schwefel(1977)]{Schwefel1977}
+{\sc Schwefel, H.~P.} 1977 {\em Numerische Optimierung von Computer-Modellen
+  mittels der Evolutionsstrategie\/}, 1st edn. Birkh\:auser Basel.
+
+\bibitem[Serpieri {\em et~al.\/}(2017)Serpieri, Yadala~Venkata \&
+  Kotsonis]{serpieri2017}
+{\sc Serpieri, J., Yadala~Venkata, S. \& Kotsonis, M.} 2017 Conditioning of
+  cross-flow instability modes using dielectric barrier discharge plasma
+  actuators. {\em Journal of Fluid Mechanics\/} {\bf 833}, 164–205.
+
+\bibitem[Shapiro {\em et~al.\/}(2006)Shapiro, King, M'closkey \&
+  Karagozian]{shapiro2006optimization}
+{\sc Shapiro, S., King, J., M'closkey, R. \& Karagozian, A.} 2006 Optimization
+  of controlled jets in crossflow. {\em AIAA journal\/} {\bf 44}~(6),
+  1292--1298.
+
+\bibitem[Siegelmann \& Sontag(1995)]{Siegelmann1995NN}
+{\sc Siegelmann, H. \& Sontag, E.} 1995 On the computational power of neural
+  nets. {\em Journal of Computer and System Sciences\/} {\bf 50}~(1), 132--150.
+
+\bibitem[Silver {\em et~al.\/}(2016)Silver, Huang, Maddison, Guez, Sifre,
+  van~den Driessche, Schrittwieser, Antonoglou, Panneershelvam, Lanctot,
+  Dieleman, Grewe, Nham, Kalchbrenner, Sutskever, Lillicrap, Leach,
+  Kavukcuoglu, Graepel \& Hassabis]{Silver2016go}
+{\sc Silver, D., Huang, A., Maddison, C.~J., Guez, A., Sifre, L., van~den
+  Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V.,
+  Lanctot, M., Dieleman, S., Grewe, D., Nham, J., Kalchbrenner, N., Sutskever,
+  I., Lillicrap, T., Leach, M., Kavukcuoglu, K., Graepel, T. \& Hassabis, D.}
+  2016 Mastering the game of go with deep neural networks and tree search. {\em
+  Nature\/} {\bf 529}~(7587), 484--489.
+
+\bibitem[Sipp {\em et~al.\/}(2010)Sipp, Marquet, Meliga \&
+  Barbagallo]{Sipp2010linearcontrol}
+{\sc Sipp, D., Marquet, O., Meliga, P. \& Barbagallo, A.} 2010 {Dynamics and
+  Control of Global Instabilities in Open-Flows: A Linearized Approach}. {\em
+  Applied Mechanics Reviews\/} {\bf 63}~(3), 030801.
+
+\bibitem[Smith \& Mungal(1998)]{smith1998mixing}
+{\sc Smith, S.~H. \& Mungal, M.~G.} 1998 Mixing, structure and scaling of the
+  jet in crossflow. {\em Journal of Fluid Mechanics\/} {\bf 357}, 83–122.
+
+\bibitem[Steinfurth \& Weiss(2020)]{steinfurth2020quiescentslot}
+{\sc Steinfurth, B. \& Weiss, J.} 2020 Vortex rings produced by non-parallel
+  planar starting jets. {\em Journal of Fluid Mechanics\/} {\bf 903}, A16.
+
+\bibitem[Steinfurth \& Weiss(2021{\natexlab{{\em
+  a\/}}})]{Steinfurth2021pulsedjet}
+{\sc Steinfurth, B. \& Weiss, J.} 2021{\natexlab{{\em a\/}}} Boundary-layer
+  control by means of pulsed jets at different inclination angles. {\em AIAA
+  Journal\/} {\bf 59}~(10), 3946--3959.
+
+\bibitem[Steinfurth \& Weiss(2021{\natexlab{{\em b\/}}})]{steinfurth2021CFslot}
+{\sc Steinfurth, B. \& Weiss, J.} 2021{\natexlab{{\em b\/}}} Velocity ratio
+  effect on flow structures of non-parallel planar starting jets in cross-flow.
+  {\em Journal of Fluid Mechanics\/} {\bf 915}, A11.
+
+\bibitem[Stroh {\em et~al.\/}(2015)Stroh, Frohnapfel, Schlatter \&
+  Hasegawa]{Stroh2015}
+{\sc Stroh, A., Frohnapfel, B., Schlatter, P. \& Hasegawa, Y.} 2015 A
+  comparison of opposition control in turbulent boundary layer and turbulent
+  channel flow. {\em Physics of Fluids\/} {\bf 27}, 075101.
+
+\bibitem[Sunden \& Wu(2017)]{Sunden2017heatwind}
+{\sc Sunden, B. \& Wu, Z.} 2017 {On Heat Transfer Issues for Wind Energy
+  Systems}. {\em Journal of Energy Resources Technology\/} {\bf 139}~(5),
+  051201.
+
+\bibitem[Sutton \& Barto(2018)]{sutton2018reinforcement}
+{\sc Sutton, R.~S. \& Barto, A.~G.} 2018 {\em Reinforcement learning: An
+  introduction\/}. MIT press.
+
+\bibitem[Taylor(1916)]{taylor1916conditions}
+{\sc Taylor, G.~I.} 1916 Conditions at the surface of a hot body exposed to the
+  wind. {\em Rep. Memo. of the British Advisory Committee for Aeronautics\/}
+  {\bf 272}, 423--429.
+
+\bibitem[Tesauro(1992)]{Tesauro1992difflearn}
+{\sc Tesauro, G.} 1992 Practical issues in temporal difference learning. {\em
+  Machine Learning\/} {\bf 8}~(3), 257--277.
+
+\bibitem[Thomson(1852)]{Thomson1852energy}
+{\sc Thomson, W.} 1852 Xlvii. on a universal tendency in nature to the
+  dissipation of mechanical energy. {\em The London, Edinburgh, and Dublin
+  Philosophical Magazine and Journal of Science\/} {\bf 4}~(25), 304--306.
+
+\bibitem[Tian {\em et~al.\/}(2020)Tian, Abdollahi, Shariati, Amindoust,
+  Arasteh, Karimipour, Goodarzi \& Bach]{Tian2020GAheatexchanger}
+{\sc Tian, Z., Abdollahi, A., Shariati, M., Amindoust, A., Arasteh, H.,
+  Karimipour, A., Goodarzi, M. \& Bach, Q.-V.} 2020 Turbulent flows in a spiral
+  double-pipe heat exchanger. {\em International Journal of Numerical Methods
+  for Heat {\&} Fluid Flow\/} {\bf 30}~(1), 39--53.
+
+\bibitem[Verma {\em et~al.\/}(2018)Verma, Novati \&
+  Koumoutsakos]{Verma2018swimDRL}
+{\sc Verma, S., Novati, G. \& Koumoutsakos, P.} 2018 Efficient collective
+  swimming by harnessing vortices through deep reinforcement learning. {\em
+  Proceedings of the National Academy of Sciences\/} {\bf 115}~(23),
+  5849--5854.
+
+\bibitem[Vermeulen {\em et~al.\/}(1992)Vermeulen, Grabinski \&
+  Ramesh]{vermeulen1992mixing}
+{\sc Vermeulen, P.~J., Grabinski, P. \& Ramesh, V.} 1992 {Mixing of an
+  Acoustically Excited Air Jet With a Confined Hot Crossflow}. {\em Journal of
+  Engineering for Gas Turbines and Power\/} {\bf 114}~(1), 46--54.
+
+\bibitem[Viquerat {\em et~al.\/}(2021)Viquerat, Meliga \&
+  Hachem]{Viquerat2021RLrev}
+{\sc Viquerat, J., Meliga, P. \& Hachem, E.} 2021 A review on deep
+  reinforcement learning for fluid mechanics: an update.
+
+\bibitem[Wahde(2008)]{Wahde2008book}
+{\sc Wahde, M.} 2008 {\em Biologically Inspired Optimization Methods: An
+  Introduction\/}. WIT Press.
+
+\bibitem[Webb \& Kim(2005)]{webb2005enhanced}
+{\sc Webb, R. \& Kim, N.} 2005 {\em Principles of Enhanced heat transfer\/}.
+  Taylor and Francis, NY.
+
+\bibitem[Whalley \& Choi(2010)]{Whalley2010DBDvortex}
+{\sc Whalley, R.~D. \& Choi, K.~S.} 2010 Starting, traveling, and colliding
+  vortices: {D}ielectric-{B}arrier-{D}ischarge plasma in quiescent air. {\em
+  Physics of Fluids\/} {\bf 22}~(9), 091105.
+
+\bibitem[Whalley \& Choi(2014)]{Whalley2014}
+{\sc Whalley, R.~D. \& Choi, K.~S.} 2014 Turbulent boundary-layer control with
+  plasma spanwise travelling waves. {\em Experiments in Fluids\/} {\bf 55}~(8),
+  1796.
+
+\bibitem[Wicks {\em et~al.\/}(2015)Wicks, Thomas, Corke, Patel \&
+  Cain]{Wicks2015}
+{\sc Wicks, M., Thomas, F.~O., Corke, T.~C., Patel, M. \& Cain, A.~B.} 2015
+  Mechanism of vorticity generation in plasma streamwise vortex generators.
+  {\em {AIAA Journal}\/} {\bf 53}~(11), 3404--3413.
+
+\bibitem[Williams(1992)]{Williams1992ML}
+{\sc Williams, R.~J.} 1992 Simple statistical gradient-following algorithms for
+  connectionist reinforcement learning. {\em Machine Learning\/} {\bf 8}~(3),
+  229--256.
+
+\bibitem[Wittig {\em et~al.\/}(2019)Wittig, Nino \&
+  Breidenthal]{Wittig2019VGplasma}
+{\sc Wittig, T., Nino, G. \& Breidenthal, R.} 2019 {\em Study on the
+  Effectiveness of Plasma Induced Flow in Manipulating a Near-Wall Vortex\/}.
+
+\bibitem[Xu {\em et~al.\/}(2020)Xu, Zhang, Deng \& Rabault]{Xu2020joh}
+{\sc Xu, H., Zhang, W., Deng, J. \& Rabault, J.} 2020 Active flow control with
+  rotating cylinders by an artificial neural network trained by deep
+  reinforcement learning. {\em Journal of Hydrodynamics\/} {\bf 32}~(2),
+  254–258.
+
+\bibitem[Xu {\em et~al.\/}(2019)Xu, Wang \& Yang]{Xu2019LHrecovery}
+{\sc Xu, Z., Wang, R. \& Yang, C.} 2019 Perspectives for low-temperature waste
+  heat recovery. {\em Energy\/} {\bf 176}, 1037--1043.
+
+\bibitem[Yamamoto \& Okubo(2007)]{Yamamoto2007plasma}
+{\sc Yamamoto, T. \& Okubo, M.} 2007 {\em Nonthermal Plasma Technology\/}, pp.
+  135--293. Totowa, NJ: Humana Press.
+
+\bibitem[Yu {\em et~al.\/}(2021)Yu, Fan, Noack \&
+  Zhou]{Yu2021GA_drag_slot_jets}
+{\sc Yu, J., Fan, D., Noack, B.~R. \& Zhou, Y.} 2021 Genetic-algorithm-based
+  artificial intelligence control of a turbulent boundary layer. {\em Acta
+  Mechanica Sinica\/} {\bf 37}~(12), 1739--1747.
+
+\bibitem[Zhang {\em et~al.\/}(2004)Zhang, Cheng \& Zhou]{Zhang2004control}
+{\sc Zhang, M.~M., Cheng, L. \& Zhou, Y.} 2004 Closed-loop-controlled vortex
+  shedding and vibration of a flexibly supported square cylinder under
+  different schemes. {\em Physics of Fluids\/} {\bf 16}~(5), 1439--1448.
+
+\bibitem[Zhang \& Collins(1993)]{Zhang1993heatJICF}
+{\sc Zhang, X. \& Collins, M.~W.} 1993 Flow and heat transfer in a turbulent
+  boundary layer through skewed and pitched jets. {\em AIAA Journal\/} {\bf
+  31}~(9), 1590--1599.
+
+\bibitem[Zhou {\em et~al.\/}(2020)Zhou, Fan, Zhang, Li \&
+  Noack]{zhou2020artificial}
+{\sc Zhou, Y., Fan, D., Zhang, B., Li, R. \& Noack, B.~R.} 2020 Artificial
+  intelligence control of a turbulent jet. {\em Journal of Fluid Mechanics\/}
+  {\bf 897}.
+
+\end{thebibliography}

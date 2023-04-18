@@ -1,0 +1,97 @@
+%===============================================================================
+\chapter{Introduction}\label{ch01}
+%===============================================================================
+
+%From the control of fire by early humans around one million years ago to the development of artificial intelligence or genome editing in current times, the evolution of knowledge is not only driven by the intrinsic curiosity of humans but also by the real needs of society. Engineering, in particular, has been at the head of technological development in recent times, applying scientific and mathematical principles to practical ends. The technological advancements in the last century is behind the economical development, the welfare state and the increased life expectancy of modern society. As of today, the most challenging engineering problems relates to energy resources, transportation development and efficiency, and the application of artificial intelligence to every-day tasks. 
+%According to the American Heritage Dictionary of the English language, engineering is \textit{the application of scientific and mathematical principles to practical ends}.
+
+The current socioeconomic environment moves around three fundamental pillars, namely energy, pollutant emissions and data. Among the top 15 most valued companies in the world\footnote{Based on \href{https://www.tradingview.com/markets/world-economy/worlds-largest-companies/}{\textit{tradingview statistics}} from September 2022}, 6 devote their commercial activity to data somehow while 3 are related to the energy sector. The role of thermal management has become a great concern in each of these three fundamental pillars.
+Energy and climate change evolve hand in hand. The European Commission aims at becoming a carbon-neutral region by 2050 \citep{EUC2018}\footnote{Available online in  \href{https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX\%3A52018DC0773}{\textit{EUR-Lex} [last update: September 2022].}}, while the global electricity demand is expected to double in the following 20 years according to the International Energy Agency. Aligned with these statements, renewable energies have recently become relevant research and industrial field. Among the technological challenges to scale up the wind turbine sector, heat transfer issues are a notable affair \citep{Sunden2017heatwind}, such as the bearing overheating being responsible for more than 87\% of the registered failures \citep{Ren2021windturb}.
+Similarly, the thermal management in data and super-computing centres implies around 35\% of their energy consumption \citep{Nadjahi2018DCcooling}. Every cooling strategy is based on forced convection mechanisms such as air or liquid flows on electronic components, submerged cooling, heat pipes or direct impingement of fluids to name a few.  
+A figure of merit of today's efficiency of the European industrial fabric is the total waste in heat potential, estimated to be around 300 TWh/year \citep{Papapetrou2018thermalloss}. Optimizing and controlling heat transport can not only reduce the heat losses induced by convectional refrigeration and heating systems but also upgrade the performance of heat recovery systems \citep{Xu2019LHrecovery} to improve the industry's sustainability.
+
+%Heat transfer and energy transport processes have become a serious engineering concern during the last century, being one of the most relevant research fields in modern technology. 
+The need to comprehend, forecast, and optimise physical processes involving energy production and exchange has been fueling research for decades. From the pioneer investigations of Fourier and Newton to the present time, heat transfer studies have dealt with a myriad of applications, aiming at comprehending the physical process behind thermal energy transport. Today, the control and optimisation of these processes, both in natural phenomena and industrial applications, keep fascinating physicists and engineers. In fluid flows, controlling heat transfer by convection is especially challenging since relative macroscopic motion within the flow may modify the transport rate. \\
+
+In fluid flows, the mechanism behind thermal energy transport strongly depends on the flow regime, either laminar or turbulent. Turbulence is ubiquitously present in natural and man-made flows. It is considered one of the most relevant unsolved problems in physics and mathematics. There is no consensus on a rigorous and unique definition of turbulence; nonetheless, most of the descriptions and studies of turbulence coincide with common flow patterns and structures describing its dynamics. In his attempt to define turbulence, \citet{batchelor1953theory} states that
+%
+% \begin{quote}
+   ``\textit{... under suitable conditions,} [...] \textit{some of these motions} (referring to fluid flows) \textit{are such that the velocity at any given time and position in the fluid is not found to be the same when it is measured several times under seemingly identical conditions. In these motions the velocity takes random values which are not determined by the ostensible, or controllable, or, `macroscopic' data of the flow, although we believe that the average properties of the motion are determined uniquely by the data. Fluctuating motions of this kind are said to be turbulent.}''
+% \end{quote}
+%
+Summing up, turbulence could be defined as a nonlinear, chaotic, high-dimensional phenomenon, involving a wide range of spatial and temporal scales with mutual interactions. The current knowledge of turbulence \citep[see e.g.][]{pope2000} builds upon the gained experience during the last centuries. From the observations of water vortices by Leonardo Da Vinci in 1500 passing through the investigations by Boussinesq, Richardson, Kolmogorov, Reynolds or von Kármán, turbulence still is an open research question.
+
+Turbulent flows are accurately modelled by a system of partial differential equations, namely the Navier-Stokes (N-S) equations. Notwithstanding, there is no analytical solution to this system of equations, so the investigation of turbulence relies on experiments and numerical simulations. Despite the recent development of computational resources and methods, the numerical integration of the N-S equations by Direct Numerical Simulations \citep[DNS,][]{Moin1998DNS} becomes unattainable when flows at high Reynolds numbers are considered. On the other hand, the experimental investigation relies on data acquisition techniques that commonly lack sufficient spatial or temporal resolution to resolve all the desired scales, thus providing a partial representation of the flow field. These measurement techniques may also be intrusive (like hot-wire anemometry), adding disturbances to the flow, and are commonly hard to be implemented in a real-time environment for flow control applications either due to their hardware complexity (as particle image velocimetry) or due to nature of the technique itself (such as oil film interferometry). Hence, controlling turbulence becomes a highly complex task. The nonlinearity of the system, its high dimensionality, the time-delayed response, and the frequency crosstalk pose significant challenges for modelling, predicting, real-time control, and measuring and interpreting the physical phenomena driving the flow. 
+
+Classical turbulence control based on linear control theory attempts to approximate the dynamics of specific problems with a linearisation of the N-S equation \citep{Sipp2010linearcontrol}. In some problems, it is possible to identify a certain degree of determinism of turbulence within its stochasticity. Within the chaos of turbulence, it is possible to identify patterns, namely the so-called coherent structures. \citet{jimenez2018cs} defined coherent structures as ”eddies with enough internal dynamics to behave relatively autonomously from any remaining incoherent part of the flow”. In wall-bounded flows, such coherent structures appear in the near-wall region. The classical interpretation of energy dissipation in turbulent flows proposed by \citet{Richardson1920} and extended by \citet{Kolmogorov1941}, explains that the coherent structures transport the bulk of energy, eventually dissipated at the smallest scales. Convective heat transfer is generally dominated by large-scale motion. Nonetheless, very close to the wall diffusion plays an important role. As an example of model-based flow control targeting coherent structures, the classical work by \citet{Choi1994} introduces opposition control to act against the quasi-streamwise vortices embedded within the boundary layer to reduce drag. On the opposite, heat transfer enhancement in turbulent wall-bounded flows can be achieved by promoting mixing, commonly achieved by inducing quasi-steady streamwise vortices with vortex generators or obstacles \citep{jacobi1995}.  Controlling coherent structures focuses on the large scales that carry the bulk of energy; however, turbulence control may also focus on the near-wall region where the energy dissipates \citep[see e.g.][]{Jimenez1994nwcontrol}. For convective heat transfer management, controlling large-scale motions is the preferred alternative \citep{webb2005enhanced} due to their larger time scales and the fact that they are easier to detect. The identification and classification of coherent structures offer the possibility of reducing the dimensionality of the system. Reduced-Order Models \citep[ROM,][]{noack2011ROMcontrol}, gathering the principal features of the flow, could be used to construct the fluid motion with a low-order interpretation of the equations of fluid motion. The simplification of the system dynamics through a ROM enables the design of model-based flow control \citep[see e.g.][]{Rowley2006control} strategies with a profound understanding of the control performance.
+
+Controlling turbulence in a realistic environment is not a simple task. Real-world applications of flow control do not commonly enjoy the privilege of describing the dynamics of their flow by simplified models. Modern turbulence control evolves toward model-free approaches, in which the flow-control problem is formulated as an optimization problem. The irruption of artificial intelligence and its unavoidable application to fluid mechanics offer novel strategies for complex control logic design \citep{BruntonNoack2015review}. Machine Learning Control \citep[MLC,][]{duriez2017book} gathers the machine-learning-based algorithms used for flow control applications both in a numerical and experimental environment. This new approach comes with new challenges and opportunities that the turbulence control scientific community is to address in the incoming years. In this regard, the purpose of this thesis is to investigate novel flow control techniques in a field of major interest in recent times as it is convective heat transfer in turbulent flows.
+ 
+%===============================================================================
+% - Objectives:
+%===============================================================================
+\section{Objectives}
+%
+The main objective of this dissertation is the following:
+%
+\begin{quote}
+Investigation and development of sophisticated control techniques to deal with turbulent wall-bounded flows in the pursuit of convective heat transfer management.
+\end{quote}
+%
+\noindent The achievement of this statement is, however, atomised into several sub-objectives:
+%
+\begin{itemize}
+\item Application and development of data-acquisition and data-processing techniques to understand the physical phenomena in experimental investigations.
+\item Application and development of actuators for active control of heat transfer, focusing on plasma actuators and pulsed jets in crossflow.
+\item Investigation of artificial-intelligence algorithms to develop the control logic in flow control problems.
+\item Development and implementation of model-free algorithms to enhance convective heat transfer.
+\end{itemize}
+%
+The present thesis is mainly experimental, requiring the use of several data-acquisition and data-processing techniques such as particle image velocimetry, hot-wire anemometry and infrared thermography, among others. For this purpose, custom-made heat-flux sensors and other systems are designed and manufactured to measure the convective heat transfer distribution at the wall. The target of the thesis is first envisioned as active open-loop control. Two different types of actuators are explored to generate the control actuation: dielectric-barrier-discharge plasma actuators and jets in crossflow. Additionally, a detailed study of model-free algorithms for the control logic is investigated, in particular evolutionary algorithms and reinforcement learning. As a result, the know-how, the algorithms, and the experimental apparatus developed under the scope of this thesis pave the way towards the experimental implementation of machine-learning-control algorithms to tune heat transfer in turbulent flows in feedback, closed loop.
+
+%===============================================================================
+% - Thesis structure:
+%===============================================================================
+\section{Thesis structure}
+%
+The manuscript is structured in two parts. Part I introduces the topic and scope in Chapter~\ref{ch01} and continues with a review of the state of the art. Chapter~\ref{ch02} reviews the concept of heat transfer, focusing on the convection method and the available active techniques for heat transfer control in turbulent flows, particularly, plasma actuators and jets in crossflow. Chapter~\ref{ch03} describes the turbulence control problem and presents a revision of the most relevant learning-based algorithms for flow control, aiming attention at evolutionary algorithms and reinforcement learning. Finally, Chapter~\ref{ch04} summarizes the main contributions and conclusions of this thesis.
+
+Part II contains the original contributions that have been produced during the development of this thesis. The work is divided into 5 papers: a first methodological paper (\textbf{Paper 1}) in which an uncertainty quantification (UQ) tool for TBL characterisation with PIV/EPTV measurements is presented, and four research articles under the scope and objectives of this dissertation. The methodological paper, although not aligned with the thesis topic itself, is included due to the relevance of the UQ tool, which is employed in all the carried-out experimental studies throughout the thesis.
+In regards to the research articles, the first (\textbf{Paper 2}) investigates the use of dielectric-barrier-discharge plasma actuators to control convective heat transfer. An effective strategy to reduce heat transfer is presented based on the generation of stationary streamwise vortices.
+The second article (\textbf{Paper 3}) presents a parametric study on the pulsation parameters of a spanwise-aligned jet in crossflow. The paper concludes that there is a characteristic frequency of the system at which heat transfer enhancement is maximised due to the formation of large-scale turbulent structures in the near-wall region, and a simplified model for decoupling pulsation parameters is proposed. 
+The third contribution (\textbf{Paper 4}) exposes a comparative assessment of linear genetic algorithms against deep reinforcement learning in the low sensor limit and with the presence of noise. This study is the precursor of the last paper.
+Finally, the last contribution (\textbf{Paper 5}) evaluates the performance of linear genetic algorithm control to enhance convective heat transfer by optimising a set of control parameters.
+The aforementioned papers are listed below.\\
+
+\noindent {\bf  Paper~1. Methodological.} \\
+\noindent {\sc  Castellanos, R., Sanmiguel Vila, C., G\"uemes, A. \& Discetti, S.}{, 2021. }{\it  \let \\=~On the uncertainty of boundary-layer parameters from Ensemble PTV data . }{{Meas. Sci. Technol.}}{ {\bf  32}}{ (8)}{, 084006}.
+
+%-------------------------------------------------------------------------------
+\noindent {\bf  Paper~2.} \\
+\noindent {\sc  Castellanos, R., Michelis, T., Discetti, S., Ianiro, A. \& Kotsonis, M.}{, 2022. }{\it  \let \\=~Reducing turbulent convective heat transfer with streamwise plasma vortex generators. }{{Exp. Therm. Fluid Sci.}}{ {\bf  134}}{, 110596}.
+
+%-------------------------------------------------------------------------------
+\noindent {\bf  Paper~3.}\\
+\noindent {\sc  Castellanos, R., Salih, G., Raiola, M., Ianiro, I. \& Discetti, S.}{, 2022. }{\it  \let \\=~Heat transfer enhancement in turbulent boundary layers with a pulsed slot jet in crossflow. }{{Appl. Therm. Eng.}}{ {\bf  Under review}}.
+
+%-------------------------------------------------------------------------------
+\noindent {\bf  Paper~4.} \\
+{\sc  Castellanos, R., Cornejo-Maceda, G. Y., de la Fuente, I., Noack, B. R., Ianiro, I. \& Discetti, S.}{, 2022. }{\it  \let \\=~Machine learning flow control with few sensor feedback and measurement noise. }{{Phys. Fluids}}{ {\bf  34}}{ (4)}{, 047118}.
+
+%-------------------------------------------------------------------------------
+\noindent {\bf  Paper~5.}\\
+{\sc  Castellanos, R., Ianiro, I. \& Discetti, S.}{, 2022. }{\it  \let \\=~Genetically-inspired convective heat transfer enhancement. }{{Exp. Therm. Fluid Sci.}}{ {\bf  Submitted}}.
+
+\clearpage \newpage
+\ \thispagestyle{empty}
+
+% \noindent\textbf{Paper 1} (Methodological): \textit{On the uncertainty of boundary-layer parameters from Ensemble PTV data.}
+
+% \noindent\textbf{Paper 2}: \textit{Reducing turbulent convective heat transfer with streamwise plasma vortex generators.}
+
+% \noindent\textbf{Paper 3}: \textit{Heat transfer enhancement in turbulent boundary layers with a pulsed slot jet in crossflow.}
+
+% \noindent\textbf{Paper 4}: \textit{Machine learning flow
+% control with few sensor feedback and measurement noise.}
+
+% \noindent\textbf{Paper 5}: \textit{Genetically-inspired convective heat transfer enhancement.}

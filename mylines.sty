@@ -1,0 +1,47 @@
+\ProvidesPackage{mylines}
+
+\RequirePackage{xcolor}
+\RequirePackage{dashrule}
+\RequirePackage{tikz}
+
+% define line widths and marker sizes
+\newlength{\lr}  % line rise from bottom
+\newlength{\lw}  % line width
+\newlength{\lt}  % line thickness
+\newlength{\ld}  % length of dash
+\newlength{\ldt} % length of dashdotted
+
+\setlength{\lr}{2pt}
+\setlength{\lw}{.5cm}
+\setlength{\lt}{1pt}
+\setlength{\ld}{.2cm}
+\setlength{\ldt}{.15cm}
+
+
+%_______________________________________________________________________________
+
+%
+\newcommand{\myl}{\rule[\lr]{\lw}{\lt}}
+
+\newcommand{\myd}{\hdashrule[\lr][x]{\lw}{\lt}{.18cm .5pt}}
+
+\newcommand{\mydt}{\hdashrule[\lr][x]{\lw}{\lt}{1.6mm 1pt 1pt .5pt}}
+
+\newcommand{\mytt}{\hdashrule[\lr][x]{\lw}{\lt}{1pt}}
+
+
+
+%-------------------------------------------------------------------------------
+% FUNCTION \lcap 
+\newcommand{\mylcap}[2]{\typeassign{#1}(\textcolor{#2}{\mytype})}
+
+%-------------------------------------------------------------------------------
+% COMMON FUNCTIONS 
+\newcommand\typeassign[1]{
+\ifthenelse{\equal{#1}{-}}{\let\mytype\myl}{%  
+\ifthenelse{\equal{#1}{--}}{\let\mytype\myd}{%
+\ifthenelse{\equal{#1}{:}}{\let\mytype\mytt}{% 
+\ifthenelse{\equal{#1}{.-}}{\let\mytype\mydt}{}}}}
+}
+
+\endinput

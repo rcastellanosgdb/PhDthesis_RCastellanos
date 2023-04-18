@@ -1,0 +1,246 @@
+\ProvidesPackage{myplots}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{xifthen}
+
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{plotmarks}
+
+% define line widths and marker sizes
+\newlength{\lwa}
+\newlength{\lwb}
+\newlength{\lwc}
+\newlength{\msa}
+\newlength{\msb}
+\newlength{\msc}
+\setlength{\lwa}{0.004in}
+\setlength{\lwb}{0.008in}
+\setlength{\lwc}{0.012in}
+\setlength{\msa}{0.0213in}
+\setlength{\msb}{0.0320in}
+\setlength{\msc}{0.4937in}
+
+
+% symbols
+% none
+\newcommand\myemptysymbol[4]{}
+
+% square
+\newcommand\mysquare[4]{
+\filldraw[color=#2]([xshift=-0.5#3,yshift=-0.5#3]#1) rectangle ++ ( #3,#3);}
+\newcommand\myrectangle[4]{
+\coordinate(A1) at ([xshift=+1#3,yshift=+0.5#3]#1);
+\coordinate(A2) at ([xshift=+1#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-1#3,yshift=+0.5#3]#1);
+\coordinate(A4) at ([xshift=-1#3,yshift=-0.5#3]#1);
+\filldraw[color=#2, line width=#4] (A1) -- (A2) -- (A4) -- (A3) -- (A1) -- (A2);}
+
+% empty square
+\newcommand\myemptysquare[4]{
+\coordinate(A1) at ([xshift=+0.5#3,yshift=+0.5#3]#1);
+\coordinate(A2) at ([xshift=+0.5#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.5#3]#1);
+\coordinate(A4) at ([xshift=-0.5#3,yshift=-0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A2) -- (A4) -- (A3) -- (A1);}
+
+%circle
+\newcommand\mycircle[4]{
+\filldraw[color=#2, line width=#4](#1) circle (0.4#3);}
+
+% empty circle
+\newcommand\myemptycircle[4]{
+\draw[color=#2, line width=#4](#1) circle (0.4#3);}
+
+% triangle
+\newcommand\mytriangle[4]{
+\coordinate(A1) at ([xshift=+0.5#3,yshift=-0.5#3]#1);
+\coordinate(A2) at ([xshift=-0.5#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([yshift=0.366#3]#1);
+\filldraw[color=#2] (A1) -- (A2) -- (A3) -- (A1);}
+
+% empty triangle
+\newcommand\myemptytriangle[4]{
+\coordinate(A1) at ([xshift=+0.577#3,yshift=-0.5#3]#1);
+\coordinate(A2) at ([xshift=-0.577#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([yshift=0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A2) -- (A3) -- (A1) -- (A2);}
+
+% down triangle
+\newcommand\mydowntriangle[4]{
+\coordinate(A1) at ([xshift=+0.577#3,yshift=0.5#3]#1);
+\coordinate(A2) at ([xshift=-0.577#3,yshift=0.5#3]#1);
+\coordinate(A3) at ([yshift=-0.5#3]#1);
+\filldraw[color=#2] (A1) -- (A2) -- (A3) -- (A1);}
+
+% empty down triangle
+\newcommand\myemptydowntriangle[4]{
+\coordinate(A1) at ([xshift=+0.577#3,yshift=0.5#3]#1);
+\coordinate(A2) at ([xshift=-0.577#3,yshift=0.5#3]#1);
+\coordinate(A3) at ([yshift=-0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A2) -- (A3) -- (A1) -- (A2);}
+
+% right triangle
+\newcommand\myrighttriangle[4]{
+\coordinate(A1) at ([xshift=+0.366#3]#1);
+\coordinate(A2) at ([xshift=-0.5#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.5#3]#1);
+\filldraw[color=#2] (A1) -- (A2) -- (A3) -- (A1);}
+
+% empty right triangle
+\newcommand\myemptyrighttriangle[4]{
+\coordinate(A1) at ([xshift=+0.366#3]#1);
+\coordinate(A2) at ([xshift=-0.5#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A2) -- (A3) -- (A1) -- (A2);}
+
+% left triangle
+\newcommand\mylefttriangle[4]{
+\coordinate(A1) at ([xshift=-0.366#3]#1);
+\coordinate(A2) at ([xshift=+0.5#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=+0.5#3,yshift=+0.5#3]#1);
+\filldraw[color=#2] (A1) -- (A2) -- (A3) -- (A1);}
+
+% empty left triangle
+\newcommand\myemptylefttriangle[4]{
+\coordinate(A1) at ([xshift=-0.366#3]#1);
+\coordinate(A2) at ([xshift=+0.5#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=+0.5#3,yshift=+0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A2) -- (A3) -- (A1) -- (A2);}
+
+% asterisk
+\newcommand\myasterisk[4]{
+\coordinate(A1) at ([xshift=+0.5#3,yshift=+0.0#3]#1);
+\coordinate(A2) at ([xshift=+0.0#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.0#3]#1);
+\coordinate(A4) at ([xshift=+0.0#3,yshift=+0.7#3]#1);
+\coordinate(A5) at ([xshift=+0.5#3,yshift=+0.5#3]#1);
+\coordinate(A6) at ([xshift=+0.5#3,yshift=-0.5#3]#1);
+\coordinate(A7) at ([xshift=-0.5#3,yshift=+0.5#3]#1);
+\coordinate(A8) at ([xshift=-0.5#3,yshift=-0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A3) (A2) -- (A4)
+      (A5) -- (A8) (A6) -- (A7);}
+
+% empty diamond
+\newcommand\myemptydiamond[4]{
+\coordinate(A1) at ([xshift=+0.5#3,yshift=+0.0#3]#1);
+\coordinate(A2) at ([xshift=+0.0#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.0#3]#1);
+\coordinate(A4) at ([xshift=+0.0#3,yshift=+0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A2) -- (A3) -- (A4) -- (A1) -- (A2) -- (A3);}
+% empty diamond
+\newcommand\mydiamond[4]{
+\coordinate(A1) at ([xshift=+0.5#3,yshift=+0.0#3]#1);
+\coordinate(A2) at ([xshift=+0.0#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.0#3]#1);
+\coordinate(A4) at ([xshift=+0.0#3,yshift=+0.5#3]#1);
+\filldraw[color=#2] (A1) -- (A2) -- (A3) -- (A4) -- (A1) -- (A2) -- (A3);}
+
+% empty pentagram
+\newcommand\myemptypentagram[4]{
+\coordinate(A1) at ([xshift=+0.2939#3,yshift=-0.4045#3]#1);
+\coordinate(A2) at ([xshift=-0.2939#3,yshift=-0.4045#3]#1);
+\coordinate(A3) at ([xshift=-0.4755#3,yshift=+0.1545#3]#1);
+\coordinate(A4) at ([xshift=+0.0#3,yshift=+0.5#3]#1);
+\coordinate(A5) at ([xshift=+0.4755#3,yshift=+0.1545#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A2) -- (A3) -- (A4) -- (A5)--(A1);}
+
+% plus
+\newcommand\myplus[4]{
+\coordinate(A1) at ([xshift=+0.5#3,yshift=+0.0#3]#1);
+\coordinate(A2) at ([xshift=+0.0#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.0#3]#1);
+\coordinate(A4) at ([xshift=+0.0#3,yshift=+0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A3) (A2) -- (A4);}
+
+% cross
+\newcommand\mycross[4]{
+\coordinate(A1) at ([xshift=+0.5#3,yshift=+0.5#3]#1);
+\coordinate(A2) at ([xshift=+0.5#3,yshift=-0.5#3]#1);
+\coordinate(A3) at ([xshift=-0.5#3,yshift=+0.5#3]#1);
+\coordinate(A4) at ([xshift=-0.5#3,yshift=-0.5#3]#1);
+\draw[color=#2, line width=#4] (A1) -- (A4) (A2) -- (A3);}
+
+
+\newlength{\myms}
+\newlength{\mylww}
+% lines with symbols
+\newcommand\lineSymbolRGB[5]{
+\begin{tikzpicture}
+% move arguments to variables
+\def\myls{#1}
+\def\mycol{#2}
+\def\mylw{#3}
+\def\mymark{#4}
+\setlength{\myms}{#5}
+\setlength{\mylww}{#3}
+% define shape for symbols
+\shcommandassign{\mymark}
+\coordinate(A)  at (0.0cm, 6pt);
+\coordinate(B)  at (0.5cm, 6pt);
+\coordinate(C)  at (0.25cm,6.5pt);
+\ifthenelse{\equal{\myls}{none}}{}{%
+\ifthenelse{\equal{\myls}{-}}{
+   \draw[-, color=\mycol, line width=1.0\mylww] (A) -- (B);
+   \mysh{C}{\mycol}{\myms}{\mylww};
+}{% 
+\ifthenelse{\equal{\myls}{--}}{
+  \draw[dashed, color=\mycol, line width=1.0\mylww] (A) -- (B);
+  \mysh{C}{\mycol}{\myms}{\mylww};
+}{% 
+\ifthenelse{\equal{\myls}{.-}}{
+  \draw[densely dashdotted, color=\mycol, line width=1.0\mylww] (A) -- (B);
+  \mysh{C}{\mycol}{\myms}{\mylww}; }{}}
+}} 
+\end{tikzpicture}
+}
+
+% Symbols
+\newcommand\SymbolRGB[5][solid]{
+\begin{tikzpicture}
+% move arguments to variables
+\def\myls{#1}
+\def\mycol{#2}
+\def\mylw{#3}
+\def\mymark{#4}
+\setlength{\myms}{#5}
+\setlength{\mylww}{#3}
+% define shape for symbols
+\shcommandassign{\mymark}
+\coordinate(A)  at (0.0cm, 6pt);
+\coordinate(B)  at (0.5cm, 6pt);
+\coordinate(C)  at (0cm, 10pt);
+\ifthenelse{\equal{\myls}{none}}{}{
+   \mysh{C}{\mycol}{\myms}{\mylww};
+} 
+\end{tikzpicture}
+}
+% \newcommand{\sy}[2]{\mbox{(\kern-.25em\SymbolRGB[solid]{#1}{.8pt}{#2}{4pt}\kern-.25em)}}
+%-------------------------------------------------------------------------------
+% COMMON FUNCTIONS 
+\newcommand\shcommandassign[1]{
+\ifthenelse{\equal{#1}{t}}{\let\mysh\myemptytriangle}{% 
+\ifthenelse{\equal{#1}{t*}}{\let\mysh\mytriangle}{%
+\ifthenelse{\equal{#1}{dt}}{\let\mysh\myemptydowntriangle}{% 
+\ifthenelse{\equal{#1}{dt*}}{\let\mysh\mydowntriangle}{% 
+\ifthenelse{\equal{#1}{rt}}{\let\mysh\myemptyrighttriangle}{% 
+\ifthenelse{\equal{#1}{rt*}}{\let\mysh\myrighttriangle}{%
+\ifthenelse{\equal{#1}{lt}}{\let\mysh\myemptylefttriangle}{% 
+\ifthenelse{\equal{#1}{lt*}}{\let\mysh\mylefttriangle}{% 
+\ifthenelse{\equal{#1}{o*}}{\let\mysh\mycircle}{%
+\ifthenelse{\equal{#1}{o}}{\let\mysh\myemptycircle}{%
+\ifthenelse{\equal{#1}{s*}}{\let\mysh\mysquare}{%  
+\ifthenelse{\equal{#1}{s}}{\let\mysh\myemptysquare}{%  
+\ifthenelse{\equal{#1}{p}}{\let\mysh\myemptypentagram}{%  
+\ifthenelse{\equal{#1}{*}}{\let\mysh\myasterisk}{%
+\ifthenelse{\equal{#1}{d}}{\let\mysh\myemptydiamond}{%
+\ifthenelse{\equal{#1}{d*}}{\let\mysh\mydiamond}{%
+\ifthenelse{\equal{#1}{+}}{\let\mysh\myplus}{%
+\ifthenelse{\equal{#1}{x}}{\let\mysh\mycross}{% 
+\ifthenelse{\equal{#1}{rec}}{\let\mysh\myrectangle}{% 
+\ifthenelse{\equal{#1}{none}}{\let\mysh\myemptysymbol}{
+}}}}}}}}}}}}}}}}}}}}
+}
+
+
+\endinput

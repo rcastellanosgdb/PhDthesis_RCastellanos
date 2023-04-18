@@ -1,0 +1,648 @@
+%merlin.mbs aipnum4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{48}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Noack}(2019)}]{Noack2019control}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont
+  {Noack}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Closed-loop
+  turbulence control-from human to machine learning (and retour)},}\ }in\ \href
+  {\doibase 10.1007/978-981-10-7542-1_3} {\emph {\bibinfo {booktitle}
+  {Fluid-Structure-Sound Interactions and Control. Proceedings of the 4th
+  Symposium on Fluid-Structure-Sound Interactions and Control}}},\ \bibinfo
+  {editor} {edited by\ \bibinfo {editor} {\bibfnamefont {Y.}~\bibnamefont
+  {Zhou}}, \bibinfo {editor} {\bibfnamefont {M.}~\bibnamefont {Kimura}},
+  \bibinfo {editor} {\bibfnamefont {G.}~\bibnamefont {Peng}}, \bibinfo {editor}
+  {\bibfnamefont {A.~D.}\ \bibnamefont {Lucey}}, \ and\ \bibinfo {editor}
+  {\bibfnamefont {L.}~\bibnamefont {Hung}}}\ (\bibinfo  {publisher} {Springer
+  Singapore},\ \bibinfo {year} {2019})\ pp.\ \bibinfo {pages}
+  {23--32}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Brunton}, \citenamefont {Noack},\ and\ \citenamefont
+  {Koumoutsakos}(2020)}]{BruntonNoackKoumoutsakos2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont
+  {Brunton}}, \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}},
+  \ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Koumoutsakos}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {{Machine Learning for Fluid
+  Mechanics}},}\ }\href {\doibase 10.1146/annurev-fluid-010719-060214}
+  {\bibfield  {journal} {\bibinfo  {journal} {{Annual Review of Fluid
+  Mechanics}}\ }\textbf {\bibinfo {volume} {52}},\ \bibinfo {pages} {477--508}
+  (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bearman}\ and\ \citenamefont
+  {Harvey}(1993)}]{Bearman1993dimples}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~W.}\ \bibnamefont
+  {Bearman}}\ and\ \bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont
+  {Harvey}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Control of
+  circular cylinder flow by the use of dimples},}\ }\href {\doibase
+  10.2514/3.11844} {\bibfield  {journal} {\bibinfo  {journal} {AIAA Journal}\
+  }\textbf {\bibinfo {volume} {31}},\ \bibinfo {pages} {1753--1756} (\bibinfo
+  {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ozono}(1999)}]{Ozono1999splitter}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ozono}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Flow control of
+  vortex shedding by a short splitter plate asymmetrically arranged downstream
+  of a cylinder},}\ }\href {\doibase 10.1063/1.870151} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physics of Fluids}\ }\textbf {\bibinfo {volume} {11}},\
+  \bibinfo {pages} {2928--2934} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Williams}\ and\ \citenamefont
+  {Amato}(1989)}]{Williams1989}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {Williams}}\ and\ \bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
+  {Amato}},\ }\enquote {\bibinfo {title} {Unsteady pulsing of cylinder
+  wakes},}\ in\ \href {\doibase 10.1007/978-3-642-83831-6_7} {\emph {\bibinfo
+  {booktitle} {Frontiers in Experimental Fluid Mechanics}}},\ \bibinfo {editor}
+  {edited by\ \bibinfo {editor} {\bibfnamefont {M.}~\bibnamefont {Gad-el
+  Hak}}}\ (\bibinfo  {publisher} {Springer Berlin Heidelberg},\ \bibinfo
+  {address} {Berlin, Heidelberg},\ \bibinfo {year} {1989})\ pp.\ \bibinfo
+  {pages} {337--364}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Glezer}(2011)}]{glezer2011control}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Glezer}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Some aspects of
+  aerodynamic flow control using synthetic-jet actuation},}\ }\href {\doibase
+  10.1098/rsta.2010.0374} {\bibfield  {journal} {\bibinfo  {journal}
+  {{Philosophical Transactions of the Royal Society A: Mathematical, Physical
+  and Engineering Sciences}}\ }\textbf {\bibinfo {volume} {369}},\ \bibinfo
+  {pages} {1476--1494} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Duriez}, \citenamefont {Brunton},\ and\ \citenamefont
+  {Noack}(2017)}]{duriez2017book}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Duriez}}, \bibinfo {author} {\bibfnamefont {S.~L.}\ \bibnamefont {Brunton}},
+  \ and\ \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}},\
+  }\href {\doibase 10.1007/978-3-319-40624-4} {\emph {\bibinfo {title} {Machine
+  {Learning} {Control} – {Taming} {Nonlinear} {Dynamics} and
+  {Turbulence}}}},\ \bibinfo {series} {Fluid {Mechanics} and {Its}
+  {Applications}}, Vol.\ \bibinfo {volume} {116}\ (\bibinfo  {publisher}
+  {Springer International Publishing},\ \bibinfo {year} {2017})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sutton}\ and\ \citenamefont
+  {Barto}(2018)}]{sutton2018reinforcement}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~S.}\ \bibnamefont
+  {Sutton}}\ and\ \bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont
+  {Barto}},\ }\href@noop {} {\emph {\bibinfo {title} {Reinforcement learning:
+  An introduction}}}\ (\bibinfo  {publisher} {MIT press},\ \bibinfo {year}
+  {2018})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Koza}(1994)}]{koza1994}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Koza}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Genetic
+  programming as a means for programming computers by natural selection},}\
+  }\href {\doibase 10.1007/bf00175355} {\bibfield  {journal} {\bibinfo
+  {journal} {Statistics and Computing 4}\ } (\bibinfo {year} {1994}),\
+  10.1007/bf00175355}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Banzhaf}\ \emph {et~al.}(1998)\citenamefont
+  {Banzhaf}, \citenamefont {Nordin}, \citenamefont {Keller},\ and\
+  \citenamefont {Francone}}]{banzhaf1998genetic}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Banzhaf}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Nordin}},
+  \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont {Keller}}, \ and\
+  \bibinfo {author} {\bibfnamefont {K.~D.}\ \bibnamefont {Francone}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Genetic programming: an
+  introduction: on the automatic evolution of computer programs and its
+  applications}}}\ (\bibinfo  {publisher} {Morgan Kaufmann Publishers Inc.},\
+  \bibinfo {year} {1998})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cornejo~Maceda}\ \emph {et~al.}(2019)\citenamefont
+  {Cornejo~Maceda}, \citenamefont {Noack}, \citenamefont {Lusseyran},
+  \citenamefont {Deng}, \citenamefont {Pastur},\ and\ \citenamefont
+  {Morzy\'nski}}]{cornejomaceda2019pamm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~Y.}\ \bibnamefont
+  {Cornejo~Maceda}}, \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont
+  {Noack}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Lusseyran}},
+  \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Deng}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Pastur}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Morzy\'nski}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Artificial intelligence control applied to drag
+  reduction of the fluidic pinball},}\ }\href {\doibase 10.1002/pamm.201900268}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proc.\ Appl.\ Math.\ Mech.}\
+  }\textbf {\bibinfo {volume} {19}},\ \bibinfo {pages} {e201900268} (\bibinfo
+  {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cornejo~Maceda}\ \emph {et~al.}(2021)\citenamefont
+  {Cornejo~Maceda}, \citenamefont {Li}, \citenamefont {Lusseyran},
+  \citenamefont {Morzyński},\ and\ \citenamefont {Noack}}]{cornejo2021gMLC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~Y.}\ \bibnamefont
+  {Cornejo~Maceda}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Li}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Lusseyran}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Morzyński}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Stabilization of the fluidic pinball with
+  gradient-enriched machine learning control},}\ }\href {\doibase
+  10.1017/jfm.2021.301} {\bibfield  {journal} {\bibinfo  {journal} {Journal of
+  Fluid Mechanics}\ }\textbf {\bibinfo {volume} {917}},\ \bibinfo {pages} {A42}
+  (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}\ \emph {et~al.}(2020)\citenamefont {Zhou},
+  \citenamefont {Fan}, \citenamefont {Zhang}, \citenamefont {Li},\ and\
+  \citenamefont {Noack}}]{zhou2020artificial}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Fan}}, \bibinfo
+  {author} {\bibfnamefont {B.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Li}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Artificial intelligence control of a turbulent jet},}\
+  }\href {\doibase 10.1017/jfm.2020.392} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Fluid Mechanics}\ }\textbf {\bibinfo {volume} {897}}
+  (\bibinfo {year} {2020}),\ 10.1017/jfm.2020.392}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wu}\ \emph {et~al.}(2018)\citenamefont {Wu},
+  \citenamefont {Fan}, \citenamefont {Zhou}, \citenamefont {Li},\ and\
+  \citenamefont {Noack}}]{Wu2018jet}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Wu}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Fan}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Zhou}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Li}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Jet mixing optimization using machine learning control},}\
+  }\href {\doibase 10.1007/s00348-018-2582-4} {\bibfield  {journal} {\bibinfo
+  {journal} {Experiments in Fluids}\ }\textbf {\bibinfo {volume} {59}}
+  (\bibinfo {year} {2018}),\ 10.1007/s00348-018-2582-4}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2019)\citenamefont {Li},
+  \citenamefont {Boree}, \citenamefont {Noack}, \citenamefont {Cordier},\ and\
+  \citenamefont {Harambat}}]{li2019prf}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Boree}}, \bibinfo
+  {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Cordier}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Harambat}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Drag reduction mechanisms of a car model at moderate yaw
+  by bi-frequency forcing},}\ }\href {\doibase 10.1103/PhysRevFluids.4.034604}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physics Reviews Fluids}\ }\textbf
+  {\bibinfo {volume} {4}},\ \bibinfo {pages} {034604} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gautier}\ \emph {et~al.}(2015)\citenamefont
+  {Gautier}, \citenamefont {Aider}, \citenamefont {Duriez}, \citenamefont
+  {Noack}, \citenamefont {Segond},\ and\ \citenamefont
+  {Abel}}]{gautier2015MLC}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Gautier}}, \bibinfo {author} {\bibfnamefont {J.~L.}\ \bibnamefont {Aider}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Duriez}}, \bibinfo
+  {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Segond}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Abel}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Closed-loop separation control using machine learning},}\
+  }\href {\doibase 10.1017/jfm.2015.95} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Fluid Mechanics}\ }\textbf {\bibinfo {volume} {770}},\
+  \bibinfo {pages} {442--457} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ren}, \citenamefont {Wang},\ and\ \citenamefont
+  {Tang}(2019)}]{Ren2019pof}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Ren}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Wang}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tang}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Active control of vortex-induced
+  vibration of a circular cylinder using machine learning},}\ }\href {\doibase
+  10.1063/1.5115258} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Fluids}\ }\textbf {\bibinfo {volume} {31}},\ \bibinfo {pages} {093601}
+  (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Parezanovi\'c}\ \emph {et~al.}(2016)\citenamefont
+  {Parezanovi\'c}, \citenamefont {Cordier}, \citenamefont {Spohn},
+  \citenamefont {Duriez}, \citenamefont {Noack}, \citenamefont {Bonnet},
+  \citenamefont {Segond}, \citenamefont {Abel},\ and\ \citenamefont
+  {Brunton}}]{Parezanovic2016jfm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Parezanovi\'c}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Cordier}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Spohn}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Duriez}}, \bibinfo
+  {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}}, \bibinfo {author}
+  {\bibfnamefont {J.-P.}\ \bibnamefont {Bonnet}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Segond}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Abel}}, \ and\ \bibinfo {author} {\bibfnamefont {S.~L.}\
+  \bibnamefont {Brunton}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Frequency selection by feedback control in a turbulent shear flow},}\ }\href
+  {\doibase 10.1017/jfm.2016.261} {\bibfield  {journal} {\bibinfo  {journal}
+  {J.\ Fluid Mech.}\ }\textbf {\bibinfo {volume} {797}},\ \bibinfo {pages}
+  {247--283} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Raibaudo}\ \emph {et~al.}(2020)\citenamefont
+  {Raibaudo}, \citenamefont {Zhong}, \citenamefont {Noack},\ and\ \citenamefont
+  {Martinuzzi}}]{raibaudo2019pof}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Raibaudo}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Zhong}},
+  \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}}, \ and\
+  \bibinfo {author} {\bibfnamefont {R.~J.}\ \bibnamefont {Martinuzzi}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Machine learning strategies
+  applied to the control of a fluidic pinball},}\ }\href {\doibase
+  10.1063/1.5127202} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Fluids}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages} {015108}
+  (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2017)\citenamefont {Li},
+  \citenamefont {Noack}, \citenamefont {Cordier}, \citenamefont {Bor\'ee},\
+  and\ \citenamefont {Harambat}}]{li2017GP}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Cordier}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Bor\'ee}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Harambat}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Drag reduction of a car model by linear genetic
+  programming control},}\ }\href {\doibase 10.1007/s00348-017-2382-2}
+  {\bibfield  {journal} {\bibinfo  {journal} {Experiments in Fluids}\ }\textbf
+  {\bibinfo {volume} {58}},\ \bibinfo {pages} {103} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rabault}\ and\ \citenamefont
+  {Kuhnle}(2019)}]{rabault2019DRL}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rabault}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kuhnle}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Accelerating
+  deep reinforcement learning strategies of flow control through a
+  multi-environment approach},}\ }\href {\doibase 10.1063/1.5116415} {\bibfield
+   {journal} {\bibinfo  {journal} {Physics of Fluids}\ }\textbf {\bibinfo
+  {volume} {31}},\ \bibinfo {pages} {094--105} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(1997)\citenamefont {Lee},
+  \citenamefont {Kim}, \citenamefont {Babcock},\ and\ \citenamefont
+  {Goodman}}]{Lee1997NN}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Kim}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Babcock}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Goodman}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Application of neural networks to turbulence
+  control for drag reduction},}\ }\href {\doibase 10.1063/1.869290} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics of Fluids}\ }\textbf {\bibinfo
+  {volume} {9}},\ \bibinfo {pages} {1740--1747} (\bibinfo {year}
+  {1997})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gazzola}, \citenamefont {Hejazialhosseini},\ and\
+  \citenamefont {Koumoutsakos}(2014)}]{gazzola2014RL}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Gazzola}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Hejazialhosseini}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Koumoutsakos}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {Reinforcement learning and wavelet adapted vortex methods for
+  simulations of self-propelled swimmers},}\ }\href {\doibase
+  10.1137/130943078} {\bibfield  {journal} {\bibinfo  {journal} {SIAM Journal
+  on Scientific Computing}\ }\textbf {\bibinfo {volume} {36}},\ \bibinfo
+  {pages} {B622--B639} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bøhn}\ \emph {et~al.}(2019)\citenamefont {Bøhn},
+  \citenamefont {Coates}, \citenamefont {Moe},\ and\ \citenamefont
+  {Johansen}}]{bohn2019DRL}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Bøhn}}, \bibinfo {author} {\bibfnamefont {E.~M.}\ \bibnamefont {Coates}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Moe}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {T.~A.}\ \bibnamefont {Johansen}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Deep reinforcement learning attitude
+  control of fixed-wing uavs using proximal policy optimization},}\ }in\ \href
+  {\doibase 10.1109/ICUAS.2019.8798254} {\emph {\bibinfo {booktitle} {2019
+  {International} {Conference} on {Unmanned} {Aircraft} {Systems} ({ICUAS})}}}\
+  (\bibinfo  {publisher} {IEEE},\ \bibinfo {year} {2019})\ pp.\ \bibinfo
+  {pages} {523--533}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Reddy}\ \emph {et~al.}(2016)\citenamefont {Reddy},
+  \citenamefont {Celani}, \citenamefont {Sejnowski},\ and\ \citenamefont
+  {Vergassola}}]{reddy_learning_2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Reddy}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Celani}},
+  \bibinfo {author} {\bibfnamefont {T.~J.}\ \bibnamefont {Sejnowski}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Vergassola}},\ }\bibfield
+   {title} {\enquote {\bibinfo {title} {Learning to soar in turbulent
+  environments},}\ }\href {\doibase 10.1073/pnas.1606075113} {\bibfield
+  {journal} {\bibinfo  {journal} {Proceedings of the National Academy of
+  Sciences}\ }\textbf {\bibinfo {volume} {113}},\ \bibinfo {pages}
+  {E4877--E4884} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rabault}\ \emph {et~al.}(2019)\citenamefont
+  {Rabault}, \citenamefont {Kuchta}, \citenamefont {Jensen}, \citenamefont
+  {Réglade},\ and\ \citenamefont {Cerardi}}]{rabault2019JFM}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Rabault}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kuchta}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Jensen}}, \bibinfo
+  {author} {\bibfnamefont {U.}~\bibnamefont {Réglade}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Cerardi}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Artificial neural networks trained through deep
+  reinforcement learning discover control strategies for active ﬂow
+  control},}\ }\href {\doibase 10.1017/jfm.2019.62} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of fluid mechanics}\ }\textbf {\bibinfo
+  {volume} {865}},\ \bibinfo {pages} {281--302} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fan}\ \emph {et~al.}(2020)\citenamefont {Fan},
+  \citenamefont {Yang}, \citenamefont {Wang}, \citenamefont {Triantafyllou},\
+  and\ \citenamefont {Karniadakis}}]{Fan2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Fan}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Yang}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {M.~S.}\ \bibnamefont {Triantafyllou}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {G.~E.}\ \bibnamefont {Karniadakis}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Reinforcement learning for bluff body
+  active flow control in experiments and simulations},}\ }\href {\doibase
+  10.1073/pnas.2004939117} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences}\ }\textbf {\bibinfo
+  {volume} {117}} (\bibinfo {year} {2020}),\
+  10.1073/pnas.2004939117}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beintema}\ \emph {et~al.}(2020)\citenamefont
+  {Beintema}, \citenamefont {Corbetta}, \citenamefont {Biferale},\ and\
+  \citenamefont {Toschi}}]{Beintema2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Beintema}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Corbetta}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Biferale}}, \ and\
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Toschi}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Controlling rayleigh–bénard
+  convection via reinforcement learning},}\ }\href {\doibase
+  10.1080/14685248.2020.1797059} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Turbulence}\ }\textbf {\bibinfo {volume} {21}},\ \bibinfo {pages}
+  {585--605} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Belus}\ \emph {et~al.}(2019)\citenamefont {Belus},
+  \citenamefont {Rabault}, \citenamefont {Viquerat}, \citenamefont {Che},
+  \citenamefont {Hachem},\ and\ \citenamefont {Reglade}}]{Belus2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Belus}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Rabault}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Viquerat}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Che}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Hachem}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {U.}~\bibnamefont {Reglade}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Exploiting locality and physical invariants to design
+  effective deep reinforcement learning control of the unstable falling liquid
+  film},}\ }\href {\doibase 10.48550/arXiv.1910.07788} {\bibfield  {journal}
+  {\bibinfo  {journal} {arXiv preprint arXiv:1910.07788}\ } (\bibinfo {year}
+  {2019}),\ 10.48550/arXiv.1910.07788}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2020)\citenamefont {Xu},
+  \citenamefont {Zhang}, \citenamefont {Deng},\ and\ \citenamefont
+  {Rabault}}]{Xu2020joh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Xu}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Deng}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Rabault}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Active flow control with rotating cylinders by an
+  artificial neural network trained by deep reinforcement learning},}\ }\href
+  {\doibase 10.1007/s42241-020-0027-z} {\bibfield  {journal} {\bibinfo
+  {journal} {Journal of Hydrodynamics}\ }\textbf {\bibinfo {volume} {32}},\
+  \bibinfo {pages} {254–258} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ and\ \citenamefont {Zhang}(2021)}]{li2021ReLe}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Li}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Zhang}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Reinforcement-learning-based
+  control of confined cylinder wakes with stability analyses},}\ }\href
+  {\doibase 10.1017/jfm.2021.1045} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Fluid Mechanics}\ }\textbf {\bibinfo {volume} {932}} (\bibinfo
+  {year} {2021}),\ 10.1017/jfm.2021.1045}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Paris}, \citenamefont {Beneddine},\ and\
+  \citenamefont {Dandois}(2021)}]{paris2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Paris}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Beneddine}}, \
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Dandois}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Robust flow control and
+  optimal sensor placement using deep reinforcement learning},}\ }\href
+  {\doibase 10.1017/jfm.2020.1170} {\bibfield  {journal} {\bibinfo  {journal}
+  {Journal of Fluid Mechanics}\ }\textbf {\bibinfo {volume} {913}} (\bibinfo
+  {year} {2021}),\ 10.1017/jfm.2020.1170}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pino}\ \emph {et~al.}(2022)\citenamefont {Pino},
+  \citenamefont {Schena}, \citenamefont {Rabault}, \citenamefont {Kuhnle},\
+  and\ \citenamefont {Mendez}}]{pino2022comparative}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Pino}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Schena}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Rabault}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Kuhnle}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Mendez}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Comparative analysis of machine learning methods for
+  active flow control},}\ }\href {\doibase 10.48550/arXiv.2202.11664}
+  {\bibfield  {journal} {\bibinfo  {journal} {arXiv preprint arXiv:2202.11664}\
+  } (\bibinfo {year} {2022}),\ 10.48550/arXiv.2202.11664}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ren}, \citenamefont {Rabault},\ and\ \citenamefont
+  {Tang}(2020)}]{Tang2020pof}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Ren}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Rabault}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tang}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {{Robust active flow control over a range
+  of Reynolds numbers using an artificial neural network trained through deep
+  reinforcement learning}},}\ }\href {\doibase 10.1063/5.0006492} {\bibfield
+  {journal} {\bibinfo  {journal} {Physics of Fluids}\ }\textbf {\bibinfo
+  {volume} {32}},\ \bibinfo {pages} {053605} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ren}, \citenamefont {Rabault},\ and\ \citenamefont
+  {Tang}(2021)}]{Ren2021pof}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Ren}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Rabault}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Tang}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Applying deep reinforcement learning to
+  active flow control in weakly turbulent conditions},}\ }\href {\doibase
+  10.1063/5.0037371} {\bibfield  {journal} {\bibinfo  {journal} {Physics of
+  Fluids}\ }\textbf {\bibinfo {volume} {33}} (\bibinfo {year} {2021}),\
+  10.1063/5.0037371}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sch\"afer}\ \emph {et~al.}(1996)\citenamefont
+  {Sch\"afer}, \citenamefont {Turek}, \citenamefont {Durst}, \citenamefont
+  {Krause},\ and\ \citenamefont {Rannacher}}]{schafer_benchmark_1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Sch\"afer}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Turek}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Durst}}, \bibinfo
+  {author} {\bibfnamefont {E.}~\bibnamefont {Krause}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Rannacher}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Benchmark computations of laminar flow around a
+  cylinder},}\ }in\ \href {\doibase 10.1007/978-3-322-89849-4_39} {\emph
+  {\bibinfo {booktitle} {Flow simulation with high-performance computers
+  {II}}}}\ (\bibinfo  {publisher} {Springer},\ \bibinfo {year} {1996})\ pp.\
+  \bibinfo {pages} {547--566}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Logg}, \citenamefont {Mardal},\ and\ \citenamefont
+  {Wells}(2012)}]{logg2012book}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Logg}}, \bibinfo {author} {\bibfnamefont {K.~A.}\ \bibnamefont {Mardal}}, \
+  and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Wells}},\
+  }\href@noop {} {\emph {\bibinfo {title} {Automated solution of differential
+  equations by the finite element method: {The} {FEniCS} book}}},\
+  Vol.~\bibinfo {volume} {84}\ (\bibinfo  {publisher} {Springer Science \&
+  Business Media},\ \bibinfo {year} {2012})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Geuzaine}\ and\ \citenamefont
+  {Remacle}(2009)}]{geuzaine2009gmsh}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Geuzaine}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Remacle}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Gmsh: {A} 3-{D}
+  finite element mesh generator with built-in pre-and post-processing
+  facilities},}\ }\href {\doibase 10.1002/nme.2579} {\bibfield  {journal}
+  {\bibinfo  {journal} {International journal for numerical methods in
+  engineering}\ }\textbf {\bibinfo {volume} {79}},\ \bibinfo {pages}
+  {1309--1331} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schulman}\ \emph {et~al.}(2017)\citenamefont
+  {Schulman}, \citenamefont {Wolski}, \citenamefont {Dhariwal}, \citenamefont
+  {Radford},\ and\ \citenamefont {Klimov}}]{schulman_proximal_2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Schulman}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Wolski}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Dhariwal}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Radford}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {O.}~\bibnamefont {Klimov}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Proximal {Policy} {Optimization}
+  {Algorithms}},}\ }\href {\doibase 10.48550/arXiv.1707.06347} {\  (\bibinfo
+  {year} {2017}),\ 10.48550/arXiv.1707.06347},\ \bibinfo {note} {arXiv:
+  1707.06347v2}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wahde}(2008)}]{Wahde2008book}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Wahde}},\ }\href@noop {} {\emph {\bibinfo {title} {Biologically Inspired
+  Optimization Methods: An Introduction}}}\ (\bibinfo  {publisher} {WIT
+  Press},\ \bibinfo {year} {2008})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cornejo~Maceda}(2021)}]{cornejomacedaPhD}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~Y.}\ \bibnamefont
+  {Cornejo~Maceda}},\ }\emph {\bibinfo {title} {Gradient-enriched machine
+  learning control exemplified for shear flows in simulations and
+  experiments}},\ \href@noop {} {Ph.D. thesis},\ \bibinfo  {school}
+  {Universit\'e Paris-Saclay} (\bibinfo {year} {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fernex}, \citenamefont {Noack},\ and\ \citenamefont
+  {Semaan}(2021)}]{Fernex2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Fernex}}, \bibinfo {author} {\bibfnamefont {B.~N.}\ \bibnamefont {Noack}}, \
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Semaan}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Cluster-based network
+  modeling---from snapshots to complex dynamical systems},}\ }\href {\doibase
+  10.1126/sciadv.abf5006} {\bibfield  {journal} {\bibinfo  {journal} {Science
+  Advances}\ }\textbf {\bibinfo {volume} {7}} (\bibinfo {year} {2021}),\
+  10.1126/sciadv.abf5006}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2021)\citenamefont {Li},
+  \citenamefont {Fernex}, \citenamefont {Semaan}, \citenamefont {Tan},
+  \citenamefont {Morzy\'{n}ski},\ and\ \citenamefont {Noack}}]{LiH2021jfm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Fernex}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Semaan}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Tan}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Morzy\'{n}ski}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {B.~R.}\ \bibnamefont {Noack}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {Cluster-based network model of an incompressible mixing layer},}\
+  }\href {\doibase 10.1017/jfm.2020.785} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {906}} (\bibinfo
+  {year} {2021}),\ 10.1017/jfm.2020.785}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kaiser}, \citenamefont {Li},\ and\ \citenamefont
+  {Noack}(2017)}]{Kaiser2017ifac}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Kaiser}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Li}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {On the control landscape topology},}\
+  }in\ \href@noop {} {\emph {\bibinfo {booktitle} {The 20th World Congress of
+  the International Federation of Automatic Control (IFAC)}}}\ (\bibinfo
+  {address} {Toulouse, France},\ \bibinfo {year} {2017})\ pp.\ \bibinfo {pages}
+  {1--4}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2022)\citenamefont {Li},
+  \citenamefont {Cui}, \citenamefont {Jia}, \citenamefont {Li}, \citenamefont
+  {Yang}, \citenamefont {Morzy\'nski},\ and\ \citenamefont
+  {Noack}}]{LiA2022jfm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Cui}}, \bibinfo
+  {author} {\bibfnamefont {Q.}~\bibnamefont {Jia}}, \bibinfo {author}
+  {\bibfnamefont {Q.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont
+  {Z.}~\bibnamefont {Yang}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Morzy\'nski}}, \ and\ \bibinfo {author} {\bibfnamefont {B.~R.}\ \bibnamefont
+  {Noack}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Explorative
+  gradient method for active drag reduction of the fluidic pinball and slanted
+  ahmed body},}\ }\href {\doibase 10.1017/jfm.2021.974} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Fluid Mechanics}\ }\textbf {\bibinfo
+  {volume} {932}} (\bibinfo {year} {2022}),\ 10.1017/jfm.2021.974}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Foroozan}\ \emph {et~al.}(2021)\citenamefont
+  {Foroozan}, \citenamefont {Guerrero}, \citenamefont {Ianiro},\ and\
+  \citenamefont {Discetti}}]{foroozan2021unsupervised}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Foroozan}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Guerrero}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ianiro}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Discetti}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Unsupervised modelling of a transitional
+  boundary layer},}\ }\href {\doibase 10.1017/jfm.2021.829} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Fluid Mechanics}\ }\textbf
+  {\bibinfo {volume} {929}} (\bibinfo {year} {2021}),\
+  10.1017/jfm.2021.829}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nair}\ \emph {et~al.}(2019)\citenamefont {Nair},
+  \citenamefont {Yeh}, \citenamefont {Kaiser}, \citenamefont {Noack},
+  \citenamefont {Brunton},\ and\ \citenamefont {Tiara}}]{Nair2019jfm}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Nair}}, \bibinfo {author} {\bibfnamefont {C.-A.}\ \bibnamefont {Yeh}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Kaiser}}, \bibinfo
+  {author} {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}}, \bibinfo {author}
+  {\bibfnamefont {S.~L.}\ \bibnamefont {Brunton}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Tiara}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Cluster-based feedback control of turbulent post-stall
+  separated flows},}\ }\href {\doibase 10.1017/jfm.2019.469} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Fluid Mechanics}\ }\textbf
+  {\bibinfo {volume} {875}},\ \bibinfo {pages} {345--375} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Blanchard}\ \emph {et~al.}(2022)\citenamefont
+  {Blanchard}, \citenamefont {Cornejo~Maceda}, \citenamefont {Fan},
+  \citenamefont {Li}, \citenamefont {Zhou}, \citenamefont {Noack},\ and\
+  \citenamefont {Sapsis}}]{Blanchard2022ams}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Blanchard}}, \bibinfo {author} {\bibfnamefont {G.~Y.}\ \bibnamefont
+  {Cornejo~Maceda}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Fan}},
+  \bibinfo {author} {\bibfnamefont {Y.~Q.}\ \bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Zhou}}, \bibinfo {author}
+  {\bibfnamefont {B.~R.}\ \bibnamefont {Noack}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Sapsis}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Bayesian optimization of active flow control},}\ }\href
+  {https://doi.org/10.1007/s10409-021-01149-0} {\bibfield  {journal} {\bibinfo
+  {journal} {Acta Mechanica Sinica}\ }\textbf {\bibinfo {volume} {(online)}}
+  (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\end{thebibliography}%

@@ -1,0 +1,159 @@
+\documentclass[thesissizeB5,twoside,onecolumn,10pt]{MechThesis}
+%\documentclass[thesissizeG5]{MechThesis}
+%
+% Default options:
+% [thesissizeG5,twoside,onecolumn,10pt,reqno,tbtags,globalpagenum,final]
+%
+%
+% Available options:
+% - size: [a4paper, letterpaper, thesissisze, thesissizeA4, thesissizeG5]
+% - printing: [twoside, oneside]
+% - columns: [onecolumn, twocolumns]
+% - font size: [8pt, 9pt, 10pt, 11pt, 12pt]
+% - position of equation numbers: [leqno, reqno]
+% - split-equations numbers: [tbtags, centertags]
+% - page numbers in papers: [globalpagenum, paperpagenum]
+% - editing: [final, draft, printA4, cropmarks]
+% - papers cover: [happyadvisor] (use it if you have more than 8 papers)
+%
+%
+% Packages
+%
+% insert in this file any additional package
+\input{packages}
+%
+% Commands
+%
+% insert in this file any additional command
+\input{commands}
+
+
+%-------------------------------------------------------------------------------
+% Thesis information
+%-------------------------------------------------------------------------------
+%
+\title[Convective heat transfer control in turbulent boundary layers]% Title used in the abstract (optional)
+{% Title of the thesis
+	Convective heat transfer control in turbulent boundary layers
+}%
+
+\author{Rodrigo Castellanos Garc\'ia de Blas}% Author
+
+\affiliation
+{%	Author's affiliation
+	%Bioengineering and 
+	Aerospace Engineering Department, Universidad Carlos III de Madrid\\
+	Avenida de la Universidad, 30, Legan\'es, Spain
+}%
+
+\titel
+{% Spanish title for Resumen
+	Control de transferencia de calor convectivo en capa l\'imite turbulenta
+}%
+
+\anslutning
+{% Author's swedish affiliation (for swedish abstract)
+	Departamento de Ingenier\'ia Aeroespacial, Universidad Carlos III de Madrid\\
+	Avenida de la Universidad, 30, Legan\'es, España
+}%
+
+\date{Legan\'es}{October}{2022}% City, Month, Year
+
+\info{% Defence information (in spanish)
+	Esta tesis se distribuye bajo licencia “Creative Commons \textbf{Reconocimiento – No Comercial – Sin Obra Derivada}”.\\[\baselineskip]
+	%
+	\includegraphics{figures/creativecommons.pdf}
+	\\[\baselineskip]% Cover info (comment if no cover image is used)
+	%
+	{\it Cover:} Picture by Pascal Meier in Unsplash.
+	%
+}
+
+
+%===============================================================================
+%===============================================================================
+%                            BEGIN DOCUMENT
+%===============================================================================
+%===============================================================================
+
+% \includeonly{overview}
+
+\begin{document}
+%===============================================================================
+% Frontmatter
+%===============================================================================
+%
+%\includepdf[pages=-]{frontpage/portada_v2_B5_front.pdf}
+
+\frontmatter
+
+\input{header/frontmatter}
+
+
+%===============================================================================
+% Part I: Overview and summary
+%===============================================================================
+%
+\mainmatter
+
+\part{Overview and summary}
+
+%-------------------------------------------------------------------------------
+% Overview and summary
+%
+\include{overview/overview}
+
+
+%-------------------------------------------------------------------------------
+% Comment the following command if you do not want a separate page for Part II
+% in the table of contents
+%
+\tocpagebreak
+
+
+%===============================================================================
+% Part II: Papers
+%===============================================================================
+%
+\part{Scientific Journal Publications}
+%-------------------------------------------------------------------------------
+% Summary of the papers
+%
+\makepapersummary
+\cleardoublepage
+
+%-------------------------------------------------------------------------------
+% Paper 1: Uncertainty EPTV
+\include{paper1/paper}
+%-------------------------------------------------------------------------------
+% Paper 2: Plasmas
+\include{paper2/paper}
+%-------------------------------------------------------------------------------
+% Paper 3: CF jets
+\include{paper4/paper}
+%-------------------------------------------------------------------------------
+% Paper 4: LGPC vs RL
+\include{paper3/paper}
+%-------------------------------------------------------------------------------
+% Paper 5: LGAC for HTE
+\include{paper5/paper}
+
+%===============================================================================
+%===============================================================================
+%                            END DOCUMENT
+%===============================================================================
+%===============================================================================
+%\makeatletter
+%\def\toclevel@chapter{-1}
+%\makeatother
+
+%\include{header/biography}
+%\clearpage \newpage
+%\ \thispagestyle{empty}
+%\clearpage \newpage
+%\ \thispagestyle{empty}
+%\clearpage \newpage
+
+%\includepdf[pages=-]{frontpage/portada_v2_B5_back.pdf}
+
+\end{document}

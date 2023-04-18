@@ -1,0 +1,85 @@
+%------------------------------------------------------------------------------
+% Define title, author(s), affiliation and publishing status
+%
+\papertitle[Reducing turbulent convective HT with streamwise plasma VG] % Short title used in healines (optional)
+{%
+Reducing turbulent convective heat transfer with streamwise plasma vortex generators% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+}%
+%
+\papertoctitle{Reducing turbulent convective heat transfer with streamwise plasma vortex generators} % Title for toc
+%
+\paperauthor[R. Castellanos \etal] % Short authors used in headlines and List Of Papers
+{%
+  Rodrigo Castellanos$^{1}$, Theodoros Michelis$^2$, Stefano Discetti$^1$, Andrea Ianiro$^1$ \& Marios Kotsonis$^2$%
+}%
+%
+\listpaperauthor{Castellanos, R., Michelis, T., Discetti, S., Ianiro, A. \& Kotsonis, M.}% (optional) Short authors used in List Of Papers
+%
+\paperaffiliation
+{%
+  $^1$ Aerospace Engineering Research Group, Universidad Carlos III de Madrid, Legan\'{e}s 28911, Spain\\%
+  $^2$ Department of Aerodynamics, Delft University of Technology, Delft 2629HS, The Netherlands. \\%
+}%
+%
+\paperjournal[Exp. Therm. Fluid Sci.] % Short publish info used in List Of Papers
+{%
+	Experimental Thermal and Fluid Science%
+}%
+%
+\papervolume{134}%
+%
+%\papernumber{1}
+%
+\paperpages{110596}%
+%
+\paperyear{2022}%
+%
+\papersummary%
+{% Insert summary of the paper here (used in introduction)
+The effect of streamwise plasma vortex generators on the convective heat transfer of a turbulent boundary layer is experimentally investigated. A Dielectric Barrier Discharge (DBD) plasma-actuator array is employed to promote pairs of counter-rotating, streamwise-aligned vortices embedded in a well-behaved turbulent boundary layer over a flat plate. The study aims at elucidating the mechanism of interaction between the plasma-induced vortical structures and the convective heat transfer process downstream of them. The full three-dimensional mean flow field is measured with planar and stereoscopic PIV. The convective heat transfer is assessed with infrared thermography over a heat-flux sensor located downstream of the actuators. The combination of the flow field and heat transfer measurements provides a complete picture of the fluid-dynamic interaction of plasma-induced flow with local turbulent transport effects. The results show that the streamwise vortices are stationary and confined across the spanwise direction due to the action of the plasma discharge. Flow-field measurements show that the opposing plasma discharge causes a mass- and momentum-flux deficit within the boundary layer, leading to a low-velocity region that grows in the streamwise direction and which is characterised by an increase in displacement and momentum thicknesses. This low-velocity ribbon travels downstream, promoting streak-alike patterns of reduction in the convective heat transfer distribution. Near the wall, the plasma-induced jets divert the main flow. This phenomenon is a consequence of the DBD-actuator momentum injection and, thus, the suction caused on the surrounding fluid by the emerging jets. The stationarity of the plasma-induced vortices makes them persistent far downstream, reducing the convective heat transfer.
+}
+%
+\graphicspath{{paper2/}}%
+%
+%
+%===============================================================================
+%                            BEGIN PAPER
+%===============================================================================
+%
+\begin{paper}
+
+\makepapertitle
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+%
+\begin{paperabstract}
+	The effect of streamwise plasma vortex generators on the convective heat transfer of a turbulent boundary layer is experimentally investigated. A Dielectric Barrier Discharge (DBD) plasma-actuator array is employed to promote pairs of counter-rotating, streamwise-aligned vortices embedded in a well-behaved turbulent boundary layer over a flat plate. The study aims at elucidating the mechanism of interaction between the plasma-induced vortical structures and the convective heat transfer process downstream of them. The full three-dimensional mean flow field is measured with planar and stereoscopic PIV. The convective heat transfer is assessed with infrared thermography over a heat-flux sensor located downstream of the actuators. The combination of the flow field and heat transfer measurements provides a complete picture of the fluid-dynamic interaction of plasma-induced flow with local turbulent transport effects. The results show that the streamwise vortices are stationary and confined across the spanwise direction due to the action of the plasma discharge. Flow-field measurements show that the opposing plasma discharge causes a mass- and momentum-flux deficit within the boundary layer, leading to a low-velocity region that grows in the streamwise direction and which is characterised by an increase in displacement and momentum thicknesses. This low-velocity ribbon travels downstream, promoting streak-alike patterns of reduction in the convective heat transfer distribution. Near the wall, the plasma-induced jets divert the main flow. This phenomenon is a consequence of the DBD-actuator momentum injection and, thus, the suction caused on the surrounding fluid by the emerging jets. The stationarity of the plasma-induced vortices makes them persistent far downstream, reducing the convective heat transfer.
+
+        \keywords{Heat transfer, DBD Plasma actuator, Turbulent Boundary Layer, Streamwise vortex}
+\end{paperabstract}
+
+
+%------------------------------------------------------------------------------
+% Article
+%------------------------------------------------------------------------------
+%
+\input{paper2/article.tex}
+
+
+%------------------------------------------------------------------------------
+% Bibliography
+%------------------------------------------------------------------------------
+%
+%\clearpage
+\bibliographystyle{jfm}
+\bibliography{paper2/bib2}
+%
+\IfFileExists{paper2/bib2.bbl}{\input{paper2/bib2.bbl}}{}
+
+
+%===============================================================================
+%                            END PAPER
+%===============================================================================
+\end{paper}
