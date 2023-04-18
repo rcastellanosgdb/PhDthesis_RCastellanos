@@ -1,0 +1,624 @@
+\begin{thebibliography}{75}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Brunton et~al.(2020)Brunton, Noack, and
+  Koumoutsakos}]{BruntonNoackKoumoutsakos2020}
+\bibinfo{author}{S.~L. Brunton}, \bibinfo{author}{B.~R. Noack},
+  \bibinfo{author}{P.~Koumoutsakos},
+\newblock \bibinfo{title}{{Machine Learning for Fluid Mechanics}},
+\newblock \bibinfo{journal}{{Annual Review of Fluid Mechanics}}
+  \bibinfo{volume}{52} (\bibinfo{year}{2020}) \bibinfo{pages}{477--508}.
+%Type = Article
+\bibitem[{Mallor et~al.(2018)Mallor, {Sanmiguel Vila}, Ianiro, and
+  Discetti}]{mallor2018cubes}
+\bibinfo{author}{F.~Mallor}, \bibinfo{author}{C.~{Sanmiguel Vila}},
+  \bibinfo{author}{A.~Ianiro}, \bibinfo{author}{S.~Discetti},
+\newblock \bibinfo{title}{Wall-mounted perforated cubes in a boundary layer:
+  Local heat transfer enhancement and control},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{117} (\bibinfo{year}{2018}) \bibinfo{pages}{498 -- 507}.
+%Type = Article
+\bibitem[{Mallor et~al.(2019)Mallor, Raiola, {Sanmiguel Vila}, \"Orl\"u,
+  Discetti, and Ianiro}]{mallor2019modal}
+\bibinfo{author}{F.~Mallor}, \bibinfo{author}{M.~Raiola},
+  \bibinfo{author}{C.~{Sanmiguel Vila}}, \bibinfo{author}{R.~\"Orl\"u},
+  \bibinfo{author}{S.~Discetti}, \bibinfo{author}{A.~Ianiro},
+\newblock \bibinfo{title}{Modal decomposition of flow fields and convective
+  heat transfer maps: An application to wall-proximity square ribs},
+\newblock \bibinfo{journal}{Experimental Thermal and Fluid Science}
+  \bibinfo{volume}{102} (\bibinfo{year}{2019}) \bibinfo{pages}{517--527}.
+%Type = Article
+\bibitem[{Ke et~al.(2019)Ke, Chen, Li, Wang, and Chen}]{Ke2019VG}
+\bibinfo{author}{Z.~Ke}, \bibinfo{author}{C.~L. Chen}, \bibinfo{author}{K.~Li},
+  \bibinfo{author}{S.~Wang}, \bibinfo{author}{C.~H. Chen},
+\newblock \bibinfo{title}{Vortex dynamics and heat transfer of longitudinal
+  vortex generators in a rectangular channel},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{132} (\bibinfo{year}{2019}) \bibinfo{pages}{871--885}.
+%Type = Article
+\bibitem[{Puzu et~al.(2019)Puzu, Prasertsan, and Nuntadusit}]{puzu2019jet}
+\bibinfo{author}{N.~Puzu}, \bibinfo{author}{S.~Prasertsan},
+  \bibinfo{author}{C.~Nuntadusit},
+\newblock \bibinfo{title}{Heat transfer enhancement and flow characteristics of
+  vortex generating jet on flat plate with turbulent boundary layer},
+\newblock \bibinfo{journal}{{Applied Thermal Engineering}}
+  \bibinfo{volume}{148} (\bibinfo{year}{2019}) \bibinfo{pages}{196--207}.
+%Type = Article
+\bibitem[{Giachetti et~al.(2018)Giachetti, Fénot, Couton, and
+  Plourde}]{Giachetti2018synjet}
+\bibinfo{author}{B.~Giachetti}, \bibinfo{author}{M.~Fénot},
+  \bibinfo{author}{D.~Couton}, \bibinfo{author}{F.~Plourde},
+\newblock \bibinfo{title}{Influence of {R}eynolds number synthetic jet dynamic
+  in crossflow configuration on heat transfer enhancement},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{118} (\bibinfo{year}{2018}) \bibinfo{pages}{1--13}.
+%Type = Misc
+\bibitem[{Castellanos et~al.(2022)Castellanos, Salih, Raiola, Ianiro, and
+  Discetti}]{Castellanos2022slotjet}
+\bibinfo{author}{R.~Castellanos}, \bibinfo{author}{G.~Salih},
+  \bibinfo{author}{M.~Raiola}, \bibinfo{author}{A.~Ianiro},
+  \bibinfo{author}{S.~Discetti}, \bibinfo{title}{Heat transfer enhancement in
+  turbulent boundary layers with a pulsed slot jet in crossflow},
+  \bibinfo{year}{2022}. \DOIprefix\doi{10.48550/ARXIV.2204.09953}.
+%Type = Article
+\bibitem[{Roy and Wang(2008)}]{roy2008plasma}
+\bibinfo{author}{S.~Roy}, \bibinfo{author}{C.~C. Wang},
+\newblock \bibinfo{title}{Plasma actuated heat transfer},
+\newblock \bibinfo{journal}{Applied Physics Letters} \bibinfo{volume}{92}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{231501}.
+%Type = Article
+\bibitem[{Kenjere\ifmmode~\check{s}\else \v{s}\fi{}(2008)}]{Kenjere2008EMheat}
+\bibinfo{author}{S.~c.~v. Kenjere\ifmmode~\check{s}\else \v{s}\fi{}},
+\newblock \bibinfo{title}{Electromagnetic enhancement of turbulent heat
+  transfer},
+\newblock \bibinfo{journal}{Phys. Rev. E} \bibinfo{volume}{78}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{066309}.
+%Type = Article
+\bibitem[{Cortelezzi and Karagozian(2001)}]{cortelezzi2001formation}
+\bibinfo{author}{L.~Cortelezzi}, \bibinfo{author}{A.~R. Karagozian},
+\newblock \bibinfo{title}{On the formation of the counter-rotating vortex pair
+  in transverse jets},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{446}
+  (\bibinfo{year}{2001}) \bibinfo{pages}{347–373}.
+%Type = Article
+\bibitem[{Getsinger et~al.(2014)Getsinger, Gevorkyan, Smith, and
+  Karagozian}]{Getsinger2014}
+\bibinfo{author}{D.~R. Getsinger}, \bibinfo{author}{L.~Gevorkyan},
+  \bibinfo{author}{O.~I. Smith}, \bibinfo{author}{A.~R. Karagozian},
+\newblock \bibinfo{title}{Structural and stability characteristics of jets in
+  crossflow},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{760}
+  (\bibinfo{year}{2014}) \bibinfo{pages}{342--367}.
+%Type = Article
+\bibitem[{Eroglu and Breidenthal(2001)}]{eroglu2001structure}
+\bibinfo{author}{A.~Eroglu}, \bibinfo{author}{R.~E. Breidenthal},
+\newblock \bibinfo{title}{Structure, penetration, and mixing of pulsed jets in
+  crossflow},
+\newblock \bibinfo{journal}{AIAA journal} \bibinfo{volume}{39}
+  (\bibinfo{year}{2001}) \bibinfo{pages}{417--423}.
+%Type = Article
+\bibitem[{M'Closkey et~al.(2002)M'Closkey, King, CortelezzI, and
+  Karagozian}]{MCLOSKEY2002}
+\bibinfo{author}{R.~T. M'Closkey}, \bibinfo{author}{J.~M. King},
+  \bibinfo{author}{L.~CortelezzI}, \bibinfo{author}{A.~R. Karagozian},
+\newblock \bibinfo{title}{The actively controlled jet in crossflow},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{452}
+  (\bibinfo{year}{2002}) \bibinfo{pages}{325--335}.
+%Type = Article
+\bibitem[{Shapiro et~al.(2006)Shapiro, King, M'closkey, and
+  Karagozian}]{shapiro2006optimization}
+\bibinfo{author}{S.~Shapiro}, \bibinfo{author}{J.~King},
+  \bibinfo{author}{R.~M'closkey}, \bibinfo{author}{A.~Karagozian},
+\newblock \bibinfo{title}{Optimization of controlled jets in crossflow},
+\newblock \bibinfo{journal}{AIAA journal} \bibinfo{volume}{44}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{1292--1298}.
+%Type = Article
+\bibitem[{Johari et~al.(1999)Johari, Pacheco-Tougas, and
+  Hermanson}]{johari1999penetration}
+\bibinfo{author}{H.~Johari}, \bibinfo{author}{M.~Pacheco-Tougas},
+  \bibinfo{author}{J.~Hermanson},
+\newblock \bibinfo{title}{Penetration and mixing of fully modulated turbulent
+  jets in crossflow},
+\newblock \bibinfo{journal}{AIAA journal} \bibinfo{volume}{37}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{842--850}.
+%Type = Article
+\bibitem[{Jacobi and Shah(1995)}]{jacobi1995}
+\bibinfo{author}{A.~M. Jacobi}, \bibinfo{author}{R.~K. Shah},
+\newblock \bibinfo{title}{Heat transfer surface enhancement through the use of
+  longitudinal vortices: A review of recent progress},
+\newblock \bibinfo{journal}{Experimental Thermal and Fluid Science}
+  \bibinfo{volume}{11} (\bibinfo{year}{1995}) \bibinfo{pages}{295--309}.
+  \bibinfo{note}{Generation and Structure of Vortical Flows for Heat Transfer
+  Enhancement}.
+%Type = Article
+\bibitem[{Zhang and Collins(1993)}]{Zhang1993heatJICF}
+\bibinfo{author}{X.~Zhang}, \bibinfo{author}{M.~W. Collins},
+\newblock \bibinfo{title}{Flow and heat transfer in a turbulent boundary layer
+  through skewed and pitched jets},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{31}
+  (\bibinfo{year}{1993}) \bibinfo{pages}{1590--1599}.
+%Type = Article
+\bibitem[{Karagozian(2010)}]{karagozian2010transverse}
+\bibinfo{author}{A.~R. Karagozian},
+\newblock \bibinfo{title}{Transverse jets and their control},
+\newblock \bibinfo{journal}{Progress in energy and combustion science}
+  \bibinfo{volume}{36} (\bibinfo{year}{2010}) \bibinfo{pages}{531--553}.
+%Type = Article
+\bibitem[{Cheng et~al.(2021)Cheng, Qiao, Zhang, Quadrio, and
+  Zhou}]{cheng2021skin}
+\bibinfo{author}{X.~Cheng}, \bibinfo{author}{Z.~Qiao},
+  \bibinfo{author}{X.~Zhang}, \bibinfo{author}{M.~Quadrio},
+  \bibinfo{author}{Y.~Zhou},
+\newblock \bibinfo{title}{Skin-friction reduction using periodic blowing
+  through streamwise slits},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{920}
+  (\bibinfo{year}{2021}).
+%Type = Article
+\bibitem[{Fan et~al.(2017)Fan, Z., Yang, Li, and Zhou}]{Fan2017jetcontrol}
+\bibinfo{author}{D.~W. Fan}, \bibinfo{author}{W.~Z.},
+  \bibinfo{author}{H.~Yang}, \bibinfo{author}{J.~D. Li},
+  \bibinfo{author}{Y.~Zhou},
+\newblock \bibinfo{title}{Modified extremum-seeking closed-loop system for jet
+  mixing enhancement},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{55}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{3891 -- 3902}.
+%Type = Inproceedings
+\bibitem[{Noack(2019)}]{Noack2019control}
+\bibinfo{author}{B.~R. Noack},
+\newblock \bibinfo{title}{Closed-loop turbulence control-from human to machine
+  learning (and retour)},
+\newblock in: \bibinfo{editor}{Y.~Zhou}, \bibinfo{editor}{M.~Kimura},
+  \bibinfo{editor}{G.~Peng}, \bibinfo{editor}{A.~D. Lucey},
+  \bibinfo{editor}{L.~Hung} (Eds.), \bibinfo{booktitle}{Fluid-Structure-Sound
+  Interactions and Control. Proceedings of the 4th Symposium on
+  Fluid-Structure-Sound Interactions and Control}, \bibinfo{publisher}{Springer
+  Singapore}, \bibinfo{year}{2019}, pp. \bibinfo{pages}{23--32}.
+  \DOIprefix\doi{10.1007/978-981-10-7542-1_3}.
+%Type = Article
+\bibitem[{Rowley and Williams(2006)}]{Rowley2006control}
+\bibinfo{author}{C.~W. Rowley}, \bibinfo{author}{D.~R. Williams},
+\newblock \bibinfo{title}{Dynamics and control of {high-Reynolds-number} flow
+  over open cavities},
+\newblock \bibinfo{journal}{Annual Review of Fluid Mechanics}
+  \bibinfo{volume}{38} (\bibinfo{year}{2006}) \bibinfo{pages}{251--276}.
+%Type = Article
+\bibitem[{Brunton and Noack(2015)}]{BruntonNoack2015review}
+\bibinfo{author}{S.~L. Brunton}, \bibinfo{author}{B.~R. Noack},
+\newblock \bibinfo{title}{{Closed-Loop Turbulence Control: Progress and
+  Challenges}},
+\newblock \bibinfo{journal}{Applied Mechanics Reviews} \bibinfo{volume}{67}
+  (\bibinfo{year}{2015}). \bibinfo{note}{050801}.
+%Type = Article
+\bibitem[{Kim and Bewley(2007)}]{Kim2007linearcontrol}
+\bibinfo{author}{J.~Kim}, \bibinfo{author}{T.~R. Bewley},
+\newblock \bibinfo{title}{A linear systems approach to flow control},
+\newblock \bibinfo{journal}{Annual Review of Fluid Mechanics}
+  \bibinfo{volume}{39} (\bibinfo{year}{2007}) \bibinfo{pages}{383--417}.
+%Type = Article
+\bibitem[{Sipp et~al.(2010)Sipp, Marquet, Meliga, and
+  Barbagallo}]{Sipp2010linearcontrol}
+\bibinfo{author}{D.~Sipp}, \bibinfo{author}{O.~Marquet},
+  \bibinfo{author}{P.~Meliga}, \bibinfo{author}{A.~Barbagallo},
+\newblock \bibinfo{title}{{Dynamics and Control of Global Instabilities in
+  Open-Flows: A Linearized Approach}},
+\newblock \bibinfo{journal}{Applied Mechanics Reviews} \bibinfo{volume}{63}
+  (\bibinfo{year}{2010}). \bibinfo{note}{030801}.
+%Type = Article
+\bibitem[{Sasaki et~al.(2017)Sasaki, Piantanida, Cavalieri, and
+  Jordan}]{sasaki2017wavepackets}
+\bibinfo{author}{K.~Sasaki}, \bibinfo{author}{S.~Piantanida},
+  \bibinfo{author}{A.~V.~G. Cavalieri}, \bibinfo{author}{P.~Jordan},
+\newblock \bibinfo{title}{Real-time modelling of wavepackets in turbulent
+  jets},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{821}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{458–481}.
+%Type = Article
+\bibitem[{Choi et~al.(1994)Choi, Moin, and Kim}]{Choi1994}
+\bibinfo{author}{H.~Choi}, \bibinfo{author}{P.~Moin}, \bibinfo{author}{J.~Kim},
+\newblock \bibinfo{title}{Active turbulence control for drag reduction in
+  wall-bounded flows},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{262}
+  (\bibinfo{year}{1994}) \bibinfo{pages}{75–110}.
+%Type = Article
+\bibitem[{Fukagata and Kasagi(2003)}]{Fukagata2003oppcontrol}
+\bibinfo{author}{K.~Fukagata}, \bibinfo{author}{N.~Kasagi},
+\newblock \bibinfo{title}{Drag reduction in turbulent pipe flow with feedback
+  control applied partially to wall},
+\newblock \bibinfo{journal}{International Journal of Heat and Fluid Flow}
+  \bibinfo{volume}{24} (\bibinfo{year}{2003}) \bibinfo{pages}{480--490}.
+%Type = Article
+\bibitem[{Glezer et~al.(2005)Glezer, Amitay, and Honohan}]{Glezer2005control}
+\bibinfo{author}{A.~Glezer}, \bibinfo{author}{M.~Amitay},
+  \bibinfo{author}{A.~M. Honohan},
+\newblock \bibinfo{title}{Aspects of low- and high-frequency actuation for
+  aerodynamic flow control},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{43}
+  (\bibinfo{year}{2005}) \bibinfo{pages}{1501--1511}.
+%Type = Article
+\bibitem[{Luchtenburg et~al.(2009)Luchtenburg, G\"unther, Noack, King, and
+  Tadmor}]{luchtenburg2009galerkin}
+\bibinfo{author}{D.~M. Luchtenburg}, \bibinfo{author}{B.~G\"unther},
+  \bibinfo{author}{B.~R. Noack}, \bibinfo{author}{R.~King},
+  \bibinfo{author}{G.~Tadmor},
+\newblock \bibinfo{title}{A generalized mean-field model of the natural and
+  high-frequency actuated flow around a high-lift configuration},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{623}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{283–316}.
+%Type = Article
+\bibitem[{Pastoor et~al.(2008)Pastoor, Henning, Noack, King, and
+  Tadmor}]{pastoor2008control}
+\bibinfo{author}{M.~Pastoor}, \bibinfo{author}{L.~Henning},
+  \bibinfo{author}{B.~R. Noack}, \bibinfo{author}{R.~King},
+  \bibinfo{author}{G.~Tadmor},
+\newblock \bibinfo{title}{Feedback shear layer control for bluff body drag
+  reduction},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{608}
+  (\bibinfo{year}{2008}) \bibinfo{pages}{161–196}.
+%Type = Article
+\bibitem[{Pfeiffer and King(2018)}]{Pfeiffer2018robustcontrol}
+\bibinfo{author}{J.~Pfeiffer}, \bibinfo{author}{R.~King},
+\newblock \bibinfo{title}{Robust control of drag and lateral dynamic response
+  for road vehicles exposed to cross-wind gusts},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{59}
+  (\bibinfo{year}{2018}) \bibinfo{pages}{45}.
+%Type = Article
+\bibitem[{Koumoutsakos et~al.(2001)Koumoutsakos, Freund, and
+  Parekh}]{Koumoutsakos2001evolcontrol}
+\bibinfo{author}{P.~Koumoutsakos}, \bibinfo{author}{J.~Freund},
+  \bibinfo{author}{D.~Parekh},
+\newblock \bibinfo{title}{Evolution strategies for automatic optimization of
+  jet mixing},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{39}
+  (\bibinfo{year}{2001}) \bibinfo{pages}{967--969}.
+%Type = Article
+\bibitem[{Benard et~al.(2016)Benard, Pons-Prats, Periaux, Bugeda, Braud,
+  Bonnet, and Moreau}]{Benard2016ga}
+\bibinfo{author}{N.~Benard}, \bibinfo{author}{J.~Pons-Prats},
+  \bibinfo{author}{J.~Periaux}, \bibinfo{author}{G.~Bugeda},
+  \bibinfo{author}{P.~Braud}, \bibinfo{author}{J.~P. Bonnet},
+  \bibinfo{author}{E.~Moreau},
+\newblock \bibinfo{title}{Turbulent separated shear flow control by surface
+  plasma actuator: experimental optimization by genetic algorithm approach},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{57}
+  (\bibinfo{year}{2016}) \bibinfo{pages}{22}.
+%Type = Article
+\bibitem[{Krsti\'{c} and Wang(2000)}]{Krstic2000extremumseek}
+\bibinfo{author}{M.~Krsti\'{c}}, \bibinfo{author}{H.~H. Wang},
+\newblock \bibinfo{title}{Stability of extremum seeking feedback for general
+  nonlinear dynamic systems},
+\newblock \bibinfo{journal}{Automatica} \bibinfo{volume}{36}
+  (\bibinfo{year}{2000}) \bibinfo{pages}{595--601}.
+%Type = Article
+\bibitem[{Becker et~al.(2007)Becker, King, Petz, and
+  Nitsche}]{Becker2007extseek}
+\bibinfo{author}{R.~Becker}, \bibinfo{author}{R.~King},
+  \bibinfo{author}{R.~Petz}, \bibinfo{author}{W.~Nitsche},
+\newblock \bibinfo{title}{Adaptive closed-loop separation control on a
+  high-lift configuration using extremum seeking},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{45}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{1382--1392}.
+%Type = Article
+\bibitem[{Gelbert et~al.(2012)Gelbert, Moeck, Paschereit, and
+  King}]{Gelbert2012extseek}
+\bibinfo{author}{G.~Gelbert}, \bibinfo{author}{J.~P. Moeck},
+  \bibinfo{author}{C.~O. Paschereit}, \bibinfo{author}{R.~King},
+\newblock \bibinfo{title}{Advanced algorithms for gradient estimation in one-
+  and two-parameter extremum seeking controllers},
+\newblock \bibinfo{journal}{Journal of Process Control} \bibinfo{volume}{22}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{700--709}.
+%Type = Article
+\bibitem[{Zhang et~al.(2004)Zhang, Cheng, and Zhou}]{Zhang2004control}
+\bibinfo{author}{M.~M. Zhang}, \bibinfo{author}{L.~Cheng},
+  \bibinfo{author}{Y.~Zhou},
+\newblock \bibinfo{title}{Closed-loop-controlled vortex shedding and vibration
+  of a flexibly supported square cylinder under different schemes},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{16}
+  (\bibinfo{year}{2004}) \bibinfo{pages}{1439--1448}.
+%Type = Article
+\bibitem[{Lee et~al.(1997)Lee, Kim, Babcock, and Goodman}]{Lee1997NN}
+\bibinfo{author}{C.~Lee}, \bibinfo{author}{J.~Kim},
+  \bibinfo{author}{D.~Babcock}, \bibinfo{author}{R.~Goodman},
+\newblock \bibinfo{title}{Application of neural networks to turbulence control
+  for drag reduction},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{9}
+  (\bibinfo{year}{1997}) \bibinfo{pages}{1740--1747}.
+%Type = Article
+\bibitem[{Rabault et~al.(2019)Rabault, Kuchta, Jensen, Réglade, and
+  Cerardi}]{rabault2019JFM}
+\bibinfo{author}{J.~Rabault}, \bibinfo{author}{M.~Kuchta},
+  \bibinfo{author}{A.~Jensen}, \bibinfo{author}{U.~Réglade},
+  \bibinfo{author}{N.~Cerardi},
+\newblock \bibinfo{title}{Artificial neural networks trained through deep
+  reinforcement learning discover control strategies for active ﬂow control},
+\newblock \bibinfo{journal}{Journal of fluid mechanics} \bibinfo{volume}{865}
+  (\bibinfo{year}{2019}) \bibinfo{pages}{281--302}.
+%Type = Article
+\bibitem[{Beintema et~al.(2020)Beintema, Corbetta, Biferale, and
+  Toschi}]{Beintema2020}
+\bibinfo{author}{G.~Beintema}, \bibinfo{author}{A.~Corbetta},
+  \bibinfo{author}{L.~Biferale}, \bibinfo{author}{F.~Toschi},
+\newblock \bibinfo{title}{Controlling rayleigh–bénard convection via
+  reinforcement learning},
+\newblock \bibinfo{journal}{Journal of Turbulence} \bibinfo{volume}{21}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{585--605}.
+%Type = Article
+\bibitem[{Li and Zhang(2021)}]{li2021ReLe}
+\bibinfo{author}{J.~Li}, \bibinfo{author}{M.~Zhang},
+\newblock \bibinfo{title}{Reinforcement-learning-based control of confined
+  cylinder wakes with stability analyses},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{932}
+  (\bibinfo{year}{2021}).
+%Type = Article
+\bibitem[{Paris et~al.(2021)Paris, Beneddine, and Dandois}]{paris2021}
+\bibinfo{author}{R.~Paris}, \bibinfo{author}{S.~Beneddine},
+  \bibinfo{author}{J.~Dandois},
+\newblock \bibinfo{title}{Robust flow control and optimal sensor placement
+  using deep reinforcement learning},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{913}
+  (\bibinfo{year}{2021}).
+%Type = Inbook
+\bibitem[{Dracopoulos(1997)}]{Dracopoulos1997geneticalg}
+\bibinfo{author}{D.~C. Dracopoulos}, \bibinfo{title}{Genetic Algorithms},
+  \bibinfo{publisher}{Springer London}, \bibinfo{address}{London},
+  \bibinfo{year}{1997}, pp. \bibinfo{pages}{111--131}.
+  \DOIprefix\doi{10.1007/978-1-4471-0903-7_7}.
+%Type = Book
+\bibitem[{Duriez et~al.(2017)Duriez, Brunton, and Noack}]{duriez2017book}
+\bibinfo{author}{T.~Duriez}, \bibinfo{author}{S.~L. Brunton},
+  \bibinfo{author}{B.~R. Noack}, \bibinfo{title}{Machine {Learning} {Control}
+  – {Taming} {Nonlinear} {Dynamics} and {Turbulence}}, volume
+  \bibinfo{volume}{116} of \textit{\bibinfo{series}{Fluid {Mechanics} and {Its}
+  {Applications}}}, \bibinfo{publisher}{Springer International Publishing},
+  \bibinfo{year}{2017}. \DOIprefix\doi{10.1007/978-3-319-40624-4}.
+%Type = Article
+\bibitem[{Li et~al.(2017)Li, Noack, Cordier, Bor\'ee, and Harambat}]{li2017GP}
+\bibinfo{author}{R.~Li}, \bibinfo{author}{B.~R. Noack},
+  \bibinfo{author}{L.~Cordier}, \bibinfo{author}{J.~Bor\'ee},
+  \bibinfo{author}{F.~Harambat},
+\newblock \bibinfo{title}{Drag reduction of a car model by linear genetic
+  programming control},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{58}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{103}.
+%Type = Article
+\bibitem[{Castellanos et~al.(2022)Castellanos, Cornejo~Maceda, de~la Fuente,
+  Noack, Ianiro, and Discetti}]{Castellanos2022LGPCvsRL}
+\bibinfo{author}{R.~Castellanos}, \bibinfo{author}{G.~Y. Cornejo~Maceda},
+  \bibinfo{author}{I.~de~la Fuente}, \bibinfo{author}{B.~R. Noack},
+  \bibinfo{author}{A.~Ianiro}, \bibinfo{author}{S.~Discetti},
+\newblock \bibinfo{title}{Machine-learning flow control with few sensor
+  feedback and measurement noise},
+\newblock \bibinfo{journal}{Physics of Fluids} \bibinfo{volume}{34}
+  (\bibinfo{year}{2022}) \bibinfo{pages}{047118}.
+%Type = Article
+\bibitem[{Gosselin et~al.(2009)Gosselin, Tye-Gingras, and
+  Mathieu-Potvin}]{Gosselin2009GareviewHT}
+\bibinfo{author}{L.~Gosselin}, \bibinfo{author}{M.~Tye-Gingras},
+  \bibinfo{author}{F.~Mathieu-Potvin},
+\newblock \bibinfo{title}{Review of utilization of genetic algorithms in heat
+  transfer problems},
+\newblock \bibinfo{journal}{International Journal of Heat and Mass Transfer}
+  \bibinfo{volume}{52} (\bibinfo{year}{2009}) \bibinfo{pages}{2169--2188}.
+%Type = Article
+\bibitem[{Tian et~al.(2020)Tian, Abdollahi, Shariati, Amindoust, Arasteh,
+  Karimipour, Goodarzi, and Bach}]{Tian2020GAheatexchanger}
+\bibinfo{author}{Z.~Tian}, \bibinfo{author}{A.~Abdollahi},
+  \bibinfo{author}{M.~Shariati}, \bibinfo{author}{A.~Amindoust},
+  \bibinfo{author}{H.~Arasteh}, \bibinfo{author}{A.~Karimipour},
+  \bibinfo{author}{M.~Goodarzi}, \bibinfo{author}{Q.-V. Bach},
+\newblock \bibinfo{title}{Turbulent flows in a spiral double-pipe heat
+  exchanger},
+\newblock \bibinfo{journal}{International Journal of Numerical Methods for Heat
+  {\&} Fluid Flow} \bibinfo{volume}{30} (\bibinfo{year}{2020})
+  \bibinfo{pages}{39--53}.
+%Type = Article
+\bibitem[{Moon et~al.(2021)Moon, McGregor, Miljkovic, and King}]{Moon2021GA-HE}
+\bibinfo{author}{H.~Moon}, \bibinfo{author}{D.~J. McGregor},
+  \bibinfo{author}{N.~Miljkovic}, \bibinfo{author}{W.~P. King},
+\newblock \bibinfo{title}{Ultra-power-dense heat exchanger development through
+  genetic algorithm design and additive manufacturing},
+\newblock \bibinfo{journal}{Joule} \bibinfo{volume}{5} (\bibinfo{year}{2021})
+  \bibinfo{pages}{3045--3056}.
+%Type = Book
+\bibitem[{Astarita and Carlomagno(2012)}]{astarita2012infrared}
+\bibinfo{author}{T.~Astarita}, \bibinfo{author}{G.~M. Carlomagno},
+  \bibinfo{title}{Infrared thermography for thermo-fluid-dynamics},
+  \bibinfo{publisher}{Springer Science \& Business Media},
+  \bibinfo{year}{2012}.
+%Type = Book
+\bibitem[{Minkina and Dudzik(2009)}]{minkina2009infrared}
+\bibinfo{author}{W.~Minkina}, \bibinfo{author}{S.~Dudzik},
+  \bibinfo{title}{Infrared thermography: errors and uncertainties},
+  \bibinfo{publisher}{John Wiley \& Sons}, \bibinfo{year}{2009}.
+%Type = Article
+\bibitem[{Mendez et~al.(2017)Mendez, Raiola, Masullo, Discetti, Ianiro,
+  Theunissen, and Buchlin}]{Mendez2017pod-piv}
+\bibinfo{author}{M.~Mendez}, \bibinfo{author}{M.~Raiola},
+  \bibinfo{author}{A.~Masullo}, \bibinfo{author}{S.~Discetti},
+  \bibinfo{author}{A.~Ianiro}, \bibinfo{author}{R.~Theunissen},
+  \bibinfo{author}{J.-M. Buchlin},
+\newblock \bibinfo{title}{{POD}-based background removal for particle image
+  velocimetry},
+\newblock \bibinfo{journal}{Experimental Thermal and Fluid Science}
+  \bibinfo{volume}{80} (\bibinfo{year}{2017}) \bibinfo{pages}{181--192}.
+%Type = Article
+\bibitem[{Soria(1996)}]{soria1996piv}
+\bibinfo{author}{J.~Soria},
+\newblock \bibinfo{title}{An investigation of the near wake of a circular
+  cylinder using a video-based digital cross-correlation particle image
+  velocimetry technique},
+\newblock \bibinfo{journal}{Experimental Thermal and Fluid Science}
+  \bibinfo{volume}{12} (\bibinfo{year}{1996}) \bibinfo{pages}{221 -- 233}.
+%Type = Article
+\bibitem[{Scarano(2001)}]{scarano2001iterativeimgdef}
+\bibinfo{author}{F.~Scarano},
+\newblock \bibinfo{title}{Iterative image deformation methods in {PIV}},
+\newblock \bibinfo{journal}{Measurement Science and Technology}
+  \bibinfo{volume}{13} (\bibinfo{year}{2001}) \bibinfo{pages}{R1--R19}.
+%Type = Article
+\bibitem[{Astarita(2006)}]{Astarita2006PIV}
+\bibinfo{author}{T.~Astarita},
+\newblock \bibinfo{title}{Analysis of interpolation schemes for image
+  deformation methods in {PIV}: effect of noise on the accuracy and spatial
+  resolution},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{40}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{977--987}.
+%Type = Article
+\bibitem[{Astarita(2007)}]{Astarita2007PIV}
+\bibinfo{author}{T.~Astarita},
+\newblock \bibinfo{title}{Analysis of weighting windows for image deformation
+  methods in {PIV}},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{43}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{859--872}.
+%Type = Article
+\bibitem[{Cowen and Monismith(1997)}]{cowen1997hybrid}
+\bibinfo{author}{E.~Cowen}, \bibinfo{author}{S.~Monismith},
+\newblock \bibinfo{title}{A hybrid digital particle tracking velocimetry
+  technique},
+\newblock \bibinfo{journal}{Experiments in fluids} \bibinfo{volume}{22}
+  (\bibinfo{year}{1997}) \bibinfo{pages}{199--211}.
+%Type = Article
+\bibitem[{Ag{\"u}era et~al.(2016)Ag{\"u}era, Cafiero, Astarita, and
+  Discetti}]{aguera2016EPTV}
+\bibinfo{author}{N.~Ag{\"u}era}, \bibinfo{author}{G.~Cafiero},
+  \bibinfo{author}{T.~Astarita}, \bibinfo{author}{S.~Discetti},
+\newblock \bibinfo{title}{Ensemble 3{D} {PTV} for high resolution turbulent
+  statistics},
+\newblock \bibinfo{journal}{Measurement Science and Technology}
+  \bibinfo{volume}{27} (\bibinfo{year}{2016}) \bibinfo{pages}{124011}.
+%Type = Article
+\bibitem[{Chauhan et~al.(2009)Chauhan, Monkewitz, and Nagib}]{chauhan2009}
+\bibinfo{author}{K.~A. Chauhan}, \bibinfo{author}{P.~A. Monkewitz},
+  \bibinfo{author}{H.~M. Nagib},
+\newblock \bibinfo{title}{Criteria for assessing experiments in zero pressure
+  gradient boundary layers},
+\newblock \bibinfo{journal}{Fluid Dynamics Research} \bibinfo{volume}{41}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{021404}.
+%Type = Article
+\bibitem[{Castellanos et~al.(2021)Castellanos, {Sanmiguel Vila}, G\"uemes, and
+  Discetti}]{Castellanos2021PIVuncertainty}
+\bibinfo{author}{R.~Castellanos}, \bibinfo{author}{C.~{Sanmiguel Vila}},
+  \bibinfo{author}{A.~G\"uemes}, \bibinfo{author}{S.~Discetti},
+\newblock \bibinfo{title}{On the uncertainty of boundary-layer parameters from
+  ensemble {PTV} data},
+\newblock \bibinfo{journal}{Measurement Science and Technology}
+  \bibinfo{volume}{32} (\bibinfo{year}{2021}) \bibinfo{pages}{084006}.
+%Type = Article
+\bibitem[{{Sanmiguel Vila} et~al.(2017){Sanmiguel Vila}, Vinuesa, Discetti,
+  Ianiro, Schlatter, and {\"O}rl{\"u}}]{sanmiguel2017diagnostic}
+\bibinfo{author}{C.~{Sanmiguel Vila}}, \bibinfo{author}{R.~Vinuesa},
+  \bibinfo{author}{S.~Discetti}, \bibinfo{author}{A.~Ianiro},
+  \bibinfo{author}{P.~Schlatter}, \bibinfo{author}{R.~{\"O}rl{\"u}},
+\newblock \bibinfo{title}{On the identification of well-behaved turbulent
+  boundary layers},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{822}
+  (\bibinfo{year}{2017}) \bibinfo{pages}{109--138}.
+%Type = Article
+\bibitem[{Jim\'enez et~al.(2010)Jim\'enez, Hoyas, Simens, and
+  Mizuno}]{jimenez2010}
+\bibinfo{author}{J.~Jim\'enez}, \bibinfo{author}{S.~Hoyas},
+  \bibinfo{author}{M.~P. Simens}, \bibinfo{author}{Y.~Mizuno},
+\newblock \bibinfo{title}{Turbulent boundary layers and channels at moderate
+  {R}eynolds numbers},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{657}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{335–360}.
+%Type = Article
+\bibitem[{Lienhard~V(2020)}]{Lienhard2020}
+\bibinfo{author}{J.~H. Lienhard~V},
+\newblock \bibinfo{title}{{Heat Transfer in Flat-Plate Boundary Layers: A
+  Correlation for Laminar, Transitional, and Turbulent Flow}},
+\newblock \bibinfo{journal}{Journal of Heat Transfer} \bibinfo{volume}{142}
+  (\bibinfo{year}{2020}).
+%Type = Article
+\bibitem[{Wu et~al.(2018)Wu, Fan, Zhou, Li, and Noack}]{Wu2018jet}
+\bibinfo{author}{Z.~Wu}, \bibinfo{author}{D.~Fan}, \bibinfo{author}{Y.~Zhou},
+  \bibinfo{author}{R.~Li}, \bibinfo{author}{B.~R. Noack},
+\newblock \bibinfo{title}{Jet mixing optimization using machine learning
+  control},
+\newblock \bibinfo{journal}{Experiments in Fluids} \bibinfo{volume}{59}
+  (\bibinfo{year}{2018}).
+%Type = Article
+\bibitem[{Cornejo~Maceda et~al.(2021)Cornejo~Maceda, Li, Lusseyran, Morzyński,
+  and Noack}]{cornejo2021gMLC}
+\bibinfo{author}{G.~Y. Cornejo~Maceda}, \bibinfo{author}{Y.~Li},
+  \bibinfo{author}{F.~Lusseyran}, \bibinfo{author}{M.~Morzyński},
+  \bibinfo{author}{B.~R. Noack},
+\newblock \bibinfo{title}{Stabilization of the fluidic pinball with
+  gradient-enriched machine learning control},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{917}
+  (\bibinfo{year}{2021}) \bibinfo{pages}{A42}.
+%Type = Article
+\bibitem[{Jim\'enez et~al.(2004)Jim\'enez, del \'Alamo, and
+  Flores}]{jimenez2004lsturb}
+\bibinfo{author}{J.~Jim\'enez}, \bibinfo{author}{J.~C. del \'Alamo},
+  \bibinfo{author}{O.~Flores},
+\newblock \bibinfo{title}{The large-scale dynamics of near-wall turbulence},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{505}
+  (\bibinfo{year}{2004}) \bibinfo{pages}{179–199}.
+%Type = Incollection
+\bibitem[{Manglik(2003)}]{manglik2003heat}
+\bibinfo{author}{R.~M. Manglik},
+\newblock \bibinfo{title}{Heat transfer enhancement},
+\newblock in: \bibinfo{editor}{A.~Bejan}, \bibinfo{editor}{K.~A. D.} (Eds.),
+  \bibinfo{booktitle}{Heat transfer handbook}, \bibinfo{publisher}{Wiley, New
+  York}, \bibinfo{year}{2003}, pp. \bibinfo{pages}{1029--1130}.
+%Type = Book
+\bibitem[{Holland(1992)}]{holland1992adaptation}
+\bibinfo{author}{J.~H. Holland}, \bibinfo{title}{Adaptation in natural and
+  artificial systems: an introductory analysis with applications to biology,
+  control, and artificial intelligence}, \bibinfo{publisher}{MIT press},
+  \bibinfo{year}{1992}.
+%Type = Book
+\bibitem[{Wahde(2008)}]{Wahde2008book}
+\bibinfo{author}{M.~Wahde}, \bibinfo{title}{Biologically Inspired Optimization
+  Methods: An Introduction}, \bibinfo{publisher}{WIT Press},
+  \bibinfo{year}{2008}.
+%Type = Article
+\bibitem[{Minelli et~al.(2020)Minelli, Dong, Noack, and
+  Krajnović}]{minelli2020lgac}
+\bibinfo{author}{G.~Minelli}, \bibinfo{author}{T.~Dong}, \bibinfo{author}{B.~R.
+  Noack}, \bibinfo{author}{S.~Krajnović},
+\newblock \bibinfo{title}{Upstream actuation for bluff-body wake control driven
+  by a genetically inspired optimization},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{893}
+  (\bibinfo{year}{2020}) \bibinfo{pages}{A1}.
+%Type = Article
+\bibitem[{Yu et~al.(2021)Yu, Fan, Noack, and Zhou}]{Yu2021GA_drag_slot_jets}
+\bibinfo{author}{J.~Yu}, \bibinfo{author}{D.~Fan}, \bibinfo{author}{B.~R.
+  Noack}, \bibinfo{author}{Y.~Zhou},
+\newblock \bibinfo{title}{Genetic-algorithm-based artificial intelligence
+  control of a turbulent boundary layer},
+\newblock \bibinfo{journal}{Acta Mechanica Sinica} \bibinfo{volume}{37}
+  (\bibinfo{year}{2021}) \bibinfo{pages}{1739--1747}.
+%Type = Article
+\bibitem[{Monkewitz(1988)}]{monkewitz1988phase}
+\bibinfo{author}{P.~A. Monkewitz},
+\newblock \bibinfo{title}{Subharmonic resonance, pairing and shredding in the
+  mixing layer},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{188}
+  (\bibinfo{year}{1988}) \bibinfo{pages}{223–252}.
+%Type = Article
+\bibitem[{Compton and Johnston(1992)}]{Compton1992vorticesJICF}
+\bibinfo{author}{D.~A. Compton}, \bibinfo{author}{J.~P. Johnston},
+\newblock \bibinfo{title}{Streamwise vortex production by pitched and skewed
+  jets in a turbulent boundary layer},
+\newblock \bibinfo{journal}{AIAA Journal} \bibinfo{volume}{30}
+  (\bibinfo{year}{1992}) \bibinfo{pages}{640--647}.
+%Type = Article
+\bibitem[{Sau and Mahesh(2010)}]{Sau2010optJICF}
+\bibinfo{author}{R.~Sau}, \bibinfo{author}{K.~Mahesh},
+\newblock \bibinfo{title}{Optimization of pulsed jets in crossflow},
+\newblock \bibinfo{journal}{Journal of Fluid Mechanics} \bibinfo{volume}{653}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{365–390}.
+
+\end{thebibliography}

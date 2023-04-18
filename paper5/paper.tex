@@ -1,0 +1,85 @@
+%------------------------------------------------------------------------------
+% Define title, author(s), affiliation and publishing status
+%
+\papertitle[Genetically-inspired convective heat transfer enhancement in a TBL] % Short title used in healines (optional)
+{%
+Genetically-inspired convective heat transfer enhancement in a turbulent boundary layer% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+}%
+%
+\papertoctitle{Genetically-inspired convective heat transfer enhancement in a turbulent boundary layer} % Title for toc
+%
+\paperauthor[R. Castellanos \etal] % Short authors used in headlines and List Of Papers
+{%
+  Rodrigo Castellanos$^{1,2}$, Andrea Ianiro$^1$ \& Stefano Discetti$^{1}$%
+}%
+%
+\listpaperauthor{Castellanos, R., Ianiro, I. \& Discetti, S.}% (optional) Short authors used in List Of Papers
+%
+\paperaffiliation
+{%
+  $^1$ Aerospace Engineering Research Group, Universidad Carlos III de Madrid, Legan\'{e}s 28911, Spain\\%
+  $^2$ Theoretical and Computational Aerodynamics Branch, Flight Physics Department, Spanish National Institute for Aerospace Technology (INTA), Torrej\'on de Ardoz 28850, Spain.
+}%
+%
+\paperjournal[Appl. Therm. Eng.] % Short publish info used in List Of Papers
+{%
+	Applied Thermal Engineering%
+}%
+%
+\papervolume{Submitted}%
+%
+%\papernumber{--}
+%
+%\paperpages{--}%
+%
+\paperyear{2022}%
+%
+\papersummary%
+{% Insert summary of the paper here (used in introduction)
+The convective heat transfer enhancement in a turbulent boundary layer (TBL) on a flat plate is optimised using an artificial intelligence control based on linear genetic algorithms control (LGAC). The control consists of the pulsation of a spanwise array of six slot jets in cross flow. The open-loop periodic forcing is driven by the carrier frequency, the duty cycle and the phase between actuators as control parameters. The control laws are optimised with respect to the unperturbed TBL and the steady-jet actuation case, leading to a multi-objective optimisation problem. The performance of the controller is characterised based on infrared thermography and particle image velocimetry measurements. The action of the jets considerably alters the flow topology compared to the steady-jet actuation. The optimal controller yields an asymmetric flow field. The LGAC algorithm converges to a characteristic frequency of the system for all the actuators, fixing the duty cycle. It is noted that such frequency is strikingly equal to the inverse of the characteristic travel time of large-scale turbulent structures convected within the buffer layer. The phase difference between multiple jet actuations has shown to be very relevant and the main driver of the flow asymmetry. The results point to the exceptional potential of machine learning control in unravelling unexplored controllers within the actuation space. Our study demonstrates the viability of employing sophisticated measurement techniques together with advanced algorithms in an experimental investigation.
+}
+%
+\graphicspath{{paper5/}}%
+%
+%
+%===============================================================================
+%                            BEGIN PAPER
+%===============================================================================
+%
+\begin{paper}
+
+\makepapertitle
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+%
+\begin{paperabstract}
+The convective heat transfer enhancement in a turbulent boundary layer (TBL) on a flat plate is optimised using an artificial intelligence control based on linear genetic algorithms control (LGAC). The control consists of the pulsation of a spanwise array of six slot jets in cross flow. The open-loop periodic forcing is driven by the carrier frequency, the duty cycle and the phase between actuators as control parameters. The control laws are optimised with respect to the unperturbed TBL and the steady-jet actuation case, leading to a multi-objective optimisation problem. The performance of the controller is characterised based on infrared thermography and particle image velocimetry measurements. The action of the jets considerably alters the flow topology compared to the steady-jet actuation. The optimal controller yields an asymmetric flow field. The LGAC algorithm converges to a characteristic frequency of the system for all the actuators, fixing the duty cycle. It is noted that such frequency is strikingly equal to the inverse of the characteristic travel time of large-scale turbulent structures convected within the buffer layer. The phase difference between multiple jet actuations has shown to be very relevant and the main driver of the flow asymmetry. The results point to the exceptional potential of machine learning control in unravelling unexplored controllers within the actuation space. Our study demonstrates the viability of employing sophisticated measurement techniques together with advanced algorithms in an experimental investigation.
+
+        \keywords{Machine learning, Genetic algorithms, Flow control, Pulsed jet in crossflow, Turbulent Boundary layers, Convective heat transfer enhancement}
+\end{paperabstract}
+
+
+%------------------------------------------------------------------------------
+% Article
+%------------------------------------------------------------------------------
+%
+\input{paper5/article.tex}
+
+
+%------------------------------------------------------------------------------
+% Bibliography
+%------------------------------------------------------------------------------
+%
+%\clearpage
+\bibliographystyle{jfm}
+\bibliography{paper5/bib5}
+%
+\IfFileExists{paper5/bib5.bbl}{\input{paper5/bib5.bbl}}{}
+
+
+%===============================================================================
+%                            END PAPER
+%===============================================================================
+\end{paper}
