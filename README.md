@@ -25,6 +25,6 @@ Universidad Carlos III de Madrid. The final document is pubically published in [
 * Paper 4. Machine learning flow control with few sensor feedback and measurement noise
 [![DOI:10.1063/5.0087208](http://img.shields.io/badge/DOI-10.1063%2F5.0087208-red.svg)](https://doi.org/10.1063/5.0087208)
 * Paper 5. Genetically-inspired convective heat transfer enhancement in a turbulent boundary layer
-[![DOI:TBD](http://img.shields.io/badge/DOI-TBD-red.svg)](https://doi.org/TBD)
+[![DOI:10.1016/j.applthermaleng.2023.120621](http://img.shields.io/badge/DOI-10.1016//j.applthermaleng.2023.120621-red.svg)](https://doi.org/10.1016/j.applthermaleng.2023.120621)
 
 <img src="https://user-images.githubusercontent.com/63718487/232728911-359f96b0-0160-4554-b6d8-7066dcf11eea.PNG" width="380" height="540" />
