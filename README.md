@@ -1,4 +1,4 @@
-# Convective Heat Transfer Control in Turbulent Boundary Laters
+# Convective Heat Transfer Control in Turbulent Boundary Layers
 
 ## :mortar_board: Rodrigo Castellanos García de Blas
 
@@ -6,8 +6,8 @@
 
 :bulb: Tutor: Stefano Discetti
 
-This theis was writen in partial fulfillment of the requirements for the degree of Doctor in Programa Interuniversitario en Mecánica de Fluidos at
-Universidad Carlos III de Madrid. The final document is pubically published in [UC3M e-Archivo](https://e-archivo.uc3m.es/handle/10016/36426). The table of contents is the followeing:
+This thesis was written in partial fulfillment of the requirements for the degree of Doctor in Programa Interuniversitario en Mecánica de Fluidos at
+Universidad Carlos III de Madrid. The final document is pubically published in [UC3M e-Archivo](https://e-archivo.uc3m.es/handle/10016/36426). The table of contents is the following:
 
 ### Part I - Overview and summary
 * Chapter 1. Introduction
